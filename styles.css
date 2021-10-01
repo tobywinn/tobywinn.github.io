@@ -6,7 +6,7 @@ body {
     color: rgb(240, 248, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.center {
+.chart {
     margin: auto;
     width: 50%;
     border: 3px solid green;
