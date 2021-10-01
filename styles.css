@@ -1,14 +1,19 @@
 body {
     background-color: rgb(54, 57, 69);
-    font-size: 16px;
-    margin: 5px 5px;
-    line-height: 22.4px;
-    color: rgb(240, 248, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.center {
+    max-width: auto;
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
+}
+
+.chart{
+    background-color: #0a6b6e;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px
+}
