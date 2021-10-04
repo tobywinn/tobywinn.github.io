@@ -30,7 +30,7 @@
       "bind": {
         "input": "select",
         "options": [
-          null,
+          "All regions",
           "East Midlands",
           "East of England",
           "London",
