@@ -80,6 +80,12 @@ body {
 #loadermsg {
     position: relative;
     font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif; 
+    color: rgb(237, 241, 255);
+    font-size: 20px; 
+    letter-spacing: 1px; 
+    line-height: 1; 
+    text-align: center;
 }
 
 @-webkit-keyframes spin {
