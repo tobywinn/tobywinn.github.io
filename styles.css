@@ -63,8 +63,7 @@ body {
 /* Loading Bar & Message */
 
 #loader {
-    position: relative;
-    left: 50%;
+    margin: 100px auto;
     width: 120px;
     height: 120px;
     border: 16px solid Gainsboro;
