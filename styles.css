@@ -8,6 +8,14 @@ footer {
     height: 100px
 }
 
+header {
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 90px; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;  
+}
+
 .title1 {
     font-family: 'Helvetica Neue', sans-serif; 
     color: #f4a261;
