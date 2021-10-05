@@ -79,6 +79,7 @@ body {
 
 #loadermsg {
     position: relative;
+    font-weight: bold;
 }
 
 @-webkit-keyframes spin {
