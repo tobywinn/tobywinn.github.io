@@ -63,13 +63,11 @@ body {
 /* Loading Bar */
 
 #loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
+  position: relative;
   width: 120px;
   height: 120px;
-  margin: -76px 0 0 -76px;
+  margin: 100 0 0 0;
+  /*margin: -76px 0 0 -76px;*/
   border: 16px solid Gainsboro;
   border-radius: 50%;
   border-top: 16px solid LightCoral;
