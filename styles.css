@@ -40,8 +40,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 10px;
-    font-family: 'Helvetica Neue', sans-serif;
     padding: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 10pxp;
 }
 
 .container2 {
