@@ -26,63 +26,81 @@
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 <body> 
   
-  <header class=title><span class="red">Data</span><span class="green">Science</span></header>
+  <div id="loader"></div>
   
-  <p class=title1>A portfolio of data visualisations by Toby Winn</p>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
   
-  <p class=title1><span class="bold">Week 1 - Getting Started</span></p>
-  
-  <div class="container">
-    
-    <!--Chart 1 -->
-      <div class="chart" id="chart1">
+    <header class=title><span class="red">Data</span><span class="green">Science</span></header>
+
+    <p class=title1>A portfolio of data visualisations by Toby Winn</p>
+
+    <p class=title1><span class="bold">Week 1 - Getting Started</span></p>
+
+    <div class="container">
+
+      <!--Chart 1 -->
+        <div class="chart" id="chart1">
+          <script>
+            var myChart1 = "chart1_covidUKRegions.json";
+            vegaEmbed('#chart1', myChart1);
+          </script>
+        </div>
+
+      <!--Chart 2 -->
+      <div class="chart" id="chart2">
         <script>
-          var myChart1 = "chart1_covidUKRegions.json";
-          vegaEmbed('#chart1', myChart1);
+          var myChart2 = "chart2_ukProductivity.json";
+          vegaEmbed('#chart2', myChart2);
         </script>
       </div>
 
-    <!--Chart 2 -->
-    <div class="chart" id="chart2">
-      <script>
-        var myChart2 = "chart2_ukProductivity.json";
-        vegaEmbed('#chart2', myChart2);
-      </script>
+      <!-- Football Chart -->
+      <div class="chart" id="chart3">
+        <script>
+          var myChart3 = "Football_chart.json";
+          vegaEmbed('#chart3', myChart3);
+        </script>
+      </div>
+
     </div>
 
-    <!-- Football Chart -->
-    <div class="chart" id="chart3">
-      <script>
-        var myChart3 = "Football_chart.json";
-        vegaEmbed('#chart3', myChart3);
-      </script>
+    <p class=title1><span class="bold">Week 2 - Introduction to APIs</span></p>
+
+    <div class="container">
+
+      <!-- Oxford COVID cases using API-->
+      <div class="chart" id="chart4">
+        <script>
+          var myChart4 = "CovidChart_Week2API.json";
+          vegaEmbed('#chart4', myChart4);
+        </script>
+      </div>
+
+    <!-- London COVID cases using CSV-->
+      <div class="chart" id="chart5">
+        <script>
+          var myChart5 = "CovidChart_Week2CSV.json";
+          vegaEmbed('#chart5', myChart5);
+        </script>
+      </div>
+
     </div>
-    
+
+    <footer></footer>
   </div>
   
-  <p class=title1><span class="bold">Week 2 - Introduction to APIs</span></p>
-  
-  <div class="container">
-    
-    <!-- Oxford COVID cases using API-->
-    <div class="chart" id="chart4">
-      <script>
-        var myChart4 = "CovidChart_Week2API.json";
-        vegaEmbed('#chart4', myChart4);
-      </script>
-    </div>
-    
-  <!-- London COVID cases using CSV-->
-    <div class="chart" id="chart5">
-      <script>
-        var myChart5 = "CovidChart_Week2CSV.json";
-        vegaEmbed('#chart5', myChart5);
-      </script>
-    </div>
-    
-  </div>
-  
-  <footer></footer>
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
   
 </body>
 
