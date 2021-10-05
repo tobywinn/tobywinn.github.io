@@ -38,8 +38,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*    
     width: 400px;
     height: 390px;
+    */
     margin: 10px;
     padding: 5px;
     background-color: white;
@@ -49,7 +51,7 @@ body {
     font-size: 10pxp;
 }
 
-.container2 {
+.container {
     background-colour: #363945;
     display: flex;
     align-items: center;
