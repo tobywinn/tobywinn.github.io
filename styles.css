@@ -1,5 +1,4 @@
-body{
-
+body {
     background-color: #363945;
     max-width: auto;
     margin: auto;
@@ -35,7 +34,7 @@ body{
     color: LightGreen;
 }
 
-.container {
+.container1 {
     width: 400px;
     height: 375px;
     border: lightgreen solid 5px;
@@ -44,4 +43,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
+
+.container2 {
+    background-colour: #363945;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
