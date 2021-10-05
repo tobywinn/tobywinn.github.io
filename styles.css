@@ -19,7 +19,7 @@ footer {
 
 .title1 {
     font-family: 'Helvetica Neue', sans-serif; 
-    color: rgb(237, 241, 255);
+    color: #E9C46A;
     font-size: 20px; 
     letter-spacing: 1px; 
     line-height: 1; 
@@ -122,6 +122,7 @@ footer {
 /* Button Format */
 .button-56 {
   align-items: center;
+  margin: 10px;
   background-color: #E9C46A;
   border: 2px solid #111;
   border-radius: 8px;
@@ -146,6 +147,7 @@ footer {
 
 .button-56:after {
   background-color: #111;
+  margin:10px;
   border-radius: 8px;
   content: "";
   display: block;
