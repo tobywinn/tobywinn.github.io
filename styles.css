@@ -7,6 +7,7 @@ body{
 
 .chart {
     width: 400px;
+    height: 400px
     border: lightgreen solid 5px;
     border-radius: 10px;
     margin: 10px;
@@ -40,4 +41,3 @@ body{
 .green {
     color: LightGreen;
 }
-
