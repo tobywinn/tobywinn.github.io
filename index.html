@@ -32,6 +32,8 @@
   
   <div id="loader"></div>
   
+  <div class="title1" id="loadermsg">Just fetching the data for you...</div>
+  
   <!-- <div><span class="bold">Just fetching the data for you...</span></div> -->
   
   <div style="display:none;" id="myDiv" class="animate-bottom">
@@ -99,6 +101,7 @@
 
     function showPage() {
       document.getElementById("loader").style.display = "none";
+      document.getElementById("loadermsg").style.display = "none";
       document.getElementById("myDiv").style.display = "block";
     }
   </script>
