@@ -40,11 +40,11 @@ body {
     justify-content: center;
     width: 400px;
     height: 390px;
-    border: lightgreen solid 5px;
-    border-radius: 10px;
-    background-color: white;
     margin: 10px;
     padding: 5px;
+    background-color: white;
+    border: lightgreen solid 5px;
+    border-radius: 10px;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10pxp;
 }
