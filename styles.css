@@ -1,5 +1,5 @@
 body {
-    background-color: #363945;
+    background-color: #264653;
     max-width: auto;
     margin: auto;
 }
@@ -47,14 +47,14 @@ footer {
     margin: 10px;
     padding: 5px;
     background-color: White;
-    border: LightGreen solid 5px;
+    border: #F4A261 solid 5px;
     border-radius: 10px;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10pxp;
 }
 
 .container {
-    background-colour: #363945;
+    background-colour: #264653;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +68,7 @@ footer {
     height: 120px;
     border: 16px solid Gainsboro;
     border-radius: 50%;
-    border-top: 16px solid LightCoral;
+    border-top: 16px solid #2A9D8F;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -122,7 +122,7 @@ footer {
 /* Button Format */
 .button-56 {
   align-items: center;
-  background-color: #fee6e3;
+  background-color: #E9C46A;
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
@@ -164,7 +164,7 @@ footer {
 }
 
 .button-56:active {
-  background-color: #ffdeda;
+  background-color: #E9C46A;
   outline: 0;
 }
 
