@@ -10,6 +10,7 @@ footer {
 
 .title {
     font-family: 'Helvetica Neue', sans-serif; 
+    color: #E9C46A;
     font-size: 75px; 
     font-weight: bold; 
     letter-spacing: -1px; 
@@ -47,7 +48,7 @@ footer {
     margin: 10px;
     padding: 5px;
     background-color: White;
-    border: #F4A261 solid 5px;
+    border: #2a9d8f solid 5px;
     border-radius: 10px;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10pxp;
