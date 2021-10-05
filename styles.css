@@ -35,14 +35,14 @@ body {
 }
 
 .chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 400px;
     height: 390px;
     border: lightgreen solid 5px;
     border-radius: 10px;
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 10px;
     padding: 5px;
     font-family: 'Helvetica Neue', sans-serif;
