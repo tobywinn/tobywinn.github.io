@@ -4,6 +4,10 @@ body {
     margin: auto;
 }
 
+.footer {
+    height: 100px
+}
+
 .title {
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 75px; 
