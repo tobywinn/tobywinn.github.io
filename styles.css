@@ -4,10 +4,6 @@ body {
     margin: auto;
 }
 
-.chart {
-    background-color: white;
-}
-
 .title {
     font-family: 'Helvetica Neue', sans-serif; 
     font-size: 75px; 
@@ -44,6 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .container2 {
