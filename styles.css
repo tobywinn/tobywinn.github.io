@@ -64,11 +64,11 @@ body {
   width: 120px;
   height: 120px;
   margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
+  border: 16px solid LightCoral;
   border-radius: 50%;
-  border-top: 16px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+  border-top: 16px solid LightCoral;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 @-webkit-keyframes spin {
