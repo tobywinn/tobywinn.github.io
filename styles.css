@@ -42,8 +42,8 @@ body {
     height: 390px;
     margin: 10px;
     padding: 5px;
-    background-color: white;
-    border: lightgreen solid 5px;
+    background-color: White;
+    border: LightGreen solid 5px;
     border-radius: 10px;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 10pxp;
@@ -64,11 +64,11 @@ body {
   width: 120px;
   height: 120px;
   margin: -76px 0 0 -76px;
-  border: 16px solid LightCoral;
+  border: 16px solid Gainsboro;
   border-radius: 50%;
   border-top: 16px solid LightCoral;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
