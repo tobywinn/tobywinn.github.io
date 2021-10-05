@@ -60,19 +60,18 @@ body {
     justify-content: center;
 }
 
-/* Loading Bar */
+/* Loading Bar & Message */
 
 #loader {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  margin: 100 0 0 0;
-  /*margin: -76px 0 0 -76px;*/
-  border: 16px solid Gainsboro;
-  border-radius: 50%;
-  border-top: 16px solid LightCoral;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+    position: relative;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border: 16px solid Gainsboro;
+    border-radius: 50%;
+    border-top: 16px solid LightCoral;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 #loadermsg {
@@ -87,36 +86,36 @@ body {
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* Add animation to fade in charts */
 .animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
 }
 
 @keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
 }
 
 #myDiv {
-  display: none;
-  text-align: center;
+    display: none;
+    text-align: center;
 }
     
