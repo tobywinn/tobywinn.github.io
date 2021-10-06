@@ -132,7 +132,7 @@ header {
     border-radius: 8px;
     box-sizing: border-box;
     /*color: #111;*/
-    color: #2a9d8f;
+    color: #111;
     cursor: pointer;
     display: flex;
     font-family: Inter,sans-serif;
@@ -152,7 +152,7 @@ header {
 
 .button-56:after {
     /*background-color: #111;*/
-    background-color: #2a9d8f
+    background-color: #2a9d8f;
     border-radius: 8px;
     content: "";
     display: block;
