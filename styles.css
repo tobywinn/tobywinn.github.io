@@ -126,7 +126,8 @@ header {
 .button-56 {
     align-items: center;
     margin: 10px;
-    background-color: #f4a261;
+    /*background-color: #f4a261;*/
+    background-color: #264653;
     border: 2px solid #111;
     border-radius: 8px;
     box-sizing: border-box;
@@ -168,7 +169,7 @@ header {
 }
 
 .button-56:active {
-    background-color: #f4a261;
+    background-color: #264653;
     outline: 0;
 }
 
