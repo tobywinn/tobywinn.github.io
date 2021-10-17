@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google's stock price over time.",
+  "title": {
+    "text": "Life Expectancy: Afghanistan vs UK",
+    "subtitle":"Life expectancy at birth - hardcoded JSON data",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {
+    "values": [
+      {"date": "2008", "Life expectancy": 50.8, "Country": "Afghanistan"},
+      {"date": "2009", "Life expectancy": 51.2, "Country": "Afghanistan"},
+      {"date": "2010", "Life expectancy": 51.6, "Country": "Afghanistan"},
+      {"date": "2011", "Life expectancy": 51.92, "Country": "Afghanistan"},
+      {"date": "2012", "Life expectancy": 52.24, "Country": "Afghanistan"},
+      {"date": "2013", "Life expectancy": 52.56, "Country": "Afghanistan"},
+      {"date": "2014", "Life expectancy": 52.88, "Country": "Afghanistan"},
+      {"date": "2015", "Life expectancy": 53.2, "Country": "Afghanistan"},
+      {"date": "2016", "Life expectancy": 53, "Country": "Afghanistan"},
+      {"date": "2017", "Life expectancy": 52.8, "Country": "Afghanistan"},
+      {"date": "2018", "Life expectancy": 52.6, "Country": "Afghanistan"},
+      {"date": "2019", "Life expectancy": 52.4, "Country": "Afghanistan"}
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "Life expectancy", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
+  }
+}
