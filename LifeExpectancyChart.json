@@ -24,6 +24,18 @@
       {"date": "2017", "Life expectancy": 52.8, "Country": "Afghanistan"},
       {"date": "2018", "Life expectancy": 52.6, "Country": "Afghanistan"},
       {"date": "2019", "Life expectancy": 52.4, "Country": "Afghanistan"}
+      {"date": "2008", "Life expectancy": 70.74, "Country": "UK"},
+      {"date": "2009", "Life expectancy": 71.02, "Country": "UK"},
+      {"date": "2010", "Life expectancy": 71.3, "Country": "UK"},
+      {"date": "2011", "Life expectancy": 71.38, "Country": "UK"},
+      {"date": "2012", "Life expectancy": 71.46, "Country": "UK"},
+      {"date": "2013", "Life expectancy": 71.55, "Country": "UK"},
+      {"date": "2014", "Life expectancy": 71.62, "Country": "UK"},
+      {"date": "2015", "Life expectancy": 71.7, "Country": "UK"},
+      {"date": "2016", "Life expectancy": 71.9, "Country": "UK"},
+      {"date": "2017", "Life expectancy": 72.1, "Country": "UK"}, 
+      {"date": "2018", "Life expectancy": 72.3, "Country": "UK"},
+      {"date": "2019", "Life expectancy": 72.5, "Country": "UK"} 
     ]
   },
   "mark": "line",
