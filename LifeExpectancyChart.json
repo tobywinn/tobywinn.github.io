@@ -43,16 +43,21 @@
   "width": 300,
   
   "encoding": {
-    "x": {"field": "date", "type": "temporal"},
-    "y": {"field": "Life expectancy", "type": "quantitative"},
+    "x": {
+      "field": "date", 
+      "type": "temporal"},
+
+    "y": {
+      "field": "Life expectancy", 
+      "type": "quantitative",   
+      "scale": {"domain": [40, 80]}},
     
   "color": {"field": "Country", 
             "type": "nominal",
             "scale": {"scheme": "yellowgreenblue"},
             "title": null,
             "legend": {
-              "orient": "top-left", 
-              "fillColor": "#ffffff"}
+              "orient": "top-left"}
            }
   }
 }
