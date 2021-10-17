@@ -47,7 +47,7 @@
     "y": {"field": "Life expectancy", "type": "quantitative"},
     
   "color": {"field": "Country", 
-            "type": "nominal"
+            "type": "nominal",
             "scale": {"scheme": "yellowgreenblue"},
             "title": null,
             "legend": {
