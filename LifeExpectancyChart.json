@@ -36,12 +36,23 @@
       {"date": "2017", "Life expectancy": 72.1, "Country": "UK"}, 
       {"date": "2018", "Life expectancy": 72.3, "Country": "UK"},
       {"date": "2019", "Life expectancy": 72.5, "Country": "UK"} 
-    ]
-  },
+    ]},
+  
   "mark": "line",
+  "height": 300,
+  "width": 300,
+  
   "encoding": {
     "x": {"field": "date", "type": "temporal"},
     "y": {"field": "Life expectancy", "type": "quantitative"},
-    "color": {"field": "Country", "type": "nominal"}
+    
+  "color": {"field": "Country", 
+            "type": "nominal"
+            "scale": {"scheme": "yellowgreenblue"},
+            "title": null,
+            "legend": {
+              "orient": "top-left", 
+              "fillColor": "#ffffff"}
+           }
   }
 }
