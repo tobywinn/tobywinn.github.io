@@ -45,7 +45,8 @@
   "encoding": {
     "x": {
       "field": "date", 
-      "type": "temporal"},
+      "type": "temporal"
+      "title": null},
 
     "y": {
       "field": "Life expectancy", 
