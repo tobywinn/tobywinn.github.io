@@ -36,7 +36,7 @@
     "y": {
       "field": "Value",
       "type": "quantitative",
-      "title": "",
+      "title": null,
       "axis": {"grid": false}
     }
   }
