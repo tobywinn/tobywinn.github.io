@@ -3,7 +3,7 @@
   
   "title": {
     "text": "Numis Share Price",
-    "subtitle":"Price at close",
+    "subtitle":"Price at close (£), Ticker: NUM",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
