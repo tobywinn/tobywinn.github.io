@@ -17,6 +17,9 @@
     "point": false,
     "clip": true,
     "color": "darkgoldenrod"},
+  
+  "height":300,
+  "width":150,
 
   "encoding": {
     "x": {
