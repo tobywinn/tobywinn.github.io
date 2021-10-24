@@ -45,11 +45,13 @@
   "encoding": {
     "x": {
       "field": "date", 
+      "axis": {"grid": false},
       "type": "temporal",
       "title": null},
 
     "y": {
       "field": "Life expectancy", 
+      "axis": {"grid": false},
       "type": "quantitative",   
       "scale": {"domain": [40, 80]}},
     
