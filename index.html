@@ -146,7 +146,46 @@
 
     </div>
     
+    <p class=title1><span class="bold">Week 5 - Using loops to make multiple API downloads quickly</span></p>
+    
+    <div class="container">
+
+      <!-- Bitcoin Price Chart -->
+      <div class="chart" id="chart10">
+        <script>
+          var myChart10 = "CryptoBTC.json";
+          vegaEmbed('#chart10', myChart10);
+        </script>
+      </div>
+      
+      <!-- Dogecoin Price Chart -->
+      <div class="chart" id="chart11">
+        <script>
+            var myChart11 = "CryptoDOGE.json";
+          vegaEmbed('#chart11', myChart11);
+        </script>
+      </div>
+      
+      <!-- Solana Price Chart -->
+      <div class="chart" id="chart12">
+        <script>
+          var myChart12 = "CryptoSOL.json";
+          vegaEmbed('#chart12', myChart12);
+        </script>
+      </div>
+      
+      <!-- Binance Coin Price Chart -->
+      <div class="chart" id="chart13">
+        <script>
+          var myChart13 = "CryptoBNB.json";
+          vegaEmbed('#chart13', myChart13);
+        </script>
+      </div>
+
+    </div>
+    
   </div>
+  
   
   <!-- Loading animation and fade in animation -->
   <script>
