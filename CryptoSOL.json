@@ -36,7 +36,8 @@
       "field": "price_close",
       "type": "quantitative",
       "title": null,
-      "axis": {"grid": false}
+      "axis": {"grid": false},
+      "scale": {"domain": [130,230]}
     }
 }
 }
