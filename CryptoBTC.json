@@ -37,7 +37,7 @@
       "type": "quantitative",
       "title": null,
       "axis": {"grid": false},
-      "scale": {"domain": [35000,53000]}
+      "scale": {"domain": [42000,70000]}
     }
 }
 }
