@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "DogeCoin Coin Price",
+    "subtitle":"Price at close (USD), Source: CoinAPI",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+   "data": {
+    "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/data_Crypto-DOGE.json"
+  },
+  
+  "height": 300,
+  "width": 320,
+   
+  "mark": {"type": "line", 
+  "point": false,
+  "clip": true,
+  "color": "darkkhaki"
+  },
+ 
+  "encoding": {
+
+    "x": {
+      "field": "time_period_start",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "price_close",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false},
+      "scale": {"domain": [0.18,0.35]}
+    }
+}
+}
