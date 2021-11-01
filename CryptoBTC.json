@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "X Price",
+    "subtitle":"Price at close (USD), Source: CoinAPI",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+   "data": {
+    "url": ""
+  },
+  
+  "height": 300,
+  "width": 320,
+   
+  "mark": {"type": "line", 
+  "point": false,
+  "clip": true,
+  "color": "firebrick"
+  },
+ 
+  "encoding": {
+
+    "x": {
+      "field": "time_period_start",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "price_close",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    }
+}
+}
