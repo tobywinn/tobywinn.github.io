@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "X Price",
+    "text": "Bitcoin Price",
     "subtitle":"Price at close (USD), Source: CoinAPI",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
@@ -11,7 +11,7 @@
   },
   
    "data": {
-    "url": ""
+    "url": "https://github.com/tobywinn/tobywinn.github.io/blob/main/data_Crypto-BTC.json"
   },
   
   "height": 300,
