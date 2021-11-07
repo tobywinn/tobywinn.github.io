@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "European Happiness Ratings",
+    "subtitle":"Positive Affect, Source: The World Happiness Report",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+    "data": {
+    "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/HappinessDataAll.csv",
+    "format": {"type": "csv"}
+  },
+  
+  "height": 300,
+  "width": 320,
+    
+  "mark": {"type": "line", "point": false},
+
+    "transform":[
+  
+    {"filter": {
+      "field": "Continent", 
+      "oneOf": ["Africa"]}
+    }
+
+    ],
+  
+  "encoding": {
+
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "Positive affect",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "scale": {"scheme": "Yellowgreenblue"},
+      "title": null,
+      "legend": null
+    }
+  }
+}
