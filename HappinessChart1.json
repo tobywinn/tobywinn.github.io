@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "COVID-19 cases in London's most populous boroughs",
+    "subtitle":"Rolling number of cases by publish date",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+    "data": {
+    "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/HappinessDataAll.csv",
+    "format": {"type": "csv"}
+  },
+  
+  "height": 300,
+  "width": 320,
+    
+  "mark": {"type": "line", "point": false},
+
+    "transform":[
+  
+    {"filter": {
+      "field": "Continent", 
+      "oneOf": ["Europe"]}
+    }
+
+    ],
+  
+  "encoding": {
+
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "Positive affect",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "scale": {"scheme": "yellowgreenblue"},
+      "title": null,
+      "legend": null
+    }
+  }
+}
