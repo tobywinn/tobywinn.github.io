@@ -41,7 +41,10 @@
       "field": "Continent",
       "type": "nominal",
       "scale": {"scheme": "yellowgreenblue"},
-      "title": null
+      "title": null,
+      "legend": {
+        "orient": "top-right"
+      }
     }
   }
 }
