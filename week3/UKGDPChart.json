@@ -11,7 +11,7 @@
     },
     
      "data": {
-      "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/GDPperCapita.csv",
+      "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/GDPperCapita.csv",
       "format": {"type": "csv"}
     },
     
@@ -33,8 +33,7 @@
         "field": "GDP per capita",
         "type": "quantitative",
         "title": null,
-        "axis": {"grid": false},
-        "scheme": "yellowgreenblue"
+        "axis": {"grid": false}
       }
   }
 }
