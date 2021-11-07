@@ -34,7 +34,7 @@
       "type": "quantitative",
       "title": null,
       "axis": {"grid": false},
-      "scale": {"domain": [0.6,0.9]}
+      "scale": {"domain": [0.6,0.95]}
     },
 
     "color": {
