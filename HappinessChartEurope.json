@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "COVID-19 cases in London's most populous boroughs",
-    "subtitle":"Rolling number of cases by publish date",
+    "text": "European Happiness Ratings",
+    "subtitle":"Positive Affect, Source: The World Happiness Report",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -48,7 +48,7 @@
     "color": {
       "field": "Country",
       "type": "nominal",
-      "scale": {"scheme": "yellowgreenblue"},
+      "scale": {"scheme": "Yellowgreenblue"},
       "title": null,
       "legend": null
     }
