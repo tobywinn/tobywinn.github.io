@@ -23,14 +23,16 @@
         "field": "Rating", 
         "type": "quantitative",
         "scale": {"domain": [3.75,4.05]},
-        "title": null
+        "title": null,
+        "axis": {"grid": false}
         },
   
       "y": {
         "field": "Compensation", 
         "type": "quantitative",
         "scale": {"domain": [140, 350]},
-        "title": null
+        "title": null,
+        "axis": {"grid": false}
         },
   
       "color": {
