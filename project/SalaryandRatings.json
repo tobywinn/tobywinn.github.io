@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "Salary and Satisfaction at Bulge Bracket Banks",
+      "subtitle":"Scraped from Indeed.com using 20/21 salary data from Arkensden",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/IndoorRatingsandSalary.csv"},
+  
+    "mark": "point",
+  
+    "height": 300,
+  
+    "width": 320,
+  
+    "encoding": {
+      "x": {
+        "field": "Rating", 
+        "type": "quantitative",
+        "scale": {"domain": [3.75,4.05]},
+        "title": null
+        },
+  
+      "y": {
+        "field": "Compensation", 
+        "type": "quantitative",
+        "scale": {"domain": [140, 350]},
+        "title": null
+        },
+  
+      "color": {
+        "field": "Seniority",
+        "type": "nominal",
+        "scale": {"scheme": "inferno"}
+      }
+  
+    }
+}
+  
