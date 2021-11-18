@@ -1,0 +1,351 @@
+Region,Sex,Income,Commute
+Aberdeen,Male,599.4,17.13
+Aberystwyth,Male,427.6,14.01686199
+Andover,Male,522.9,12.57
+Ashford,Male,572.1,14.18
+Ayr,Male,578.4,18.68
+Banbury,Male,581.6,18.44313107
+Bangor and Holyhead,Male,451.2,19.30031073
+Barnsley,Male,498.4,16.55
+Barnstaple,Male,454.5,15.17
+Barrow-in-Furness,Male,616,12.48
+Basingstoke,Male,680.8,16.03
+Bath,Male,565.1,16.3
+Bedford,Male,522.6,15.78
+Birkenhead,Male,465.1,18.5
+Birmingham,Male,569.6,18.52
+Blackburn,Male,469.3,15.82
+Blackpool,Male,425.2,14.28
+Blandford Forum and Gillingham,Male,478.4,19.3
+Blyth and Ashington,Male,495.2,21.87
+Boston,Male,464.7,12.45
+Bournemouth,Male,543.2,14.75
+Bradford,Male,512.4,18.12
+Bridgend,Male,500.6,18
+Bridgwater,Male,519.6,19.85
+Bridlington,Male,458.4,13.84605052
+Brighton,Male,504.9,16.5
+Bristol,Male,574.9,19.6
+Burnley,Male,507.2,15.2
+Burton upon Trent,Male,502.1,16.1289068
+Bury St Edmunds,Male,505.2,14.24784895
+Buxton,Male,482.1,17.65
+Cambridge,Male,609.9,19.68
+Canterbury,Male,471.6,16.88763376
+Cardiff,Male,498.3,17.53
+Cardigan,Male,440.1,25.84060339
+Carlisle,Male,525.9,11.65
+Chelmsford,Male,555.8,19.64686535
+Cheltenham,Male,558.2,15.32552734
+Chester,Male,521.6,16.67
+Chesterfield,Male,458.4,17.75
+Chichester and Bognor Regis,Male,479.1,15.81942751
+Cinderford and Ross-on-Wye,Male,465.3,20.546594
+Clacton,Male,446.5,17.55
+Colchester,Male,510.2,17.57028939
+Colwyn Bay,Male,383.4,15.93521142
+Corby,Male,550.8,12.24308846
+Coventry,Male,557.8,16.42
+Crawley,Male,593.2,20
+Crewe,Male,539.4,16.63
+Darlington,Male,506,13.69639021
+Derby,Male,648.3,17.9
+Doncaster,Male,504,16.18909662
+Dorchester and Weymouth,Male,515.1,13.43
+Dudley,Male,493.1,16.6
+Dumbarton and Helensburgh,Male,562.6,17.69231854
+Dumfries,Male,449.4,9.65
+Dundee,Male,524.4,14.33
+Dunfermline and Kirkcaldy,Male,494.9,18.7
+Durham and Bishop Auckland,Male,522.3,17.87
+Eastbourne,Male,505.5,15.23574147
+Edinburgh,Male,562.4,19.65
+Elgin,Male,534.6,10.86552316
+Evesham,Male,455.7,21.23
+Exeter,Male,510,16.72
+Falkirk and Stirling,Male,593.6,17.75
+Falmouth,Male,439,15.92
+Folkestone and Dover,Male,492.2,16.05
+Galashiels and Peebles,Male,453.8,12.6870343
+Glasgow,Male,553,18.42
+Gloucester,Male,550.3,16.5
+Grantham,Male,463.5,13
+Great Yarmouth,Male,498.9,14.78659258
+Greenock,Male,562.7,14.78
+Grimsby,Male,521.8,12.42
+Guildford and Aldershot,Male,630,20.07
+Halifax,Male,509.2,16.0595236
+Harrogate,Male,485.4,13.59965766
+Hartlepool,Male,489.5,13.09393382
+Hastings,Male,421.4,12.42
+Haverfordwest and Milford Haven,Male,461.4,13.62327557
+Hereford,Male,462,13.54125148
+High Wycombe and Aylesbury,Male,614.6,18.12
+Huddersfield,Male,482.9,18.15
+Hull,Male,521.5,15.50057391
+Huntingdon,Male,582.4,20.78496991
+Inverness,Male,540.4,14.87
+Ipswich,Male,554,15.93205883
+Isle of Wight,Male,470.6,14.91251744
+Kendal,Male,465.9,12.45
+Kettering and Wellingborough,Male,529.2,13.34360803
+Kilmarnock and Irvine,Male,515.5,15.99140134
+King's Lynn,Male,516.3,13.26500623
+Lancaster and Morecambe,Male,484.7,17.32
+Launceston,Male,444.2,13.6
+Leamington Spa,Male,648.7,18.28
+Leeds,Male,542,19.81990379
+Leicester,Male,498.3,17.25073784
+Lincoln,Male,500,16.48
+Liskeard,Male,373.9,26.48936307
+Liverpool,Male,510,16.65
+Livingston,Male,571,18.84493578
+Llanelli,Male,463,19.61627705
+London,Male,710.5,32.97
+Lowestoft,Male,485.3,14.65920005
+Ludlow,Male,425.7,17.3886849
+Luton,Male,560.5,16.82
+Manchester,Male,518.2,17.58
+Mansfield,Male,468.9,16.45
+Margate and Ramsgate,Male,427.3,14.27
+Medway,Male,536.6,19.09143231
+Merthyr Tydfil,Male,474.2,16.03
+Middlesbrough and Stockton,Male,507.9,16.25
+Milton Keynes,Male,603.6,11.32
+Motherwell and Airdrie,Male,571.1,19.43
+Newbury,Male,723.5,15.46395876
+Newcastle,Male,502.4,16.93
+Newport,Male,520.6,15.43905837
+Newtown and Welshpool,Male,496.2,16.38
+Northallerton,Male,498.2,16.48
+Northampton,Male,528,15.38
+Norwich,Male,513.3,18.62528628
+Nottingham,Male,508.4,20.7
+Oswestry,Male,481.6,18.05
+Oxford,Male,614.1,18.57
+Penrith,Male,516.4,10.52
+Penzance,Male,380.3,11.45
+Perth,Male,539.7,16.09485779
+Peterborough,Male,503.8,12.8
+Plymouth,Male,512.8,15.1
+Poole,Male,534.9,15.1
+Portsmouth,Male,552.1,16.2
+Preston,Male,564.8,16.65317664
+Reading,Male,666.6,17.50931224
+Redruth and Truro,Male,447.8,15.35247813
+Rhyl,Male,469.5,18.12
+Salisbury,Male,496.6,16.35
+Scarborough,Male,441.3,11.8
+Scunthorpe,Male,543.4,13.96492874
+Sheffield,Male,504,18.67
+Shrewsbury,Male,469,14.92
+Sidmouth,Male,387.6,15.95
+Skegness and Louth,Male,491,12.52
+Skipton,Male,500,13.59965766
+Slough and Heathrow,Male,620.9,21.11998156
+Southampton,Male,574.9,16.7
+Southend,Male,522.8,15.88
+Spalding,Male,496.3,13.55
+St Andrews and Cupar,Male,487.9,20.29295308
+St Austell and Newquay,Male,439.5,16.37661347
+Stafford,Male,551,16.82
+Stevenage and Welwyn Garden City,Male,626.6,16.83
+Stoke-on-Trent,Male,478.6,17.52
+Street and Wells,Male,422.9,16.38451339
+Sunderland,Male,518.1,14.9
+Swansea,Male,506.6,16.6
+Swindon,Male,561.6,16.77
+Taunton,Male,498.3,16.8
+Telford,Male,542.1,13.55637091
+Thetford and Mildenhall,Male,491.6,16.90707743
+Torquay and Paignton,Male,404.7,14.32
+Trowbridge,Male,520.5,17.92761032
+Tunbridge Wells,Male,492.9,19.08613705
+Wakefield and Castleford,Male,532,17.30532735
+Warrington and Wigan,Male,525.2,16.77924378
+Western Isles,Male,454.1,22.34532937
+Weston-super-Mare,Male,465.6,19.13
+Wisbech,Male,406.3,13.93
+Wolverhampton and Walsall,Male,507.7,16.97267488
+Worcester and Kidderminster,Male,464.2,16.6
+Workington,Male,465.8,13.45
+Worksop and Retford,Male,460.1,16.87
+Worthing,Male,483.1,15.16497599
+Wrexham,Male,500.8,15.02
+Yeovil,Male,518.3,15.3
+York,Male,503.1,18.23
+Aberdeen,Female,390.9,19.87
+Aberystwyth,Female,296.7,13.96939357
+Andover,Female,342.7,19.60448409
+Ashford,Female,397.2,23.04307514
+Ayr,Female,339.1,21.85
+Banbury,Female,359.7,26.33
+Bangor and Holyhead,Female,329.3,21.02
+Barnsley,Female,325.5,23.88415539
+Barnstaple,Female,318.9,21.45
+Barrow-in-Furness,Female,300.3,17.73
+Basingstoke,Female,399.1,22.53
+Bath,Female,345.6,21.38
+Bedford,Female,361.5,23.68
+Birkenhead,Female,336.9,22.38
+Birmingham,Female,376.2,23.57
+Blackburn,Female,324.5,20.17
+Blackpool,Female,320.2,20.4951657
+Blandford Forum and Gillingham,Female,302.6,27.77267147
+Blyth and Ashington,Female,259.1,25.43
+Boston,Female,341.3,19.35
+Bournemouth,Female,353.9,20.17
+Bradford,Female,350.3,21.78
+Bridgend,Female,373.2,27.16281653
+Bridgwater,Female,300.6,22.67884273
+Bridlington,Female,263.4,20.56633015
+Brighton,Female,355.2,19.87
+Bristol,Female,388.5,23.58
+Burnley,Female,325.5,16.05
+Burton upon Trent,Female,325.1,23.19069512
+Bury St Edmunds,Female,351.9,17.37
+Buxton,Female,219.3,17.52
+Cambridge,Female,413.1,24.85
+Canterbury,Female,338,23.57
+Cardiff,Female,353.5,21.15
+Cardigan,Female,308.3,15.5
+Carlisle,Female,306.6,13.22
+Chelmsford,Female,316.9,27.1728782
+Cheltenham,Female,364.5,18.07
+Chester,Female,371.7,21.66666901
+Chesterfield,Female,317.6,20.63481719
+Chichester and Bognor Regis,Female,306.3,23.86134146
+Cinderford and Ross-on-Wye,Female,262.5,27.18
+Clacton,Female,241.9,23.3
+Colchester,Female,346.6,24.83
+Colwyn Bay,Female,327.2,15.66759248
+Corby,Female,341.2,13.73
+Coventry,Female,368.1,23.02742831
+Crawley,Female,383.3,30.33
+Crewe,Female,346.3,21.52102792
+Darlington,Female,362.7,17.32
+Derby,Female,349.9,22.75
+Doncaster,Female,306.4,21.57
+Dorchester and Weymouth,Female,265.3,17.76979865
+Dudley,Female,311,20.65
+Dumbarton and Helensburgh,Female,419.1,32.58
+Dumfries,Female,372.3,13.7
+Dundee,Female,380.3,16.1
+Dunfermline and Kirkcaldy,Female,351.3,22.37
+Durham and Bishop Auckland,Female,361.9,23.85
+Eastbourne,Female,350,25.49455294
+Edinburgh,Female,422.1,21.63220408
+Elgin,Female,277.3,19.22065339
+Evesham,Female,277.9,20.07
+Exeter,Female,325.5,20.40394329
+Falkirk and Stirling,Female,378,20.47028754
+Falmouth,Female,249,16.45067904
+Folkestone and Dover,Female,345.7,17.6347663
+Galashiels and Peebles,Female,335.9,22.47
+Glasgow,Female,389.9,21.15
+Gloucester,Female,371.4,20.13171966
+Grantham,Female,298.3,20.75
+Great Yarmouth,Female,308.4,19.92
+Greenock,Female,358.8,23.65
+Grimsby,Female,283.8,16.6
+Guildford and Aldershot,Female,411.3,28.63748952
+Halifax,Female,340.6,19.8
+Harrogate,Female,353.9,18.42
+Hartlepool,Female,306,21.89902905
+Hastings,Female,308,18.64270301
+Haverfordwest and Milford Haven,Female,339.2,18.17588336
+Hereford,Female,316.6,17.37
+High Wycombe and Aylesbury,Female,388.2,28.45
+Huddersfield,Female,292.4,23.38
+Hull,Female,310,20.82
+Huntingdon,Female,367,24.84546835
+Inverness,Female,336,16.45
+Ipswich,Female,314.9,20.31257806
+Isle of Wight,Female,301.8,21.25
+Kendal,Female,325.1,13.26559276
+Kettering and Wellingborough,Female,329.6,18.82
+Kilmarnock and Irvine,Female,357.1,24.19914214
+King's Lynn,Female,297.3,18.58654784
+Lancaster and Morecambe,Female,312.1,20.13234297
+Launceston,Female,274.6,18.89424277
+Leamington Spa,Female,373.7,22.80447033
+Leeds,Female,372.1,23.5
+Leicester,Female,329.3,21.85817698
+Lincoln,Female,317.1,19.38
+Liskeard,Female,311.6,35
+Liverpool,Female,363.4,21.51144626
+Livingston,Female,392.4,22.37
+Llanelli,Female,354.8,22.95
+London,Female,521.3,39.5
+Lowestoft,Female,275,20.58
+Ludlow,Female,245.6,19.05
+Luton,Female,373.7,25.98
+Manchester,Female,380.8,21.73
+Mansfield,Female,307.8,21.3233261
+Margate and Ramsgate,Female,307.5,18.50892556
+Medway,Female,348.5,27.37
+Merthyr Tydfil,Female,317.1,26.33
+Middlesbrough and Stockton,Female,347,19.42
+Milton Keynes,Female,420.6,16.8
+Motherwell and Airdrie,Female,370.9,22.75
+Newbury,Female,435.6,21.90639746
+Newcastle,Female,353.8,19.53
+Newport,Female,345,20.16443421
+Newtown and Welshpool,Female,373.9,17.15
+Northallerton,Female,332.2,19.02
+Northampton,Female,349.1,20.09880219
+Norwich,Female,320.5,21.36331484
+Nottingham,Female,343.2,25.08
+Oswestry,Female,285.7,22.98007944
+Oxford,Female,398,22.4
+Penrith,Female,339.3,13.22
+Penzance,Female,256.7,11.46202308
+Perth,Female,350.4,19.23
+Peterborough,Female,325.8,15.30602819
+Plymouth,Female,331.7,19.28
+Poole,Female,328.6,16.82
+Portsmouth,Female,346.5,20.12
+Preston,Female,345,19.57
+Reading,Female,417.5,24.68
+Redruth and Truro,Female,320.4,17.77
+Rhyl,Female,344.5,25.43
+Salisbury,Female,328.6,24.32
+Scarborough,Female,295.6,15.47142195
+Scunthorpe,Female,306.5,17.89197818
+Sheffield,Female,345,22.15
+Shrewsbury,Female,373.6,18.77
+Sidmouth,Female,247.3,16.71625163
+Skegness and Louth,Female,307.1,17.44069156
+Skipton,Female,346.3,14.87
+Slough and Heathrow,Female,432.7,26.83
+Southampton,Female,363.3,20.67
+Southend,Female,314.3,25.82
+Spalding,Female,346.8,16.78
+St Andrews and Cupar,Female,413,23.30845894
+St Austell and Newquay,Female,316.3,17.92
+Stafford,Female,357.9,23.57726166
+Stevenage and Welwyn Garden City,Female,408.1,23.55
+Stoke-on-Trent,Female,321.4,21.17713987
+Street and Wells,Female,232.3,24.3
+Sunderland,Female,340.6,18.02
+Swansea,Female,346.8,19.02
+Swindon,Female,346.7,20.75
+Taunton,Female,290.6,20.53
+Telford,Female,323.6,15.23
+Thetford and Mildenhall,Female,280.4,22.22
+Torquay and Paignton,Female,266.3,17.97
+Trowbridge,Female,329.9,25.1
+Tunbridge Wells,Female,361.4,36.34567926
+Wakefield and Castleford,Female,336.1,21.95
+Warrington and Wigan,Female,345.4,21.76931113
+Western Isles,Female,356.4,22.34532937
+Weston-super-Mare,Female,326.8,28.50996871
+Wisbech,Female,316.8,21.75005901
+Wolverhampton and Walsall,Female,329.7,22.47
+Worcester and Kidderminster,Female,338.3,22.73901244
+Workington,Female,285.5,23.98
+Worksop and Retford,Female,331.4,24.50443171
+Worthing,Female,345.6,22.47
+Wrexham,Female,331.3,16.7
+Yeovil,Female,320.7,16.12
+York,Female,332.8,23.03847105
