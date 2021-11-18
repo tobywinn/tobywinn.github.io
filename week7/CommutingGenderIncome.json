@@ -25,7 +25,6 @@
       "x": {
         "field": "Income", 
         "type": "quantitative",
-        "title": null,
         "axis": {"grid": false},
         "scale": {"domain": [150,750]}
         },
@@ -33,7 +32,6 @@
       "y": {
         "field": "Commute", 
         "type": "quantitative",
-        "title": null,
         "axis": {"grid": false},
         "scale": {"domain": [5,40]}
         },
