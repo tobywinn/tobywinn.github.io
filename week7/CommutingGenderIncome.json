@@ -1,0 +1,48 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "Do women have shorter commutes and is income a factor?",
+      "subtitle":"Gross Weekly Income: £, Mins/day, ONS 2018",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week7/CommuteTimeandIncombyGender.csv"},
+  
+    "mark": {
+      "type": "point",
+      "size": 15
+      },
+  
+    "height": 300,
+  
+    "width": 280,
+  
+    "encoding": {
+      "x": {
+        "field": "Income", 
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false},
+        "scale": {"domain": [150,750]}
+        },
+  
+      "y": {
+        "field": "Commute", 
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false},
+        "scale": {"domain": [5,40]}
+        },
+  
+      "color": {
+        "field": "Sex",
+        "type": "nominal",
+        "scale": {"range": ["lightcoral","steelblue"]}
+      }
+  
+    }
+}
