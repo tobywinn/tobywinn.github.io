@@ -1,0 +1,114 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    
+    "title": {
+      "text": "Unhappiness vs GDP",
+      "subtitle":"Negative Affect, Log GDP per capita Source: The World Happiness Report",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    
+      "data": {
+      "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/HappinessDataAll.csv",
+      "format": {"type": "csv"}
+    },
+    
+    "height": 300,
+    "width": 320,
+      
+    "mark": {"type": "point", "point": false},
+  
+    "selection": {
+      "Continent": {
+        "type": "single",
+        "fields": ["Continent"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Africa",
+            "Europe",
+            "Oceania",
+            "North America",
+            "South America",
+            "Asia"
+          ],
+          "name": "Pick a region: "
+        }
+      }
+    },
+  
+    "transform": [
+  
+      {"filter": {
+          "field": "Log GDP per capita", 
+          "range": [0.0000001,100]}
+          },
+  
+      {"filter": {
+          "field": "Negative affect", 
+          "range": [0.0000001, 100]}
+          } ,
+  
+      {"filter": {
+          "field": "Year", 
+          "range": [
+            {"year": 2020, "month": "jan", "date": 1},
+            {"year": 2050, "month": "dec", "date": 30}]}
+          },
+  
+      {"filter": {"selection": "Continent"}}   
+      
+    ],
+    
+    "encoding": {
+  
+      "x": {
+        "field": "Log GDP per capita",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false},
+        "scale": {"domain": [7,12]}
+      },
+  
+      "y": {
+        "field": "Negative affect",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false},
+        "scale": {"domain": [0.1,0.6]}
+      },
+  
+      "color": {
+        "field": "Continent",
+        "type": "nominal",
+        "scale": {"scheme": "yellowgreenblue"},
+        "title": null
+      },
+  
+      "tooltip": [
+        {
+          "field": "Country", 
+          "type": "nominal", 
+          "title": "Country"
+          },
+        {
+          "field": "Year", 
+          "type": "temporal", 
+          "title": "Year"
+          },
+        {
+          "field": "Negative affect",
+          "type": "quantitative",
+          "title": "Positive affect"
+          },
+        {
+          "field": "Log GDP per capita",
+          "type": "quantitative",
+          "title": "Log GDP per capita"
+          }
+      ]
+    }
+  }
