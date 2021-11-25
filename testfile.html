@@ -29,7 +29,7 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
-<body>
+<body onload="myFunction()">
 
     <header><span class="orange">Data</span><span class="turquoise">Science</span></header>
 
@@ -40,42 +40,177 @@
         <button class="button-56" onclick="location.href='https://rapidcharts.io/datascience'">Course Site</button>
     </div>
 
-    <p class=title1>A project exploring happiness and income globally</p>
+    <p class=title1>A portfolio of data visualisations by Toby Winn</p>
 
-    <div class="container">
+    <div id="loader"></div>
+  
+    <div id="loadermsg">Just fetching the data for you...</div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
 
-        <!-- Continental happiness -->
-        <div class="chart" id="chart1">
-            <script>
-            var myChart1 = "project/HappinessbyContinent.json";
-            vegaEmbed('#chart1', myChart1);
-            </script>
+        <p class=title1><span class="bold">Week 1 - Getting Started</span></p>
+
+        <div class="container">
+
+            <!--Chart 1 -->
+            <div class="chart" id="chart1">
+                <script>
+                var myChart1 = "week1/chart1_covidUKRegions.json";
+                vegaEmbed('#chart1', myChart1);
+                </script>
+            </div>
+
+            <!--Chart 2 -->
+            <div class="chart" id="chart2">
+                <script>
+                var myChart2 = "week1/chart2_ukProductivity.json";
+                vegaEmbed('#chart2', myChart2);
+                </script>
+            </div>
+
+            <!-- Football Chart -->
+            <div class="chart" id="chart3">
+                <script>
+                var myChart3 = "week1/Football_chart.json";
+                vegaEmbed('#chart3', myChart3);
+                </script>
+            </div>
+
         </div>
 
-         <!-- Continental unhappiness -->
-         <div class="chart" id="chart2">
-            <script>
-            var myChart2 = "project/UnhappinessbyContinent.json";
-            vegaEmbed('#chart2', myChart2);
-            </script>
+        <p class=title1><span class="bold">Week 2 - Introduction to APIs</span></p>
+
+        <div class="container">
+
+            <!-- Oxford COVID cases using CSV-->
+            <div class="chart" id="chart4">
+                <script>
+                var myChart4 = "week2/CovidChart_Week2API.json";
+                vegaEmbed('#chart4', myChart4);
+                </script>
+            </div>
+
+            <!-- London COVID cases using CSV-->
+            <div class="chart" id="chart5">
+                <script>
+                var myChart5 = "week2/CovidChart_Week2CSV.json";
+                vegaEmbed('#chart5', myChart5);
+                </script>
+            </div>
+
         </div>
+
+        <p class=title1><span class="bold">Week 3 - Manipulating CSV data and inputting JSON data manually</span></p>
+    
+        <div class="container">
+    
+            <!-- UK GDP Per Capita -->
+            <div class="chart" id="chart6">
+                <script>
+                var myChart6 = "week3/UKGDPChart.json";
+                vegaEmbed('#chart6', myChart6);
+                </script>
+            </div>
+        
+            <!-- Life Expectancy in UK vs Afghansistan over time -->
+            <div class="chart" id="chart7">
+                <script>
+                var myChart7 = "week3/LifeExpectancyChart.json";
+                vegaEmbed('#chart7', myChart7);
+                </script>
+            </div>
+    
+        </div>
+
+        <p class=title1><span class="bold">Week 4 - Finding new APIs and implementing them</span></p>
+    
+        <div class="container">
+
+            <!-- Numis Share Price Chart -->
+            <div class="chart" id="chart8">
+                <script>
+                var myChart8 = "week4/Week4NumisAPI.json";
+                vegaEmbed('#chart8', myChart8);
+                </script>
+            </div>
+            
+            <!-- UK Carbon Monoxide Emissions Chart -->
+            <div class="chart" id="chart9">
+                <script>
+                var myChart9 = "week4/Week4EmissionsAPI.json";
+                vegaEmbed('#chart9', myChart9);
+                </script>
+            </div>
+
+        </div>
+        
+        <p class=title1><span class="bold">Week 5 - Using loops to make multiple API downloads quickly</span></p>
+        
+        <div class="container">
+
+            <!-- Bitcoin Price Chart -->
+            <div class="chart" id="chart10">
+                <script>
+                var myChart10 = "week5/CryptoBTC.json";
+                vegaEmbed('#chart10', myChart10);
+                </script>
+            </div>
+            
+            <!-- Dogecoin Price Chart -->
+            <div class="chart" id="chart11">
+                <script>
+                    var myChart11 = "week5/CryptoDOGE.json";
+                vegaEmbed('#chart11', myChart11);
+                </script>
+            </div>
+
+        </div>
+
+        <p class=title1><span class="bold">Week 6 - Scraping sites using loops over multiple pages</span></p>
+
+        <div class="container">
+          
+          <!-- Indeed scraper ratings data -->
+          <div class="chart" id="chart14">
+            <script>
+              var myChart14 = "week6/Indeed.json";
+              vegaEmbed('#chart14', myChart14);
+            </script>
+          </div>
+          
+        </div>
+    
+        <p class=title1><span class="bold">Week 7 - Talking Economics: Women more likely to favour shorter commutes (Helen Simpson, UoB). Are they?</span></p>
+    
+        <div class="container">
+          
+          <!-- Income and commuting time by gender in the UK-->
+          <div class="chart" id="chart15">
+            <script>
+              var myChart15 = "week7/CommutingGenderIncome.json";
+              vegaEmbed('#chart15', myChart15);
+            </script>
+          </div>
+          
+        </div>
+
+        <footer></footer>
 
     </div>
 
-    <p class=title1>Salary data and satisfaction ratings</p>
-
-    <div class="container">
-
-        <!-- Salary and job ratings -->
-        <div class="chart" id="chart3">
-            <script>
-            var myChart3 = "project/SalaryandRatings.json";
-            vegaEmbed('#chart3', myChart3);
-            </script>
-        </div>
-
-    </div>
-
-    <footer></footer>
+    <!-- Loading animation and fade in animation -->
+    <script>
+        var myVar;
+    
+        function myFunction() {
+            myVar = setTimeout(showPage, 4000);
+        }
+    
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("loadermsg").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
 
 </body>
