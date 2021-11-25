@@ -29,7 +29,7 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
-<body> 
+<body onload="myFunction()">
 
     <header><span class="orange">Data</span><span class="turquoise">Science</span></header>
 
@@ -77,5 +77,20 @@
     </div>
 
     <footer></footer>
+
+    <!-- Loading animation and fade in animation -->
+    <script>
+    var myVar;
+
+    function myFunction() {
+        myVar = setTimeout(showPage, 4000);
+    }
+
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loadermsg").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
 
 </body>
