@@ -1,0 +1,81 @@
+<!-- Richard Davies, Data Science 2021 -->
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tab name -->
+    <title>Toby Winn</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="facicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+        
+</head>
+  
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+<body>
+
+    <header><span class="orange">Data</span><span class="turquoise">Science</span></header>
+
+    <div class="container">
+        <button class="button-56" onclick="location.href='https://tobywinn.github.io'">Home</button>
+        <button class="button-56" onclick="location.href='https://tobywinn.github.io/project.html'">Project</button>
+        <button class="button-56" onclick="location.href='https://github.com/tobywinn/tobywinn.github.io'">Github</button>
+        <button class="button-56" onclick="location.href='https://rapidcharts.io/datascience'">Course Site</button>
+    </div>
+
+    <p class=title1>A project exploring happiness and income globally</p>
+
+    <div class="container">
+
+        <!-- Continental happiness -->
+        <div class="chart" id="chart1">
+            <script>
+            var myChart1 = "project/HappinessbyContinent.json";
+            vegaEmbed('#chart1', myChart1);
+            </script>
+        </div>
+
+         <!-- Continental unhappiness -->
+         <div class="chart" id="chart2">
+            <script>
+            var myChart2 = "project/UnhappinessbyContinent.json";
+            vegaEmbed('#chart2', myChart2);
+            </script>
+        </div>
+
+    </div>
+
+    <p class=title1>Salary data and satisfaction ratings</p>
+
+    <div class="container">
+
+        <!-- Salary and job ratings -->
+        <div class="chart" id="chart3">
+            <script>
+            var myChart3 = "project/SalaryandRatings.json";
+            vegaEmbed('#chart3', myChart3);
+            </script>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>
