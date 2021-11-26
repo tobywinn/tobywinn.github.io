@@ -1,46 +1,92 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-    "title": {
-      "text": "Salary and Satisfaction at Bulge Bracket Banks",
-      "subtitle":"Scraped from Indeed.com using 20/21 salary data from Arkensden",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-  
-    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/IndoorRatingsandSalary.csv"},
-  
-    "mark": "point",
-  
-    "height": 300,
-  
-    "width": 255,
-  
-    "encoding": {
-      "x": {
-        "field": "Rating", 
-        "type": "quantitative",
-        "scale": {"domain": [3.75,4.05]},
-        "title": null,
-        "axis": {"grid": false}
-        },
-  
-      "y": {
-        "field": "Compensation", 
-        "type": "quantitative",
-        "scale": {"domain": [140, 350]},
-        "title": null,
-        "axis": {"grid": false}
-        },
-  
-      "color": {
-        "field": "Seniority",
-        "type": "nominal",
-        "scale": {"scheme": "inferno"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+
+  "title": {
+    "text": "Salary and Satisfaction at Bulge Bracket Banks",
+    "subtitle":"Scraped from Indeed.com using 20/21 salary data from Arkensden",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/IndoorRatingsandSalary.csv"},
+
+  "mark": "point",
+
+  "selection": {
+    "Firm": {
+      "type": "single",
+      "fields": ["Firm"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Goldman Sachs",
+          "Deutsche Bank",
+          "Barclays",
+          "JP Morgan",
+          "Morgan Stanley",
+          "UBS",
+          "Credit Suisse",
+          "Citi",
+          "Bank of America"
+        ],
+        "name": "Pick a firm: "
       }
-  
     }
+  },
+
+  "transform": [
+
+    {"filter": {"selection": "Firm"}}   
+    
+  ],
+
+  "height": 280,
+
+  "width": 255,
+
+  "encoding": {
+    "x": {
+      "field": "Rating", 
+      "type": "quantitative",
+      "scale": {"domain": [3.75,4.05]},
+      "title": null,
+      "axis": {"grid": false}
+      },
+
+    "y": {
+      "field": "Compensation", 
+      "type": "quantitative",
+      "scale": {"domain": [140, 350]},
+      "title": null,
+      "axis": {"grid": false}
+      },
+    
+    "tooltip": [
+        {
+          "field": "Firm", 
+          "type": "nominal", 
+          "title": "Firm"
+          },
+        {
+          "field": "Seniority",
+          "type": "nominal",
+          "title": "Seniority"
+          },
+        {
+          "field": "Compensation",
+          "type": "quantitative",
+          "title": "Compensation"
+          }
+      ],
+
+    "color": {
+      "field": "Seniority",
+      "type": "nominal",
+      "scale": {"scheme": "inferno"}
+    }
+
+  }
 }
-  
