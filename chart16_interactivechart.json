@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "title": {
+        "text": "Annual Growth Rate of Atmospheric Carbon Dioxide",
+        "subtitle":"Subtitle",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+  
+    "data": {"url": "https://raw.githubusercontent.com/EliezerMeyer/EliezerMeyer.github.io/main/Annual%20Growth%20Rate%20of%20Atmospheric%20Carbon%20Dioxide.csv"},
+    "layer": [{
+      "params": [{
+        "name": "brush",
+        "select": {"type": "interval", "encodings": ["x"]}
+      }],
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "title": "Year",
+          "type": "temporal"
+        },
+        "y": {
+          "aggregate": "mean",
+          "field": "Annual Increase",
+          "title": "Increase",
+          "type": "quantitative"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush", "value": 1
+          },
+          "value": 0.7
+        }
+      }
+    }, {
+      "transform": [{
+        "filter": {"param": "brush"}
+      }],
+      "mark": "rule",
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "Annual Increase",
+          "type": "quantitative"
+        },
+        "color": {"value": "firebrick"},
+        "size": {"value": 3}
+      }
+    }]
+  }
