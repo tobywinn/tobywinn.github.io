@@ -35,12 +35,30 @@
         "axis": {"grid": false},
         "scale": {"domain": [5,40]}
         },
+
+      "tooltip": [
+        {
+          "field": "Region", 
+          "type": "nominal", 
+          "title": "Region"
+          },
+        {
+          "field": "Sex",
+          "type": "nominal",
+          "title": "Gender"
+          },
+        {
+          "field": "Commute",
+          "type": "quantitative",
+          "title": "Commute"
+          }
+        ],
   
       "color": {
         "field": "Sex",
         "type": "nominal",
         "scale": {"range": ["lightcoral","steelblue"]}
-      }
+        }
   
     }
 }
