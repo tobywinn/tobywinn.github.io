@@ -1,64 +1,66 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-    "title": {
-      "text": "Do women have shorter commutes and is income a factor?",
-      "subtitle":"Gross Weekly Income: £, Mins/day, ONS 2018",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-  
-    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week7/CommuteTimeandIncombyGender.csv"},
-  
-    "mark": {
-      "type": "point",
-      "size": 15
-      },
-  
-    "height": 290,
-  
-    "width": 270,
-  
-    "encoding": {
-      "x": {
-        "field": "Income", 
-        "type": "quantitative",
-        "axis": {"grid": false},
-        "scale": {"domain": [150,750]}
-        },
-  
-      "y": {
-        "field": "Commute", 
-        "type": "quantitative",
-        "axis": {"grid": false},
-        "scale": {"domain": [5,40]}
-        },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-      "tooltip": [
-        {
-          "field": "Region", 
-          "type": "nominal", 
-          "title": "Region"
-          },
-        {
-          "field": "Sex",
-          "type": "nominal",
-          "title": "Gender"
-          },
-        {
-          "field": "Commute",
-          "type": "quantitative",
-          "title": "Commute"
-          }
-        ],
-  
-      "color": {
-        "field": "Sex",
-        "type": "nominal",
-        "scale": {"range": ["lightcoral","steelblue"]}
+  "title": {
+    "text": "Do women have shorter commutes and is income a factor?",
+    "subtitle":"Gross Weekly Income: £, Mins/day, ONS 2018",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week7/CommuteTimeandIncombyGender.csv"},
+
+  "mark": {
+    "type": "point",
+    "size": 15
+    },
+
+  "height": 290,
+
+  "width": 270,
+
+  "encoding": {
+    "x": {
+      "field": "Income", 
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "scale": {"domain": [150,750]}
+      },
+
+    "y": {
+      "field": "Commute", 
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "scale": {"domain": [5,40]}
+      },
+
+    "tooltip": [
+      {
+        "field": "Region", 
+        "type": "nominal", 
+        "title": "Region"
+        },
+      {
+        "field": "Commute",
+        "type": "quantitative",
+        "title": "Commute",
+        "format": ".1f"
+        },
+      {
+        "field": "Income",
+        "type": "quantitative",
+        "title": "Income",
+        "format": ".1f"
         }
-  
-    }
+      ],
+
+    "color": {
+      "field": "Sex",
+      "type": "nominal",
+      "scale": {"range": ["lightcoral","steelblue"]}
+      }
+
+  }
 }
