@@ -9,7 +9,7 @@
         "color": "black"
       },
   
-    "data": {"url": "https://raw.githubusercontent.com/EliezerMeyer/EliezerMeyer.github.io/main/Annual%20Growth%20Rate%20of%20Atmospheric%20Carbon%20Dioxide.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/data.csv"},
     "layer": [{
       "params": [{
         "name": "brush",
