@@ -15,31 +15,28 @@
   "mark": "point",
 
   "selection": {
-    "Firm": {
+    "Seniority": {
       "type": "single",
-      "fields": ["Firm"],
+      "fields": ["Seniority"],
       "bind": {
         "input": "select",
         "options": [
           null,
-          "Goldman Sachs",
-          "Deutsche Bank",
-          "Barclays",
-          "JPMorgan Chase",
-          "Morgan Stanley",
-          "UBS",
-          "Credit Suisse",
-          "Citi",
-          "Bank of America"
+          "Associate 1/2",
+          "Associate 2/3",
+          "Associate 3/4",
+          "VP 1",
+          "VP 2",
+          "VP 3"
         ],
-        "name": "Pick a firm: "
+        "name": "Pick seniority: "
       }
     }
   },
 
   "transform": [
 
-    {"filter": {"selection": "Firm"}}   
+    {"filter": {"selection": "Seniority"}}   
     
   ],
 
