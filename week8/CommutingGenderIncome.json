@@ -10,7 +10,7 @@
     "color": "black"
   },
 
-  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week7/CommuteTimeandIncombyGender.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week8/CommuteTimeandIncombyGender.csv"},
 
   "mark": {
     "type": "point",
