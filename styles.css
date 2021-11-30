@@ -56,8 +56,21 @@ header {
     font-size: 10pxp;
 }
 
+.pngchart {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 10px;
+    padding: 5px;
+    background-color: White;
+    border: #2a9d8f solid 5px;
+    border-radius: 10px;
+    /*font-family: 'Helvetica Neue', sans-serif;*/
+    font-family: Inter,sans-serif;
+    font-size: 10pxp;
+}
+
 .container {
-    background-colour: #264653;
     display: flex;
     align-items: center;
     justify-content: center;
