@@ -21,7 +21,7 @@
       "bind": {
         "input": "select",
         "options": [
-          "All seniorities",
+          null,
           "Associate 1/2",
           "Associate 2/3",
           "Associate 3/4",
