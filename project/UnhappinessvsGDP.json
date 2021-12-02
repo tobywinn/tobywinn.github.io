@@ -27,7 +27,7 @@
         "bind": {
           "input": "select",
           "options": [
-            null,
+            "All regions",
             "Africa",
             "Europe",
             "Oceania",
