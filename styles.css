@@ -190,6 +190,9 @@ header {
 }
 
 @media (max-width: 600px) {
+    body {
+        background-color: red;
+    }
     header {
         font-size: 70px; 
     }
