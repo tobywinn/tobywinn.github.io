@@ -189,8 +189,11 @@ header {
     outline: 0;
 }
 
-@media (min-width: 768px) {
-    .button-56 {
-    padding: 0 40px;
-  }
+@media (max-width: 600px) {
+    header {
+        font-size: 70px; 
+    }
+    .container {
+        width: 100%;
+    }
 }
