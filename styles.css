@@ -56,12 +56,19 @@ header {
     border-radius: 10px;
     font-family: Inter,sans-serif;
     font-size: 10pxp;
+    width: 380px;
 }
 
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.pngchart img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
 }
 
 /* Loading Bar & Message */
