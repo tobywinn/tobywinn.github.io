@@ -56,7 +56,6 @@ header {
     border-radius: 10px;
     font-family: Inter,sans-serif;
     font-size: 10pxp;
-    width: 380px;
 }
 
 .container {
@@ -197,4 +196,11 @@ header {
     .title1 {
         font-size: 15;
     }
+    #loader {
+        margin: 50px auto 50px auto;
+    }
+    .pngchart {
+        width: 380px;
+    }
+    
 }
