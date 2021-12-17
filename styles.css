@@ -192,6 +192,7 @@ header {
 @media (max-width: 600px) {
     body {
         background-color: red;
+        width: 480px;
     }
     .button-56 {
         margin: 5px;
@@ -199,8 +200,5 @@ header {
         }
     header {
         font-size: 70px; 
-    }
-    .container {
-        width: 100%;
     }
 }
