@@ -190,7 +190,7 @@ header {
 
 @media (max-width: 600px) {
     body {
-        width: 480px;
+        width: 95%;
     }
     .button-56 {
         margin: 5px;
