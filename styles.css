@@ -1,6 +1,5 @@
 body {
     background-color: #264653;
-    margin: auto;
 }
 
 footer {
@@ -8,7 +7,6 @@ footer {
 }
 
 header {
-    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-family: Inter,sans-serif;
     font-size: 90px; 
     font-weight: bold;
@@ -18,7 +16,6 @@ header {
 }
 
 .title1 {
-    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-family: Inter,sans-serif;
     color: #E9C46A;
     font-size: 20px; 
@@ -39,10 +36,7 @@ header {
     color: #2a9d8f;
 }
 
-.chart {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+.chart { 
     width: 400px;
     height: 390px;
     margin: 10px;
@@ -50,7 +44,6 @@ header {
     background-color: White;
     border: #2a9d8f solid 5px;
     border-radius: 10px;
-    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-family: Inter,sans-serif;
     font-size: 10pxp;
 }
@@ -64,16 +57,14 @@ header {
     background-color: White;
     border: #2a9d8f solid 5px;
     border-radius: 10px;
-    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-family: Inter,sans-serif;
     font-size: 10pxp;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    flex-flow: row wrap;
     justify-content: center;
-    overflow: hidden;
 }
 
 /* Loading Bar & Message */
@@ -92,7 +83,6 @@ header {
 #loadermsg {
     position: relative;
     font-weight: bold;
-    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-family: Inter,sans-serif;
     color: #E9C46A;
     font-size: 20px; 
@@ -190,14 +180,14 @@ header {
 }
 
 @media (max-width: 480px) {
-    body {
-        width: 95%;
-    }
     .button-56 {
         margin: 5px;
         font-size: 12px;
         }
     header {
         font-size: 70px; 
+    }
+    .chart {
+        width: 380px;
     }
 }
