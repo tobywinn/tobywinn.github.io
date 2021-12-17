@@ -64,6 +64,11 @@ header {
     justify-content: center;
 }
 
+.btncontainer {
+    display: flex;
+    justify-content: center;
+}
+
 .pngchart img{
     justify-content: center;
     width: 100%;
@@ -194,7 +199,7 @@ header {
         width: 380px;
     }
     .title1 {
-        font-size: 15;
+        font-size: 10;
     }
     #loader {
         margin: 50px auto 50px auto;
@@ -202,5 +207,7 @@ header {
     .pngchart {
         width: 380px;
     }
-    
+    .button-56 {
+        line-height: 15px;
+        } 
 }
