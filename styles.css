@@ -49,9 +49,6 @@ header {
 }
 
 .pngchart {
-    display: flex;
-    align-items: center;
-    justify-content: center;  
     margin: 10px;
     padding: 5px;
     background-color: White;
@@ -185,9 +182,12 @@ header {
         font-size: 12px;
         }
     header {
-        font-size: 70px; 
+        font-size: 65px; 
     }
     .chart {
         width: 380px;
+    }
+    .title1 {
+        font-size: 15;
     }
 }
