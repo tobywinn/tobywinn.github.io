@@ -16,6 +16,9 @@ header {
 }
 
 iframe {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
     width: 600px;
     height: 500px;
     border: #2a9d8f solid 20px;
@@ -42,6 +45,11 @@ iframe {
 
 .turquoise {
     color: #2a9d8f;
+}
+
+.bivariate {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .chart { 
