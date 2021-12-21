@@ -46,9 +46,11 @@ iframe {
     color: #2a9d8f;
 }
 
-.bivariate {
-    margin-top: auto;
-    margin-bottom: auto;
+#chart7 {
+    position: absolute;
+    margin-top: 190px;
+    right: 200px;
+    
 }
 
 .chart { 
