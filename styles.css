@@ -18,7 +18,7 @@ header {
 iframe {
     margin-right: auto;
     margin-left: auto;
-    width: 600px;
+    width: 810px;
     height: 500px;
     border: #2a9d8f solid 5px;
     border-radius: 10px;
@@ -49,7 +49,7 @@ iframe {
 #chart16 {
     position: absolute;
     margin-top: 190px;
-    right: 200px;
+    right: 120px;
     
 }
 
