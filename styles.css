@@ -46,7 +46,7 @@ iframe {
     color: #2a9d8f;
 }
 
-#chart7 {
+#chart16 {
     position: absolute;
     margin-top: 190px;
     right: 200px;
@@ -232,5 +232,10 @@ iframe {
     } 
     .button-56:after {
         transform: translate(6px, 6px);
+    }
+    #chart16 {
+        position: relative;
+        margin-top: auto;
+        right: auto;
     }
 }
