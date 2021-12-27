@@ -33,9 +33,31 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
-<body onload="myFunction()"> 
+<body onload="myFunction()">
 
-  <header><span class="orange">Data</span><span class="turquoise">Science</span></header>
+  <header class="primary-header flex">
+    
+    <header class="heading"><span class="orange">Data</span><span class="turquoise">Science</span></header>
+    
+    <button class="mobile-nav-toggle"></button>
+
+    <nav>
+      <ul id="primary-navigation" class="primary-navigation flex">
+        <li class="active">
+          <a class="a-nav" href="https://tobywinn.github.io">Home</a>
+        </li>
+        <li>
+          <a class="a-nav" href="https://tobywinn.github.io/project.html">Project</a>
+        </li>
+        <li>
+          <a class="a-nav" href="https://github.com/tobywinn/tobywinn.github.io">Github</a>
+        </li>
+        <li>
+          <a class="a-nav" href="https://rapidcharts.io/datascience">Course site</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   
   <div class="btncontainer">
     <button class="button-56" onclick="location.href='https://tobywinn.github.io'">Home</button>
