@@ -252,13 +252,16 @@
 
     <p class=title1><span class="bold">Week 9 - Advanced data analysis techniques: Regression</span></p>
 
-    <p>I regressed happiness score against [] and found that there was a [] correlation with an R^2 of []. Python code can be found <a href="">here</a></p>
+    <p>I regressed happiness score against poverty rating and found that there was a negative correlation with an R² of 0.250. Python code can be found <a href="https://colab.research.google.com/drive/1zJKk34W1CQVOl2W_orqSVmgEtpKZKSUU#scrollTo=FDKfdISXmF_F">here.</a> Overall the relationship followed Poverty Rating = -0.518(Happiness Score) + 38.19.</p>
 
     <div class="container">
 
-      <!-- Happiness vs GDP per capita regression-->
-      <div class="pngchart">
-        <img src = "week9/HappinessRegression.png" />
+      <!-- Happiness vs Poverty Rating regression-->
+      <div class="chart" id="chart16">
+        <script>
+          var myChart16 = "week9/HappinessandPoverty.json";
+          vegaEmbed('#chart16', myChart16);
+        </script>
       </div>
 
     </div>
