@@ -25,6 +25,22 @@ iframe {
     margin: 10px;
 }
 
+p {
+    font-weight: 5px;
+    color: #E9C46A;
+    font-family: Inter,sans-serif;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    font-weight: 5px;
+    color: #E9C46A;
+    font-family: Inter,sans-serif;
+}
+
 .title1 {
     font-family: Inter,sans-serif;
     color: #E9C46A;
