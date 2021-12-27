@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "title": {
-      "text": "Happiness vs GDP",
-      "subtitle":"Life Ladder, Log GDP per capita Source: The World Happiness Report",
+      "text": "Happiness vs Poverty Rating",
+      "subtitle":"Life Ladder, Poverty Rating Sources: The World Happiness Report, The World Bank",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
