@@ -219,6 +219,9 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
     .heading {
         font-size: 32px;
     }
@@ -249,7 +252,7 @@ a:hover {
         flex-direction: column;
         --gap: 2em;
 
-        background: hsl(0 0% 0% / 0.1);
+        background: hsl(0 0% 0% / 0.8);
 
         padding: 10em 2em;
         z-index: 1000;
