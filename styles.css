@@ -257,12 +257,12 @@ a:hover {
         padding: 10em 2em;
         z-index: 1000;
 
-        transform: translateX(110%);
+        transform: translateX(100%+25px);
         transition: transform 350ms ease-in;
     }
 
     .primary-navigation[data-visible="true"] {
-        transform: translateX(10%);
+        transform: translateX(25px);
     }
 
     @supports (backdrop-filter: blur(1rem)) {
