@@ -257,7 +257,7 @@ a:hover {
         padding: 10em 2em;
         z-index: 1000;
 
-        transform: translateX(500%);
+        transform: translateX(120%);
         transition: transform 350ms ease-in;
     }
 
