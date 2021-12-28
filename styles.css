@@ -1,5 +1,6 @@
 body {
     background-color: #264653;
+    overflow-x: hidden;
 }
 
 footer {
@@ -78,13 +79,27 @@ ul {
 }
 
 .mobile-nav-toggle {
+    display: none;
+}
+
+.hamburger {
     position: absolute;
-    background: red;
-    width: 1rem;
-    aspect-ratio: 1;
-    top: 2rem;
-    right: 2rem;
-    z-index: 9999;
+    fill: #E9C46A;
+}
+
+.hamburger[data-visible="true"] {
+    position: absolute;
+    transform: translateX(500%);
+}
+
+.cross {
+    position: absolute;
+    transform: translateX(500%);
+}
+
+.cross[data-visible="true"] {
+    fill: #E9C46A;
+    transform: translateX(0%)
 }
 
 .title1 {
@@ -306,5 +321,24 @@ ul {
 
         padding: 10em 2em;
         z-index: 1000;
+
+        transform: translateX(100%);
+        transition: transform 350ms ease-in;
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        width: 0.5rem;
+        aspect-ratio: 1;
+        top: 1rem;
+        right: 3rem;
+        z-index: 9999;
+        background: none;
+        border: 0;
     }
 }
