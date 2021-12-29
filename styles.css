@@ -252,10 +252,7 @@ a:hover {
         flex-direction: column;
         --gap: 2em;
 
-        background: hsl(0 0% 100% / 0.1);
-        /*
         background: hsl(0 0% 0% / 0.8);
-        */
 
         padding: 10em 2em;
         z-index: 1000;
@@ -270,7 +267,7 @@ a:hover {
 
     @supports (backdrop-filter: blur(1rem)) {
         .primary-navigation {
-            background: hsl(0 0% 100% / 0.1);
+            background: hsl(0 0% 0% / 0.5);
             backdrop-filter: blur(1rem);
         }
     }
