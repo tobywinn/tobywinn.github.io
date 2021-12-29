@@ -278,12 +278,19 @@ a:hover {
     .mobile-nav-toggle {
         display: block;
         position: absolute;
-        width: 0.5rem;
+        width: 2rem;
         aspect-ratio: 1;
-        top: 1rem;
-        right: 3rem;
+        top: 1.5rem;
+        right: 2.5rem;
         z-index: 9999;
-        background: none;
         border: 0;
+
+        background: url(hamburger.svg);
+        background-repeat: no-repeat;
+    }
+
+    .mobile-nav-toggle[data-visible="true"] {
+        background: url(cross.svg);
+        fill: #E9C46A;
     }
 }
