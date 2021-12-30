@@ -75,28 +75,13 @@ ul {
     display: none;
 }
 
-.hamburger {
-    position: absolute;
-    fill: #E9C46A;
-}
-
 a:hover {
     color: #2a9d8f;
-}
-
-.hamburger[data-visible="true"] {
-    position: absolute;
-    transform: translateX(500%);
 }
 
 .cross {
     position: absolute;
     transform: translateX(500%);
-}
-
-.cross[data-visible="true"] {
-    fill: #E9C46A;
-    transform: translateX(0%)
 }
 
 .title1 {
