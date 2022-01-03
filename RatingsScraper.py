@@ -56,11 +56,13 @@ for i in companies:
         # go to reviews section
         driver.find_element_by_css_selector("a[data-label='Reviews']").click()
 
+        """
         # finance and accounting ratings only
         driver.find_element_by_css_selector(".gd-ui-button.d-none.d-lg-inline-block.css-pitbid").click()
         driver.find_element_by_css_selector("div[data-test='ContentFiltersJobFunctionDropdownContent']").click()
         time.sleep(1)
         driver.find_element_by_id("option_1008").click()
+        """
 
         # allow time for refresh
         time.sleep(2)
@@ -89,11 +91,13 @@ for i in companies:
         # go to reviews section
         driver.find_element_by_css_selector("a[data-label='Reviews']").click()
 
+        """
         # finance and accounting ratings only
         driver.find_element_by_css_selector(".gd-ui-button.d-none.d-lg-inline-block.css-pitbid").click()
         driver.find_element_by_css_selector("div[data-test='ContentFiltersJobFunctionDropdownContent']").click()
         time.sleep(2)
         driver.find_element_by_id("option_1008").click()
+        """
 
         # allow time for refresh
         time.sleep(2)
@@ -146,9 +150,14 @@ for i in ["Associate 1/2", "Associate 2/3", "Associate 3/4", "VP 1", "VP 2", "VP
     counter += 1
     seniority.append(i)
 
+df = pd.DataFrame([[i for i in names], [i for i in ratings]]).T
+df.columns = ['Firm', 'Rating']
+
+df.to_csv("BanksRatings.csv")
+
 df = pd.DataFrame([[i for i in names1],[i for i in ratings1], [i for i in compensation], [i for i in seniority]]).T
 df.columns = ['Firm', 'Rating', 'Compensation', 'Seniority']
 print(df)
 
 # export csv
-df.to_csv('GlassdoorRatings&Salary.csv')
+# df.to_csv('GlassdoorRatings&Salary.csv')

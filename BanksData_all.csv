@@ -1,0 +1,1773 @@
+,Firm,Salary,Reports
+0,Morgan Stanley,116636.0,153.0
+1,Morgan Stanley,74684.0,151.0
+2,Morgan Stanley,52804.0,121.0
+3,Morgan Stanley,63618.0,87.0
+4,Morgan Stanley,29145.0,71.0
+5,Morgan Stanley,35191.0,58.0
+6,Morgan Stanley,85721.0,52.0
+7,Morgan Stanley,59050.0,50.0
+8,Morgan Stanley,102676.0,48.0
+9,Morgan Stanley,189937.0,46.0
+10,Morgan Stanley,38296.0,35.0
+11,Morgan Stanley,49196.0,34.0
+12,Morgan Stanley,46215.0,27.0
+13,Morgan Stanley,67202.0,27.0
+14,Morgan Stanley,67230.0,26.0
+15,Morgan Stanley,40689.0,25.0
+16,Morgan Stanley,40724.0,23.0
+17,Morgan Stanley,58077.0,18.0
+18,Morgan Stanley,84009.0,18.0
+19,Morgan Stanley,154756.0,18.0
+20,Morgan Stanley,168316.0,17.0
+21,Morgan Stanley,256958.0,16.0
+22,Morgan Stanley,53879.0,15.0
+23,Morgan Stanley,111558.0,15.0
+24,Morgan Stanley,65520.0,14.0
+25,Morgan Stanley,47754.0,14.0
+26,Morgan Stanley,103123.0,13.0
+27,Morgan Stanley,51536.0,13.0
+28,Morgan Stanley,35259.0,12.0
+29,Morgan Stanley,74712.0,12.0
+30,Morgan Stanley,28891.0,12.0
+31,Morgan Stanley,59436.0,12.0
+32,Morgan Stanley,52578.0,11.0
+33,Morgan Stanley,34417.0,11.0
+34,Morgan Stanley,40027.0,11.0
+35,Morgan Stanley,75393.0,10.0
+36,Morgan Stanley,86747.0,10.0
+37,Morgan Stanley,23890.0,9.0
+38,Morgan Stanley,46237.0,9.0
+39,Morgan Stanley,104110.0,9.0
+40,Morgan Stanley,35101.0,9.0
+41,Morgan Stanley,61681.0,8.0
+42,Morgan Stanley,75904.0,8.0
+43,Morgan Stanley,20573.0,8.0
+44,Morgan Stanley,46822.0,7.0
+45,Morgan Stanley,30000.0,7.0
+46,Morgan Stanley,65148.0,7.0
+47,Morgan Stanley,91987.0,7.0
+48,Morgan Stanley,44165.0,7.0
+49,Morgan Stanley,36320.0,7.0
+50,Morgan Stanley,52541.0,7.0
+51,Morgan Stanley,70021.0,7.0
+52,Morgan Stanley,85098.0,7.0
+53,Morgan Stanley,128418.0,7.0
+54,Morgan Stanley,89655.0,6.0
+55,Morgan Stanley,66983.0,6.0
+56,Morgan Stanley,81103.0,6.0
+57,Morgan Stanley,108823.0,6.0
+58,Morgan Stanley,43746.0,6.0
+59,Morgan Stanley,16578.0,6.0
+60,Morgan Stanley,49464.0,6.0
+61,Morgan Stanley,54691.0,6.0
+62,Morgan Stanley,98826.0,6.0
+63,Morgan Stanley,40472.0,6.0
+64,Morgan Stanley,87435.0,5.0
+65,Morgan Stanley,69217.0,5.0
+66,Morgan Stanley,98312.0,5.0
+67,Morgan Stanley,54480.0,5.0
+68,Morgan Stanley,45627.0,5.0
+69,Morgan Stanley,36766.0,5.0
+70,Morgan Stanley,175116.0,5.0
+71,Morgan Stanley,50417.0,5.0
+72,Morgan Stanley,38694.0,5.0
+73,Morgan Stanley,36146.0,5.0
+74,Morgan Stanley,80389.0,5.0
+75,Morgan Stanley,57457.0,4.0
+76,Morgan Stanley,92426.0,4.0
+77,Morgan Stanley,169912.0,4.0
+78,Morgan Stanley,142234.0,4.0
+79,Morgan Stanley,88553.0,4.0
+80,Morgan Stanley,51701.0,4.0
+81,Morgan Stanley,64665.0,4.0
+82,Morgan Stanley,53791.0,4.0
+83,Morgan Stanley,71555.0,4.0
+84,Morgan Stanley,94419.0,4.0
+85,Morgan Stanley,160622.0,4.0
+86,Morgan Stanley,102682.0,4.0
+87,Morgan Stanley,59370.0,4.0
+88,Morgan Stanley,36024.0,4.0
+89,Morgan Stanley,88466.0,4.0
+90,Morgan Stanley,44287.0,4.0
+91,Morgan Stanley,42270.0,4.0
+92,Morgan Stanley,76937.0,4.0
+93,Morgan Stanley,54274.0,4.0
+94,Morgan Stanley,55856.0,4.0
+95,Morgan Stanley,106665.0,4.0
+96,Morgan Stanley,57577.0,4.0
+97,Morgan Stanley,85294.0,4.0
+98,Morgan Stanley,52578.0,4.0
+99,Morgan Stanley,125215.0,4.0
+100,Morgan Stanley,43432.0,3.0
+101,Morgan Stanley,103174.0,3.0
+102,Morgan Stanley,78827.0,3.0
+103,Morgan Stanley,47147.0,3.0
+104,Morgan Stanley,119383.0,3.0
+105,Morgan Stanley,132418.0,3.0
+106,Morgan Stanley,34391.0,3.0
+107,Morgan Stanley,167500.0,3.0
+108,Morgan Stanley,73205.0,3.0
+109,Morgan Stanley,62000.0,3.0
+110,Morgan Stanley,78650.0,3.0
+111,Morgan Stanley,98569.0,3.0
+112,Morgan Stanley,167544.0,3.0
+113,Morgan Stanley,207406.0,3.0
+114,Morgan Stanley,54165.0,3.0
+115,Morgan Stanley,171239.0,3.0
+116,Morgan Stanley,29098.0,3.0
+117,Morgan Stanley,134054.0,3.0
+118,Morgan Stanley,23545.0,3.0
+119,Morgan Stanley,161754.0,3.0
+120,Morgan Stanley,89000.0,2.0
+121,Morgan Stanley,58500.0,2.0
+122,Morgan Stanley,82000.0,2.0
+123,Morgan Stanley,81000.0,2.0
+124,Morgan Stanley,39500.0,2.0
+125,Morgan Stanley,34000.0,2.0
+126,Morgan Stanley,108000.0,2.0
+127,Morgan Stanley,58500.0,2.0
+128,Morgan Stanley,103000.0,2.0
+129,Morgan Stanley,35500.0,2.0
+130,Morgan Stanley,61000.0,2.0
+131,Morgan Stanley,99000.0,2.0
+132,Morgan Stanley,97500.0,2.0
+133,Morgan Stanley,159000.0,2.0
+134,Morgan Stanley,20000.0,2.0
+135,Morgan Stanley,92500.0,2.0
+136,Morgan Stanley,72500.0,2.0
+137,Morgan Stanley,96500.0,2.0
+138,Morgan Stanley,115500.0,2.0
+139,Morgan Stanley,161754.0,3.0
+140,Morgan Stanley,89000.0,2.0
+141,Morgan Stanley,58500.0,2.0
+142,Morgan Stanley,82000.0,2.0
+143,Morgan Stanley,81000.0,2.0
+144,Morgan Stanley,39500.0,2.0
+145,Morgan Stanley,34000.0,2.0
+146,Morgan Stanley,108000.0,2.0
+147,Morgan Stanley,58500.0,2.0
+148,Morgan Stanley,103000.0,2.0
+149,Morgan Stanley,35500.0,2.0
+150,Morgan Stanley,61000.0,2.0
+151,Morgan Stanley,99000.0,2.0
+152,Morgan Stanley,97500.0,2.0
+153,Morgan Stanley,159000.0,2.0
+154,Morgan Stanley,20000.0,2.0
+155,Morgan Stanley,92500.0,2.0
+156,Morgan Stanley,72500.0,2.0
+157,Morgan Stanley,96500.0,2.0
+158,Morgan Stanley,115500.0,2.0
+159,Morgan Stanley,86000.0,2.0
+160,Morgan Stanley,30500.0,2.0
+161,Morgan Stanley,151500.0,2.0
+162,Morgan Stanley,143500.0,2.0
+163,Morgan Stanley,114000.0,2.0
+164,Morgan Stanley,29000.0,2.0
+165,Morgan Stanley,110500.0,2.0
+166,Morgan Stanley,49000.0,2.0
+167,Morgan Stanley,186000.0,2.0
+168,Morgan Stanley,63000.0,2.0
+169,Morgan Stanley,154500.0,2.0
+170,Morgan Stanley,43500.0,2.0
+171,Morgan Stanley,28500.0,2.0
+172,Morgan Stanley,46000.0,2.0
+173,Morgan Stanley,145500.0,2.0
+174,Morgan Stanley,91000.0,2.0
+175,Morgan Stanley,63500.0,2.0
+176,Morgan Stanley,116000.0,2.0
+177,Morgan Stanley,45000.0,2.0
+178,Morgan Stanley,209000.0,2.0
+179,Morgan Stanley,58500.0,2.0
+180,Morgan Stanley,229000.0,2.0
+181,Morgan Stanley,56000.0,2.0
+182,Morgan Stanley,107500.0,2.0
+183,Morgan Stanley,70500.0,2.0
+184,Morgan Stanley,77500.0,2.0
+185,Morgan Stanley,56000.0,2.0
+186,Morgan Stanley,199500.0,2.0
+187,Morgan Stanley,65000.0,2.0
+188,Morgan Stanley,36500.0,2.0
+189,Morgan Stanley,36500.0,2.0
+190,Morgan Stanley,62500.0,2.0
+191,Morgan Stanley,41500.0,2.0
+192,Morgan Stanley,52500.0,2.0
+193,Morgan Stanley,59500.0,2.0
+194,Morgan Stanley,106000.0,2.0
+195,Morgan Stanley,116500.0,2.0
+196,Morgan Stanley,50500.0,2.0
+197,Morgan Stanley,101500.0,2.0
+198,Morgan Stanley,126000.0,2.0
+199,Goldman Sachs,70489.0,20.0
+200,Goldman Sachs,403559.0,19.0
+201,Goldman Sachs,49714.0,19.0
+202,Goldman Sachs,107814.0,17.0
+203,Goldman Sachs,45476.0,17.0
+204,Goldman Sachs,50974.0,17.0
+205,Goldman Sachs,39794.0,17.0
+206,Goldman Sachs,52062.0,17.0
+207,Goldman Sachs,107244.0,16.0
+208,Goldman Sachs,105155.0,16.0
+209,Goldman Sachs,62270.0,16.0
+210,Goldman Sachs,51267.0,14.0
+211,Goldman Sachs,40779.0,14.0
+212,Goldman Sachs,68857.0,13.0
+213,Goldman Sachs,107905.0,13.0
+214,Goldman Sachs,130420.0,12.0
+215,Goldman Sachs,74534.0,11.0
+216,Goldman Sachs,106032.0,11.0
+217,Goldman Sachs,41561.0,10.0
+218,Goldman Sachs,70489.0,20.0
+219,Goldman Sachs,403559.0,19.0
+220,Goldman Sachs,49714.0,19.0
+221,Goldman Sachs,107814.0,17.0
+222,Goldman Sachs,45476.0,17.0
+223,Goldman Sachs,50974.0,17.0
+224,Goldman Sachs,39794.0,17.0
+225,Goldman Sachs,52062.0,17.0
+226,Goldman Sachs,107244.0,16.0
+227,Goldman Sachs,105155.0,16.0
+228,Goldman Sachs,62270.0,16.0
+229,Goldman Sachs,51267.0,14.0
+230,Goldman Sachs,40779.0,14.0
+231,Goldman Sachs,68857.0,13.0
+232,Goldman Sachs,107905.0,13.0
+233,Goldman Sachs,130420.0,12.0
+234,Goldman Sachs,74534.0,11.0
+235,Goldman Sachs,106032.0,11.0
+236,Goldman Sachs,41561.0,10.0
+237,Goldman Sachs,105723.0,10.0
+238,Goldman Sachs,53016.0,10.0
+239,Goldman Sachs,49019.0,10.0
+240,Goldman Sachs,57033.0,9.0
+241,Goldman Sachs,143686.0,9.0
+242,Goldman Sachs,49242.0,9.0
+243,Goldman Sachs,72904.0,8.0
+244,Goldman Sachs,45741.0,8.0
+245,Goldman Sachs,90671.0,8.0
+246,Goldman Sachs,155101.0,8.0
+247,Goldman Sachs,44992.0,7.0
+248,Goldman Sachs,60707.0,7.0
+249,Goldman Sachs,57434.0,7.0
+250,Goldman Sachs,113691.0,7.0
+251,Goldman Sachs,75537.0,7.0
+252,Goldman Sachs,66291.0,7.0
+253,Goldman Sachs,114909.0,6.0
+254,Goldman Sachs,59898.0,6.0
+255,Goldman Sachs,21978.0,6.0
+256,Goldman Sachs,81977.0,6.0
+257,Goldman Sachs,107688.0,6.0
+258,Goldman Sachs,94129.0,6.0
+259,Goldman Sachs,54933.0,5.0
+260,Goldman Sachs,55137.0,5.0
+261,Goldman Sachs,122663.0,5.0
+262,Goldman Sachs,74555.0,5.0
+263,Goldman Sachs,31089.0,5.0
+264,Goldman Sachs,46861.0,5.0
+265,Goldman Sachs,150538.0,5.0
+266,Goldman Sachs,158198.0,5.0
+267,Goldman Sachs,48004.0,5.0
+268,Goldman Sachs,125200.0,5.0
+269,Goldman Sachs,71424.0,5.0
+270,Goldman Sachs,71303.0,5.0
+271,Goldman Sachs,36478.0,5.0
+272,Goldman Sachs,113404.0,4.0
+273,Goldman Sachs,96227.0,4.0
+274,Goldman Sachs,71284.0,4.0
+275,Goldman Sachs,58968.0,4.0
+276,Goldman Sachs,47448.0,4.0
+277,Goldman Sachs,63619.0,4.0
+278,Goldman Sachs,40440.0,4.0
+280,Goldman Sachs,74589.0,4.0
+281,Goldman Sachs,49107.0,4.0
+282,Goldman Sachs,84170.0,4.0
+283,Goldman Sachs,53154.0,4.0
+284,Goldman Sachs,51639.0,4.0
+285,Goldman Sachs,202088.0,4.0
+286,Goldman Sachs,58942.0,4.0
+287,Goldman Sachs,77495.0,4.0
+288,Goldman Sachs,63047.0,4.0
+289,Goldman Sachs,18585.0,4.0
+290,Goldman Sachs,42272.0,3.0
+291,Goldman Sachs,89909.0,3.0
+292,Goldman Sachs,83824.0,3.0
+293,Goldman Sachs,84357.0,3.0
+294,Goldman Sachs,115671.0,3.0
+295,Goldman Sachs,41270.0,3.0
+296,Goldman Sachs,78030.0,3.0
+297,Goldman Sachs,68215.0,3.0
+298,Goldman Sachs,49743.0,3.0
+299,Goldman Sachs,83816.0,3.0
+300,Goldman Sachs,61982.0,3.0
+301,Goldman Sachs,50475.0,3.0
+302,Goldman Sachs,78650.0,3.0
+303,Goldman Sachs,138933.0,3.0
+304,Goldman Sachs,107754.0,3.0
+305,Goldman Sachs,43134.0,3.0
+306,Goldman Sachs,49623.0,3.0
+307,Goldman Sachs,116636.0,3.0
+308,Goldman Sachs,140019.0,3.0
+309,Goldman Sachs,112814.0,3.0
+310,Goldman Sachs,81430.0,3.0
+311,Goldman Sachs,45310.0,3.0
+312,Goldman Sachs,76894.0,3.0
+313,Goldman Sachs,40069.0,3.0
+314,Goldman Sachs,38893.0,3.0
+315,Goldman Sachs,45718.0,3.0
+316,Goldman Sachs,20980.0,3.0
+317,Goldman Sachs,37856.0,3.0
+318,Goldman Sachs,107777.0,3.0
+319,Goldman Sachs,38893.0,3.0
+320,Goldman Sachs,68477.0,3.0
+321,Goldman Sachs,98065.0,3.0
+322,Goldman Sachs,125506.0,3.0
+323,Goldman Sachs,39647.0,3.0
+324,Goldman Sachs,185500.0,2.0
+325,Goldman Sachs,53500.0,2.0
+326,Goldman Sachs,45500.0,2.0
+327,Goldman Sachs,167500.0,2.0
+328,Goldman Sachs,59500.0,2.0
+329,Goldman Sachs,61000.0,2.0
+330,Goldman Sachs,68500.0,2.0
+331,Goldman Sachs,164500.0,2.0
+332,Goldman Sachs,76000.0,2.0
+334,Goldman Sachs,74500.0,2.0
+335,Goldman Sachs,54000.0,2.0
+336,Goldman Sachs,50500.0,2.0
+337,Goldman Sachs,94500.0,2.0
+338,Goldman Sachs,58000.0,2.0
+339,Goldman Sachs,78000.0,2.0
+340,Goldman Sachs,22500.0,2.0
+341,Goldman Sachs,160500.0,2.0
+342,Goldman Sachs,99000.0,2.0
+343,Goldman Sachs,71500.0,2.0
+344,Goldman Sachs,104500.0,2.0
+345,Goldman Sachs,72000.0,2.0
+346,Goldman Sachs,48000.0,2.0
+347,Goldman Sachs,90000.0,2.0
+348,Goldman Sachs,95500.0,2.0
+349,Goldman Sachs,108000.0,2.0
+350,Goldman Sachs,36500.0,2.0
+351,Goldman Sachs,66500.0,2.0
+352,Goldman Sachs,187500.0,2.0
+353,Goldman Sachs,131500.0,2.0
+355,Goldman Sachs,188500.0,2.0
+356,Goldman Sachs,50500.0,2.0
+357,Goldman Sachs,43500.0,2.0
+358,Goldman Sachs,36000.0,2.0
+359,Goldman Sachs,99000.0,2.0
+360,Goldman Sachs,44000.0,2.0
+361,Goldman Sachs,85500.0,2.0
+362,Goldman Sachs,221000.0,2.0
+363,Goldman Sachs,88000.0,2.0
+364,Goldman Sachs,86000.0,2.0
+365,Goldman Sachs,251500.0,2.0
+366,Goldman Sachs,35000.0,2.0
+368,Goldman Sachs,39000.0,2.0
+369,Goldman Sachs,90500.0,2.0
+370,Goldman Sachs,65500.0,2.0
+371,Goldman Sachs,106500.0,2.0
+372,Goldman Sachs,41000.0,2.0
+373,Goldman Sachs,98500.0,2.0
+374,Goldman Sachs,57500.0,2.0
+375,Goldman Sachs,59500.0,2.0
+376,Goldman Sachs,140000.0,2.0
+377,Goldman Sachs,43000.0,2.0
+378,Goldman Sachs,49000.0,2.0
+379,Goldman Sachs,57500.0,2.0
+380,Goldman Sachs,59500.0,2.0
+381,Goldman Sachs,47500.0,2.0
+382,Goldman Sachs,41000.0,2.0
+383,Goldman Sachs,94000.0,2.0
+384,Goldman Sachs,83000.0,2.0
+385,Goldman Sachs,69500.0,2.0
+386,Goldman Sachs,88500.0,2.0
+387,Goldman Sachs,26500.0,2.0
+388,Goldman Sachs,74500.0,2.0
+389,Goldman Sachs,46500.0,2.0
+391,JP Morgan,101488.0,309.0
+392,JP Morgan,63180.0,308.0
+393,JP Morgan,52578.0,290.0
+394,JP Morgan,50865.0,238.0
+395,JP Morgan,60883.0,169.0
+396,JP Morgan,177109.0,106.0
+397,JP Morgan,52304.0,96.0
+398,JP Morgan,42476.0,75.0
+399,JP Morgan,48254.0,74.0
+400,JP Morgan,107527.0,73.0
+401,JP Morgan,78866.0,73.0
+402,JP Morgan,47190.0,64.0
+403,JP Morgan,56133.0,64.0
+404,JP Morgan,61667.0,58.0
+405,JP Morgan,40738.0,52.0
+406,JP Morgan,76936.0,48.0
+407,JP Morgan,33538.0,44.0
+408,JP Morgan,40123.0,40.0
+409,JP Morgan,58530.0,33.0
+410,JP Morgan,48371.0,33.0
+411,JP Morgan,47480.0,31.0
+412,JP Morgan,48638.0,30.0
+413,JP Morgan,51086.0,28.0
+414,JP Morgan,32449.0,27.0
+415,JP Morgan,69981.0,26.0
+416,JP Morgan,40000.0,22.0
+417,JP Morgan,44216.0,21.0
+418,JP Morgan,140889.0,21.0
+419,JP Morgan,78506.0,21.0
+420,JP Morgan,76025.0,20.0
+421,JP Morgan,36305.0,20.0
+422,JP Morgan,80214.0,20.0
+423,JP Morgan,61812.0,18.0
+424,JP Morgan,45635.0,18.0
+425,JP Morgan,38957.0,18.0
+426,JP Morgan,55303.0,17.0
+427,JP Morgan,43803.0,17.0
+428,JP Morgan,79251.0,17.0
+429,JP Morgan,124604.0,15.0
+430,JP Morgan,126419.0,15.0
+431,JP Morgan,32908.0,15.0
+432,JP Morgan,76639.0,14.0
+433,JP Morgan,98438.0,14.0
+434,JP Morgan,139888.0,13.0
+435,JP Morgan,82161.0,13.0
+436,JP Morgan,38288.0,12.0
+437,JP Morgan,115438.0,12.0
+438,JP Morgan,100853.0,11.0
+439,JP Morgan,40575.0,11.0
+440,JP Morgan,66346.0,11.0
+441,JP Morgan,65348.0,11.0
+442,JP Morgan,83739.0,11.0
+443,JP Morgan,94163.0,10.0
+444,JP Morgan,39439.0,10.0
+445,JP Morgan,67355.0,10.0
+446,JP Morgan,115566.0,10.0
+447,JP Morgan,63619.0,10.0
+448,JP Morgan,207263.0,9.0
+449,JP Morgan,44216.0,9.0
+450,JP Morgan,49296.0,9.0
+451,JP Morgan,33716.0,9.0
+452,JP Morgan,72965.0,9.0
+453,JP Morgan,78670.0,9.0
+454,JP Morgan,65362.0,9.0
+455,JP Morgan,28918.0,8.0
+456,JP Morgan,65188.0,8.0
+457,JP Morgan,36741.0,8.0
+458,JP Morgan,120695.0,8.0
+459,JP Morgan,65224.0,8.0
+460,JP Morgan,63280.0,8.0
+461,JP Morgan,74938.0,8.0
+462,JP Morgan,120293.0,8.0
+463,JP Morgan,51042.0,8.0
+464,JP Morgan,43493.0,8.0
+465,JP Morgan,68577.0,8.0
+466,JP Morgan,119047.0,7.0
+467,JP Morgan,54794.0,7.0
+468,JP Morgan,46537.0,7.0
+469,JP Morgan,104770.0,7.0
+470,JP Morgan,32331.0,7.0
+471,JP Morgan,67647.0,7.0
+472,JP Morgan,52578.0,7.0
+473,JP Morgan,53907.0,7.0
+474,JP Morgan,19000.0,7.0
+475,JP Morgan,57835.0,7.0
+476,JP Morgan,31431.0,7.0
+477,JP Morgan,51393.0,7.0
+478,JP Morgan,29160.0,6.0
+479,JP Morgan,47506.0,6.0
+480,JP Morgan,45857.0,6.0
+481,JP Morgan,38457.0,6.0
+482,JP Morgan,51816.0,6.0
+483,JP Morgan,108741.0,6.0
+484,JP Morgan,95134.0,6.0
+485,JP Morgan,242392.0,6.0
+486,JP Morgan,49268.0,6.0
+487,JP Morgan,68477.0,6.0
+488,JP Morgan,49773.0,6.0
+489,JP Morgan,55497.0,6.0
+490,JP Morgan,81115.0,6.0
+491,JP Morgan,268247.0,6.0
+492,JP Morgan,46501.0,6.0
+493,JP Morgan,111973.0,6.0
+494,JP Morgan,112943.0,6.0
+495,JP Morgan,52393.0,6.0
+496,JP Morgan,56989.0,5.0
+497,JP Morgan,43792.0,5.0
+498,JP Morgan,95429.0,5.0
+499,JP Morgan,23100.0,5.0
+500,JP Morgan,35918.0,5.0
+501,JP Morgan,58339.0,5.0
+502,JP Morgan,37999.0,5.0
+503,JP Morgan,34031.0,5.0
+504,JP Morgan,117369.0,5.0
+505,JP Morgan,67299.0,5.0
+506,JP Morgan,55489.0,5.0
+507,JP Morgan,67432.0,5.0
+508,JP Morgan,102701.0,5.0
+509,JP Morgan,34750.0,5.0
+510,JP Morgan,70193.0,5.0
+511,JP Morgan,48148.0,5.0
+512,JP Morgan,31276.0,5.0
+513,JP Morgan,30810.0,5.0
+514,JP Morgan,122145.0,5.0
+515,JP Morgan,160012.0,5.0
+516,JP Morgan,122295.0,5.0
+517,JP Morgan,41011.0,5.0
+518,JP Morgan,52337.0,5.0
+519,JP Morgan,40900.0,5.0
+520,JP Morgan,130437.0,5.0
+521,JP Morgan,82692.0,5.0
+522,JP Morgan,121930.0,5.0
+523,JP Morgan,60188.0,5.0
+524,JP Morgan,91261.0,4.0
+525,JP Morgan,34492.0,4.0
+526,JP Morgan,92410.0,4.0
+527,JP Morgan,32343.0,4.0
+528,JP Morgan,66764.0,4.0
+529,JP Morgan,169277.0,4.0
+530,JP Morgan,33162.0,4.0
+531,JP Morgan,65088.0,4.0
+532,JP Morgan,55009.0,4.0
+533,JP Morgan,84216.0,4.0
+534,JP Morgan,73917.0,4.0
+535,JP Morgan,75402.0,4.0
+536,JP Morgan,50816.0,4.0
+537,JP Morgan,64881.0,4.0
+538,JP Morgan,52701.0,4.0
+539,JP Morgan,56702.0,4.0
+540,JP Morgan,30360.0,4.0
+541,JP Morgan,104915.0,4.0
+542,JP Morgan,45166.0,4.0
+543,JP Morgan,137327.0,4.0
+544,JP Morgan,35921.0,4.0
+545,JP Morgan,110911.0,4.0
+546,JP Morgan,67690.0,4.0
+547,JP Morgan,48803.0,4.0
+548,JP Morgan,29846.0,4.0
+549,JP Morgan,69824.0,4.0
+550,JP Morgan,120959.0,4.0
+551,JP Morgan,42604.0,4.0
+552,JP Morgan,181204.0,4.0
+553,JP Morgan,93267.0,4.0
+554,JP Morgan,45115.0,4.0
+555,JP Morgan,57598.0,4.0
+556,JP Morgan,62648.0,4.0
+557,JP Morgan,78822.0,4.0
+558,JP Morgan,47535.0,4.0
+559,JP Morgan,33849.0,4.0
+560,JP Morgan,86501.0,4.0
+561,JP Morgan,97516.0,4.0
+562,JP Morgan,82500.0,4.0
+563,JP Morgan,83216.0,3.0
+564,JP Morgan,57033.0,3.0
+565,JP Morgan,35606.0,3.0
+566,JP Morgan,52578.0,3.0
+567,JP Morgan,50041.0,3.0
+568,JP Morgan,57849.0,3.0
+569,JP Morgan,50000.0,3.0
+570,JP Morgan,47353.0,3.0
+571,JP Morgan,133303.0,3.0
+572,JP Morgan,38903.0,3.0
+573,JP Morgan,29443.0,3.0
+574,JP Morgan,26289.0,3.0
+575,JP Morgan,40198.0,3.0
+576,JP Morgan,73005.0,3.0
+577,JP Morgan,118511.0,3.0
+578,JP Morgan,165441.0,3.0
+579,JP Morgan,150000.0,3.0
+580,JP Morgan,65578.0,3.0
+581,JP Morgan,164584.0,3.0
+582,JP Morgan,62862.0,3.0
+583,JP Morgan,53376.0,3.0
+584,JP Morgan,37272.0,3.0
+585,JP Morgan,64385.0,3.0
+586,JP Morgan,28319.0,3.0
+587,Barclays,99759.0,404.0
+588,Barclays,44216.0,317.0
+589,Barclays,64694.0,272.0
+590,Barclays,170231.0,226.0
+591,Barclays,46069.0,182.0
+592,Barclays,18808.0,136.0
+593,Barclays,24717.0,129.0
+594,Barclays,61719.0,118.0
+595,Barclays,23482.0,81.0
+596,Barclays,62862.0,80.0
+597,Barclays,41075.0,75.0
+598,Barclays,56371.0,72.0
+599,Barclays,45869.0,70.0
+600,Barclays,52253.0,64.0
+601,Barclays,65884.0,63.0
+602,Barclays,53357.0,62.0
+603,Barclays,19347.0,61.0
+604,Barclays,40593.0,60.0
+605,Barclays,37753.0,59.0
+606,Barclays,46093.0,59.0
+607,Barclays,108813.0,58.0
+608,Barclays,46664.0,56.0
+609,Barclays,56237.0,51.0
+610,Barclays,49233.0,50.0
+611,Barclays,22871.0,48.0
+612,Barclays,92764.0,47.0
+613,Barclays,56223.0,47.0
+614,Barclays,18556.0,45.0
+615,Barclays,46066.0,41.0
+616,Barclays,18026.0,41.0
+617,Barclays,40093.0,41.0
+618,Barclays,31189.0,40.0
+619,Barclays,79713.0,38.0
+620,Barclays,77828.0,37.0
+621,Barclays,68351.0,37.0
+622,Barclays,34918.0,36.0
+623,Barclays,24402.0,36.0
+624,Barclays,60672.0,36.0
+625,Barclays,34199.0,35.0
+626,Barclays,31683.0,35.0
+627,Barclays,38689.0,33.0
+628,Barclays,104135.0,32.0
+629,Barclays,24183.0,32.0
+630,Barclays,86968.0,31.0
+631,Barclays,24387.0,30.0
+632,Barclays,341645.0,30.0
+633,Barclays,68577.0,29.0
+634,Barclays,19697.0,29.0
+635,Barclays,32856.0,29.0
+636,Barclays,93959.0,28.0
+637,Barclays,70878.0,28.0
+638,Barclays,38484.0,28.0
+639,Barclays,40441.0,27.0
+640,Barclays,51536.0,27.0
+641,Barclays,42062.0,26.0
+642,Barclays,109388.0,26.0
+643,Barclays,59037.0,25.0
+644,Barclays,48592.0,24.0
+645,Barclays,51154.0,24.0
+646,Barclays,52674.0,24.0
+647,Barclays,22693.0,24.0
+648,Barclays,24053.0,23.0
+649,Barclays,77378.0,22.0
+650,Barclays,22944.0,22.0
+651,Barclays,40100.0,22.0
+652,Barclays,46019.0,22.0
+653,Barclays,89547.0,21.0
+654,Barclays,43500.0,21.0
+655,Barclays,21750.0,21.0
+656,Barclays,68921.0,21.0
+657,Barclays,43011.0,21.0
+658,Barclays,23391.0,20.0
+659,Barclays,144734.0,20.0
+660,Barclays,22551.0,20.0
+661,Barclays,44328.0,19.0
+662,Barclays,55275.0,19.0
+663,Barclays,47994.0,19.0
+664,Barclays,73339.0,19.0
+665,Barclays,39705.0,19.0
+666,Barclays,45100.0,18.0
+667,Barclays,36574.0,17.0
+668,Barclays,54500.0,17.0
+669,Barclays,52578.0,17.0
+670,Barclays,61581.0,17.0
+671,Barclays,40398.0,17.0
+672,Barclays,145835.0,16.0
+673,Barclays,42610.0,16.0
+674,Barclays,46537.0,16.0
+675,Barclays,66026.0,16.0
+676,Barclays,59664.0,16.0
+677,Barclays,48616.0,16.0
+678,Barclays,62608.0,16.0
+679,Barclays,84703.0,16.0
+680,Barclays,81207.0,16.0
+681,Barclays,65140.0,16.0
+682,Barclays,24387.0,15.0
+683,Barclays,61621.0,15.0
+684,Barclays,78578.0,15.0
+685,Barclays,74762.0,15.0
+686,Barclays,54137.0,14.0
+687,Barclays,83700.0,14.0
+688,Barclays,42335.0,14.0
+689,Barclays,174978.0,14.0
+690,Barclays,32132.0,14.0
+691,Barclays,52674.0,13.0
+692,Barclays,39347.0,13.0
+693,Barclays,21770.0,13.0
+694,Barclays,39959.0,13.0
+695,Barclays,79689.0,13.0
+696,Barclays,39000.0,13.0
+697,Barclays,46004.0,12.0
+698,Barclays,31288.0,12.0
+699,Barclays,20485.0,12.0
+700,Barclays,44375.0,12.0
+701,Barclays,19257.0,12.0
+702,Barclays,68511.0,12.0
+703,Barclays,30023.0,12.0
+704,Barclays,133591.0,12.0
+705,Barclays,66339.0,11.0
+706,Barclays,98080.0,11.0
+707,Barclays,98846.0,11.0
+708,Barclays,22687.0,11.0
+709,Barclays,56486.0,11.0
+710,Barclays,88973.0,11.0
+711,Barclays,82161.0,11.0
+712,Barclays,22594.0,11.0
+713,Barclays,47003.0,11.0
+714,Barclays,41984.0,11.0
+715,Barclays,42674.0,10.0
+716,Barclays,37573.0,10.0
+717,Barclays,18699.0,10.0
+718,Barclays,42738.0,10.0
+719,Barclays,24832.0,10.0
+720,Barclays,100093.0,10.0
+721,Barclays,58783.0,10.0
+722,Barclays,39216.0,10.0
+723,Barclays,43894.0,10.0
+724,Barclays,52055.0,10.0
+725,Barclays,53207.0,9.0
+726,Barclays,54531.0,9.0
+727,Barclays,24457.0,9.0
+728,Barclays,132010.0,9.0
+729,Barclays,23088.0,9.0
+730,Barclays,29058.0,9.0
+731,Barclays,73005.0,9.0
+732,Barclays,54933.0,9.0
+733,Barclays,102250.0,9.0
+734,Barclays,51484.0,9.0
+735,Barclays,51587.0,9.0
+736,Barclays,32410.0,9.0
+737,Barclays,32220.0,9.0
+738,Barclays,92705.0,9.0
+739,Barclays,22000.0,9.0
+740,Barclays,41908.0,9.0
+741,Barclays,46914.0,9.0
+742,Barclays,30536.0,9.0
+743,Barclays,54781.0,9.0
+744,Barclays,47060.0,9.0
+745,Barclays,55667.0,9.0
+746,Barclays,42160.0,8.0
+747,Barclays,42062.0,8.0
+748,Barclays,49225.0,8.0
+749,Barclays,27911.0,8.0
+750,Barclays,36437.0,8.0
+751,Barclays,25251.0,8.0
+752,Barclays,48618.0,8.0
+753,Barclays,22974.0,8.0
+754,Barclays,25426.0,8.0
+755,Barclays,54290.0,8.0
+756,Barclays,24340.0,8.0
+757,Barclays,65459.0,8.0
+758,Barclays,22548.0,8.0
+759,Barclays,70415.0,8.0
+760,Barclays,52481.0,8.0
+761,Barclays,38880.0,8.0
+762,Barclays,44131.0,8.0
+763,Barclays,22676.0,8.0
+764,Barclays,78544.0,8.0
+765,Barclays,23564.0,8.0
+766,Barclays,61467.0,8.0
+767,Barclays,21934.0,8.0
+768,Barclays,42707.0,8.0
+769,Barclays,38992.0,8.0
+770,Barclays,27716.0,8.0
+771,Barclays,42354.0,7.0
+772,Barclays,77157.0,7.0
+773,Barclays,83401.0,7.0
+774,Barclays,152545.0,7.0
+775,Barclays,56989.0,7.0
+776,Barclays,57147.0,7.0
+777,Barclays,40824.0,7.0
+778,Barclays,66756.0,7.0
+779,Barclays,53629.0,7.0
+780,Barclays,23406.0,7.0
+781,Barclays,24685.0,7.0
+782,Barclays,234304.0,7.0
+783,Barclays,42699.0,7.0
+784,Barclays,78630.0,7.0
+785,Barclays,55489.0,7.0
+786,Barclays,22108.0,7.0
+787,UBS,84860.0,186.0
+788,UBS,118713.0,170.0
+789,UBS,54017.0,72.0
+790,UBS,183888.0,65.0
+791,UBS,62090.0,54.0
+792,UBS,61900.0,52.0
+793,UBS,37206.0,48.0
+794,UBS,64621.0,46.0
+795,UBS,91302.0,35.0
+796,UBS,76004.0,33.0
+797,UBS,60534.0,27.0
+798,UBS,120761.0,24.0
+799,UBS,124241.0,21.0
+800,UBS,52109.0,20.0
+801,UBS,65738.0,19.0
+802,UBS,84009.0,19.0
+803,UBS,126186.0,19.0
+804,UBS,43709.0,17.0
+805,UBS,84957.0,16.0
+806,UBS,84124.0,16.0
+807,UBS,53506.0,16.0
+808,UBS,88152.0,14.0
+809,UBS,58477.0,14.0
+810,UBS,97961.0,12.0
+811,UBS,76345.0,12.0
+812,UBS,96423.0,12.0
+813,UBS,48550.0,11.0
+814,UBS,53209.0,11.0
+815,UBS,366360.0,11.0
+816,UBS,41080.0,10.0
+817,UBS,86166.0,10.0
+818,UBS,35217.0,10.0
+819,UBS,64754.0,10.0
+820,UBS,63144.0,10.0
+821,UBS,68577.0,10.0
+822,UBS,104293.0,9.0
+823,UBS,55489.0,9.0
+824,UBS,57000.0,8.0
+825,UBS,120212.0,8.0
+826,UBS,48489.0,7.0
+827,UBS,118041.0,7.0
+828,UBS,176446.0,7.0
+829,UBS,46819.0,7.0
+830,UBS,52535.0,7.0
+831,UBS,36478.0,7.0
+832,UBS,62585.0,6.0
+833,UBS,167184.0,6.0
+834,UBS,61659.0,6.0
+835,UBS,48096.0,6.0
+836,UBS,57147.0,6.0
+837,UBS,56650.0,6.0
+838,UBS,44575.0,6.0
+839,UBS,112522.0,6.0
+840,UBS,130851.0,6.0
+841,UBS,78933.0,6.0
+842,UBS,49215.0,6.0
+843,UBS,140795.0,6.0
+844,UBS,22042.0,6.0
+845,UBS,59837.0,5.0
+846,UBS,88007.0,5.0
+847,UBS,101010.0,5.0
+848,UBS,46382.0,5.0
+849,UBS,104293.0,5.0
+850,UBS,46751.0,5.0
+851,UBS,43473.0,5.0
+852,UBS,41228.0,5.0
+853,UBS,152500.0,5.0
+854,UBS,101147.0,5.0
+855,UBS,128884.0,5.0
+856,UBS,111334.0,5.0
+857,UBS,69794.0,4.0
+858,UBS,67700.0,4.0
+859,UBS,125120.0,4.0
+860,UBS,156457.0,4.0
+861,UBS,46563.0,4.0
+862,UBS,69064.0,4.0
+863,UBS,64032.0,4.0
+864,UBS,86087.0,4.0
+865,UBS,216818.0,4.0
+866,UBS,49696.0,4.0
+867,UBS,207159.0,4.0
+868,UBS,170825.0,4.0
+869,UBS,128036.0,4.0
+870,UBS,21823.0,4.0
+871,UBS,83863.0,4.0
+872,UBS,75881.0,4.0
+873,UBS,169797.0,4.0
+874,UBS,50761.0,4.0
+875,UBS,60005.0,4.0
+876,UBS,67297.0,4.0
+877,UBS,44767.0,4.0
+878,UBS,74223.0,3.0
+879,UBS,96007.0,3.0
+880,UBS,27431.0,3.0
+881,UBS,62151.0,3.0
+882,UBS,46721.0,3.0
+883,UBS,97890.0,3.0
+884,UBS,48209.0,3.0
+885,UBS,47795.0,3.0
+886,UBS,78785.0,3.0
+887,UBS,65564.0,3.0
+888,UBS,45999.0,3.0
+889,UBS,131416.0,3.0
+890,UBS,78219.0,3.0
+891,UBS,67620.0,3.0
+892,UBS,45547.0,3.0
+893,UBS,82629.0,3.0
+894,UBS,65000.0,3.0
+895,UBS,122338.0,3.0
+896,UBS,41912.0,3.0
+897,UBS,45219.0,3.0
+898,UBS,146428.0,3.0
+899,UBS,52674.0,3.0
+900,UBS,64335.0,3.0
+901,UBS,41831.0,3.0
+902,UBS,73671.0,3.0
+903,UBS,56324.0,3.0
+904,UBS,54017.0,3.0
+905,UBS,120265.0,3.0
+906,UBS,158144.0,3.0
+907,UBS,41908.0,3.0
+908,UBS,67700.0,3.0
+909,UBS,46698.0,3.0
+910,UBS,60841.0,3.0
+911,UBS,102060.0,3.0
+912,UBS,42062.0,3.0
+913,UBS,41187.0,3.0
+914,UBS,110540.0,3.0
+915,UBS,49152.0,3.0
+916,UBS,80918.0,3.0
+917,UBS,198464.0,3.0
+918,UBS,169458.0,3.0
+919,UBS,45804.0,3.0
+920,UBS,71163.0,3.0
+921,UBS,130723.0,3.0
+922,UBS,71851.0,3.0
+923,UBS,144155.0,3.0
+924,UBS,78053.0,3.0
+925,UBS,116023.0,3.0
+926,UBS,88933.0,3.0
+927,UBS,86000.0,2.0
+928,UBS,95500.0,2.0
+929,UBS,58000.0,2.0
+930,UBS,88500.0,2.0
+931,UBS,72500.0,2.0
+932,UBS,53000.0,2.0
+933,UBS,55000.0,2.0
+934,UBS,52500.0,2.0
+935,UBS,74000.0,2.0
+936,UBS,85000.0,2.0
+937,UBS,109000.0,2.0
+938,UBS,108500.0,2.0
+939,UBS,65000.0,2.0
+940,UBS,47000.0,2.0
+941,UBS,52500.0,2.0
+942,UBS,109000.0,2.0
+943,UBS,175500.0,2.0
+944,UBS,96000.0,2.0
+945,UBS,68000.0,2.0
+946,UBS,79000.0,2.0
+947,UBS,64000.0,2.0
+948,UBS,140500.0,2.0
+949,UBS,117500.0,2.0
+950,UBS,58500.0,2.0
+951,UBS,45500.0,2.0
+952,UBS,83500.0,2.0
+953,UBS,94000.0,2.0
+954,UBS,87000.0,2.0
+955,UBS,118500.0,2.0
+956,UBS,82000.0,2.0
+957,UBS,120000.0,2.0
+958,UBS,135000.0,2.0
+959,UBS,38000.0,2.0
+960,UBS,106000.0,2.0
+961,UBS,42500.0,2.0
+962,UBS,54000.0,2.0
+963,UBS,127000.0,2.0
+964,UBS,252500.0,2.0
+965,UBS,165000.0,2.0
+966,UBS,73000.0,2.0
+967,UBS,103000.0,2.0
+968,UBS,70000.0,2.0
+969,UBS,55000.0,2.0
+970,UBS,52000.0,2.0
+971,UBS,80000.0,2.0
+972,UBS,57500.0,2.0
+973,UBS,126000.0,2.0
+974,UBS,33500.0,2.0
+975,UBS,127500.0,2.0
+976,UBS,89500.0,2.0
+977,UBS,52000.0,2.0
+978,UBS,36500.0,2.0
+979,UBS,56000.0,2.0
+980,UBS,50500.0,2.0
+981,UBS,81500.0,2.0
+982,UBS,34000.0,2.0
+983,UBS,38000.0,2.0
+984,Credit Suisse,121395.0,113.0
+985,Credit Suisse,58600.0,77.0
+986,Credit Suisse,179957.0,76.0
+987,Credit Suisse,111011.0,50.0
+988,Credit Suisse,75345.0,39.0
+989,Credit Suisse,62179.0,33.0
+990,Credit Suisse,70825.0,29.0
+991,Credit Suisse,83739.0,29.0
+992,Credit Suisse,71284.0,27.0
+993,Credit Suisse,51561.0,20.0
+994,Credit Suisse,167775.0,19.0
+995,Credit Suisse,121702.0,19.0
+996,Credit Suisse,51030.0,19.0
+997,Credit Suisse,47449.0,18.0
+998,Credit Suisse,83942.0,14.0
+999,Credit Suisse,53571.0,12.0
+1000,Credit Suisse,69652.0,12.0
+1001,Credit Suisse,133422.0,12.0
+1002,Credit Suisse,121427.0,11.0
+1003,Credit Suisse,93268.0,10.0
+1004,Credit Suisse,83324.0,10.0
+1005,Credit Suisse,154756.0,10.0
+1006,Credit Suisse,74870.0,9.0
+1007,Credit Suisse,78483.0,9.0
+1008,Credit Suisse,93826.0,9.0
+1009,Credit Suisse,59837.0,9.0
+1010,Credit Suisse,100723.0,8.0
+1011,Credit Suisse,52274.0,8.0
+1012,Credit Suisse,53407.0,7.0
+1013,Credit Suisse,65000.0,7.0
+1014,Credit Suisse,76863.0,7.0
+1015,Credit Suisse,65676.0,6.0
+1016,Credit Suisse,73295.0,6.0
+1017,Credit Suisse,43884.0,6.0
+1018,Credit Suisse,146746.0,6.0
+1019,Credit Suisse,51691.0,6.0
+1020,Credit Suisse,81973.0,6.0
+1021,Credit Suisse,63143.0,6.0
+1022,Credit Suisse,99965.0,6.0
+1023,Credit Suisse,388440.0,6.0
+1024,Credit Suisse,99415.0,6.0
+1025,Credit Suisse,56822.0,6.0
+1026,Credit Suisse,270965.0,6.0
+1027,Credit Suisse,55972.0,5.0
+1028,Credit Suisse,64832.0,5.0
+1029,Credit Suisse,56173.0,5.0
+1030,Credit Suisse,120009.0,5.0
+1031,Credit Suisse,103791.0,5.0
+1032,Credit Suisse,145162.0,5.0
+1033,Credit Suisse,91711.0,5.0
+1034,Credit Suisse,59336.0,5.0
+1035,Credit Suisse,48000.0,5.0
+1036,Credit Suisse,116494.0,5.0
+1037,Credit Suisse,93268.0,5.0
+1038,Credit Suisse,52535.0,5.0
+1039,Credit Suisse,141310.0,5.0
+1040,Credit Suisse,128376.0,5.0
+1041,Credit Suisse,112270.0,5.0
+1042,Credit Suisse,191632.0,5.0
+1043,Credit Suisse,52371.0,4.0
+1044,Credit Suisse,59033.0,4.0
+1045,Credit Suisse,115600.0,4.0
+1046,Credit Suisse,160714.0,4.0
+1047,Credit Suisse,61074.0,4.0
+1048,Credit Suisse,43758.0,4.0
+1049,Credit Suisse,76977.0,4.0
+1050,Credit Suisse,108207.0,4.0
+1051,Credit Suisse,71646.0,4.0
+1052,Credit Suisse,96299.0,4.0
+1053,Credit Suisse,46969.0,4.0
+1054,Credit Suisse,169473.0,4.0
+1055,Credit Suisse,41605.0,4.0
+1056,Credit Suisse,117918.0,4.0
+1057,Credit Suisse,136924.0,4.0
+1058,Credit Suisse,66127.0,4.0
+1059,Credit Suisse,85226.0,3.0
+1060,Credit Suisse,79524.0,3.0
+1061,Credit Suisse,51433.0,3.0
+1062,Credit Suisse,106141.0,3.0
+1063,Credit Suisse,176315.0,3.0
+1064,Credit Suisse,188029.0,3.0
+1065,Credit Suisse,67432.0,3.0
+1066,Credit Suisse,72543.0,3.0
+1067,Credit Suisse,162494.0,3.0
+1068,Credit Suisse,50974.0,3.0
+1069,Credit Suisse,123241.0,3.0
+1070,Credit Suisse,104579.0,3.0
+1071,Credit Suisse,52337.0,3.0
+1072,Credit Suisse,127239.0,3.0
+1073,Credit Suisse,153990.0,3.0
+1074,Credit Suisse,163118.0,3.0
+1075,Credit Suisse,116744.0,3.0
+1076,Credit Suisse,56817.0,3.0
+1077,Credit Suisse,95940.0,3.0
+1078,Credit Suisse,59558.0,3.0
+1079,Credit Suisse,62737.0,3.0
+1080,Credit Suisse,198972.0,3.0
+1081,Credit Suisse,75925.0,3.0
+1082,Credit Suisse,59732.0,3.0
+1083,Credit Suisse,53016.0,3.0
+1084,Credit Suisse,82161.0,3.0
+1085,Credit Suisse,31810.0,3.0
+1086,Credit Suisse,93346.0,3.0
+1087,Credit Suisse,44453.0,3.0
+1088,Credit Suisse,55489.0,3.0
+1089,Credit Suisse,169914.0,3.0
+1090,Credit Suisse,74641.0,3.0
+1091,Credit Suisse,209016.0,3.0
+1092,Credit Suisse,119058.0,3.0
+1093,Credit Suisse,76618.0,3.0
+1094,Credit Suisse,98589.0,3.0
+1095,Credit Suisse,72956.0,3.0
+1096,Credit Suisse,157500.0,2.0
+1097,Credit Suisse,48500.0,2.0
+1098,Credit Suisse,90500.0,2.0
+1099,Credit Suisse,98000.0,2.0
+1100,Credit Suisse,94500.0,2.0
+1101,Credit Suisse,61500.0,2.0
+1102,Credit Suisse,215000.0,2.0
+1103,Credit Suisse,40500.0,2.0
+1104,Credit Suisse,62000.0,2.0
+1105,Credit Suisse,89500.0,2.0
+1106,Credit Suisse,93500.0,2.0
+1107,Credit Suisse,91500.0,2.0
+1108,Credit Suisse,53500.0,2.0
+1109,Credit Suisse,154500.0,2.0
+1110,Credit Suisse,88000.0,2.0
+1111,Credit Suisse,41500.0,2.0
+1112,Credit Suisse,159000.0,2.0
+1113,Credit Suisse,95000.0,2.0
+1114,Credit Suisse,59000.0,2.0
+1115,Credit Suisse,114000.0,2.0
+1116,Credit Suisse,110000.0,2.0
+1117,Credit Suisse,72500.0,2.0
+1118,Credit Suisse,110500.0,2.0
+1119,Credit Suisse,56000.0,2.0
+1120,Credit Suisse,64000.0,2.0
+1121,Credit Suisse,169000.0,2.0
+1122,Credit Suisse,151500.0,2.0
+1123,Credit Suisse,206000.0,2.0
+1124,Credit Suisse,179500.0,2.0
+1125,Credit Suisse,100000.0,2.0
+1126,Credit Suisse,141000.0,2.0
+1127,Credit Suisse,69500.0,2.0
+1128,Credit Suisse,226500.0,2.0
+1129,Credit Suisse,65000.0,2.0
+1130,Credit Suisse,154500.0,2.0
+1131,Credit Suisse,117000.0,2.0
+1132,Credit Suisse,66500.0,2.0
+1133,Credit Suisse,85500.0,2.0
+1134,Credit Suisse,56500.0,2.0
+1135,Credit Suisse,81500.0,2.0
+1136,Credit Suisse,84500.0,2.0
+1137,Credit Suisse,50500.0,2.0
+1138,Credit Suisse,48000.0,2.0
+1139,Credit Suisse,41500.0,2.0
+1140,Credit Suisse,79500.0,2.0
+1141,Credit Suisse,52500.0,2.0
+1142,Credit Suisse,59500.0,2.0
+1143,Credit Suisse,99000.0,2.0
+1144,Credit Suisse,103500.0,2.0
+1145,Credit Suisse,293500.0,2.0
+1146,Credit Suisse,67000.0,2.0
+1147,Credit Suisse,89500.0,2.0
+1148,Credit Suisse,161000.0,2.0
+1149,Credit Suisse,64000.0,2.0
+1150,Credit Suisse,179000.0,2.0
+1151,Credit Suisse,71500.0,2.0
+1152,Credit Suisse,107500.0,2.0
+1153,Credit Suisse,262000.0,2.0
+1154,Credit Suisse,170500.0,2.0
+1155,Credit Suisse,57500.0,2.0
+1156,Credit Suisse,75500.0,2.0
+1157,Credit Suisse,55500.0,2.0
+1158,Credit Suisse,61000.0,2.0
+1159,Credit Suisse,42000.0,1.0
+1160,Credit Suisse,236500.0,1.0
+1161,Credit Suisse,205000.0,1.0
+1162,Credit Suisse,132500.0,1.0
+1163,Credit Suisse,46500.0,1.0
+1164,Credit Suisse,89000.0,1.0
+1165,Credit Suisse,20500.0,1.0
+1166,Credit Suisse,90000.0,1.0
+1167,Credit Suisse,55500.0,1.0
+1168,Credit Suisse,35500.0,1.0
+1169,Credit Suisse,189500.0,1.0
+1170,Credit Suisse,75500.0,1.0
+1171,Credit Suisse,64500.0,1.0
+1172,Credit Suisse,53500.0,1.0
+1173,Credit Suisse,129500.0,1.0
+1174,Credit Suisse,51000.0,1.0
+1175,Credit Suisse,83000.0,1.0
+1176,Credit Suisse,246500.0,1.0
+1177,Credit Suisse,47000.0,1.0
+1178,Credit Suisse,62000.0,1.0
+1179,Credit Suisse,128500.0,1.0
+1180,Credit Suisse,23000.0,1.0
+1181,Credit Suisse,91500.0,1.0
+1182,Citi,98640.0,228.0
+1183,Citi,53016.0,150.0
+1184,Citi,52342.0,74.0
+1185,Citi,76303.0,57.0
+1186,Citi,118776.0,46.0
+1187,Citi,205116.0,45.0
+1188,Citi,53095.0,44.0
+1189,Citi,97558.0,41.0
+1190,Citi,24088.0,37.0
+1191,Citi,127090.0,34.0
+1192,Citi,51433.0,32.0
+1193,Citi,47268.0,32.0
+1194,Citi,39145.0,31.0
+1195,Citi,34938.0,29.0
+1196,Citi,81884.0,26.0
+1197,Citi,56000.0,25.0
+1198,Citi,155577.0,21.0
+1199,Citi,51433.0,20.0
+1200,Citi,28951.0,19.0
+1201,Citi,132589.0,18.0
+1202,Citi,65821.0,16.0
+1203,Citi,65634.0,16.0
+1204,Citi,44888.0,16.0
+1205,Citi,54196.0,16.0
+1206,Citi,35945.0,16.0
+1207,Citi,48775.0,15.0
+1208,Citi,30600.0,15.0
+1209,Citi,72750.0,14.0
+1210,Citi,41064.0,14.0
+1211,Citi,83381.0,14.0
+1212,Citi,50475.0,13.0
+1213,Citi,67432.0,13.0
+1214,Citi,29984.0,13.0
+1215,Citi,78362.0,12.0
+1216,Citi,91711.0,11.0
+1217,Citi,49743.0,10.0
+1218,Citi,45476.0,10.0
+1219,Citi,378534.0,10.0
+1220,Citi,105362.0,9.0
+1221,Citi,57147.0,9.0
+1222,Citi,30585.0,9.0
+1223,Citi,29744.0,9.0
+1224,Citi,28911.0,9.0
+1225,Citi,119289.0,8.0
+1226,Citi,59324.0,8.0
+1227,Citi,42000.0,8.0
+1228,Citi,44758.0,8.0
+1229,Citi,32410.0,8.0
+1230,Citi,52723.0,8.0
+1231,Citi,130550.0,8.0
+1232,Citi,53950.0,8.0
+1233,Citi,67163.0,8.0
+1234,Citi,51030.0,7.0
+1235,Citi,144806.0,7.0
+1236,Citi,29526.0,7.0
+1237,Citi,59053.0,7.0
+1238,Citi,26522.0,7.0
+1239,Citi,45927.0,7.0
+1240,Citi,25849.0,7.0
+1241,Citi,102288.0,6.0
+1242,Citi,44972.0,6.0
+1243,Citi,93395.0,6.0
+1244,Citi,80870.0,6.0
+1245,Citi,38108.0,6.0
+1246,Citi,68000.0,6.0
+1247,Citi,112761.0,6.0
+1248,Citi,52412.0,6.0
+1249,Citi,42897.0,6.0
+1250,Citi,57765.0,6.0
+1251,Citi,27959.0,6.0
+1252,Citi,109807.0,6.0
+1253,Citi,72397.0,6.0
+1254,Citi,83551.0,5.0
+1255,Citi,99657.0,5.0
+1256,Citi,52991.0,5.0
+1257,Citi,89985.0,5.0
+1258,Citi,43385.0,5.0
+1259,Citi,58753.0,5.0
+1260,Citi,130400.0,5.0
+1261,Citi,35342.0,5.0
+1262,Citi,75964.0,5.0
+1263,Citi,46312.0,4.0
+1264,Citi,44368.0,4.0
+1265,Citi,25221.0,4.0
+1266,Citi,59386.0,4.0
+1267,Citi,63424.0,4.0
+1268,Citi,31019.0,4.0
+1269,Citi,52194.0,4.0
+1270,Citi,129129.0,4.0
+1271,Citi,94766.0,4.0
+1272,Citi,81746.0,4.0
+1273,Citi,25125.0,4.0
+1274,Citi,56145.0,4.0
+1275,Citi,60346.0,4.0
+1276,Citi,80196.0,4.0
+1277,Citi,85840.0,4.0
+1278,Citi,24000.0,4.0
+1279,Citi,30967.0,4.0
+1280,Citi,71773.0,4.0
+1281,Citi,26334.0,4.0
+1282,Citi,34482.0,4.0
+1283,Citi,45870.0,4.0
+1284,Citi,78616.0,4.0
+1285,Citi,98648.0,4.0
+1286,Citi,30735.0,4.0
+1287,Citi,51762.0,4.0
+1288,Citi,149921.0,4.0
+1289,Citi,31547.0,4.0
+1290,Citi,72062.0,4.0
+1291,Citi,45164.0,4.0
+1292,Citi,51808.0,4.0
+1293,Citi,22785.0,4.0
+1294,Citi,29061.0,4.0
+1295,Citi,91542.0,4.0
+1296,Citi,42892.0,4.0
+1297,Citi,108466.0,4.0
+1298,Citi,36056.0,4.0
+1299,Citi,51677.0,4.0
+1300,Citi,56686.0,4.0
+1301,Citi,21938.0,3.0
+1302,Citi,110540.0,3.0
+1303,Citi,124378.0,3.0
+1304,Citi,28288.0,3.0
+1305,Citi,26179.0,3.0
+1306,Citi,47320.0,3.0
+1307,Citi,96285.0,3.0
+1308,Citi,86428.0,3.0
+1309,Citi,61072.0,3.0
+1310,Citi,42256.0,3.0
+1311,Citi,112290.0,3.0
+1312,Citi,51536.0,3.0
+1313,Citi,34238.0,3.0
+1314,Citi,46794.0,3.0
+1315,Citi,29068.0,3.0
+1316,Citi,32688.0,3.0
+1317,Citi,48575.0,3.0
+1318,Citi,25684.0,3.0
+1319,Citi,64661.0,3.0
+1320,Citi,88087.0,3.0
+1321,Citi,51899.0,3.0
+1322,Citi,76357.0,3.0
+1323,Citi,22108.0,3.0
+1324,Citi,81430.0,3.0
+1325,Citi,31182.0,3.0
+1326,Citi,25424.0,3.0
+1327,Citi,22267.0,3.0
+1328,Citi,41394.0,3.0
+1329,Citi,95627.0,3.0
+1330,Citi,48148.0,3.0
+1331,Citi,110540.0,3.0
+1332,Citi,99232.0,3.0
+1333,Citi,26367.0,3.0
+1334,Citi,36574.0,3.0
+1335,Citi,52107.0,3.0
+1336,Citi,26981.0,3.0
+1337,Citi,188586.0,3.0
+1338,Citi,26465.0,3.0
+1339,Citi,25900.0,3.0
+1340,Citi,20229.0,3.0
+1341,Citi,46000.0,3.0
+1342,Citi,114295.0,3.0
+1343,Citi,51816.0,3.0
+1344,Citi,135873.0,3.0
+1345,Citi,49409.0,3.0
+1346,Citi,52578.0,3.0
+1347,Citi,180255.0,3.0
+1348,Citi,81393.0,3.0
+1349,Citi,63619.0,3.0
+1350,Citi,39973.0,3.0
+1351,Citi,114522.0,3.0
+1352,Citi,52578.0,3.0
+1353,Citi,73226.0,3.0
+1354,Citi,82284.0,3.0
+1355,Citi,43114.0,3.0
+1356,Citi,43000.0,2.0
+1357,Citi,35500.0,2.0
+1358,Citi,34000.0,2.0
+1359,Citi,77500.0,2.0
+1360,Citi,47000.0,2.0
+1361,Citi,289500.0,2.0
+1362,Citi,44000.0,2.0
+1363,Citi,64500.0,2.0
+1364,Citi,65000.0,2.0
+1365,Citi,33000.0,2.0
+1366,Citi,62500.0,2.0
+1367,Citi,69000.0,2.0
+1368,Citi,148000.0,2.0
+1369,Citi,193000.0,2.0
+1370,Citi,45000.0,2.0
+1371,Citi,150500.0,2.0
+1372,Citi,51500.0,2.0
+1373,Citi,55500.0,2.0
+1374,Citi,28500.0,2.0
+1375,Citi,55000.0,2.0
+1376,Citi,50000.0,2.0
+1377,Citi,113000.0,2.0
+1378,Citi,84500.0,2.0
+1379,Citi,208500.0,2.0
+1380,Citi,31500.0,2.0
+1381,Bank of America,106032.0,90.0
+1382,Bank of America,57571.0,81.0
+1383,Bank of America,167285.0,54.0
+1384,Bank of America,65000.0,45.0
+1385,Bank of America,81265.0,38.0
+1386,Bank of America,106032.0,36.0
+1387,Bank of America,100480.0,22.0
+1388,Bank of America,50200.0,22.0
+1389,Bank of America,31074.0,22.0
+1390,Bank of America,45855.0,19.0
+1391,Bank of America,66756.0,17.0
+1392,Bank of America,68117.0,15.0
+1393,Bank of America,41270.0,14.0
+1394,Bank of America,48100.0,14.0
+1395,Bank of America,82161.0,14.0
+1396,Bank of America,60005.0,14.0
+1397,Bank of America,69099.0,14.0
+1398,Bank of America,168850.0,10.0
+1399,Bank of America,63056.0,10.0
+1400,Bank of America,31959.0,10.0
+1401,Bank of America,52772.0,9.0
+1402,Bank of America,48921.0,9.0
+1403,Bank of America,59185.0,9.0
+1404,Bank of America,115670.0,8.0
+1405,Bank of America,85836.0,7.0
+1406,Bank of America,75883.0,7.0
+1407,Bank of America,52578.0,7.0
+1408,Bank of America,54088.0,7.0
+1409,Bank of America,49862.0,6.0
+1410,Bank of America,35345.0,6.0
+1411,Bank of America,117807.0,6.0
+1412,Bank of America,129299.0,6.0
+1413,Bank of America,111756.0,6.0
+1414,Bank of America,53227.0,6.0
+1415,Bank of America,49605.0,6.0
+1416,Bank of America,126359.0,6.0
+1417,Bank of America,21651.0,6.0
+1418,Bank of America,66215.0,6.0
+1419,Bank of America,75000.0,6.0
+1420,Bank of America,47535.0,5.0
+1421,Bank of America,43214.0,5.0
+1422,Bank of America,109807.0,5.0
+1423,Bank of America,52535.0,5.0
+1424,Bank of America,79524.0,5.0
+1425,Bank of America,47051.0,4.0
+1426,Bank of America,169965.0,4.0
+1427,Bank of America,100260.0,4.0
+1428,Bank of America,106565.0,4.0
+1429,Bank of America,139902.0,4.0
+1430,Bank of America,46664.0,4.0
+1431,Bank of America,37813.0,4.0
+1432,Bank of America,29719.0,4.0
+1433,Bank of America,26674.0,4.0
+1434,Bank of America,72581.0,4.0
+1435,Bank of America,45651.0,4.0
+1436,Bank of America,48207.0,4.0
+1437,Bank of America,74387.0,4.0
+1438,Bank of America,119028.0,4.0
+1439,Bank of America,38686.0,4.0
+1440,Bank of America,51932.0,4.0
+1441,Bank of America,109470.0,4.0
+1442,Bank of America,67772.0,3.0
+1443,Bank of America,58372.0,3.0
+1444,Bank of America,23327.0,3.0
+1445,Bank of America,43475.0,3.0
+1446,Bank of America,48775.0,3.0
+1447,Bank of America,62455.0,3.0
+1448,Bank of America,116876.0,3.0
+1449,Bank of America,130723.0,3.0
+1450,Bank of America,52437.0,3.0
+1451,Bank of America,76340.0,3.0
+1452,Bank of America,160610.0,3.0
+1453,Bank of America,95341.0,3.0
+1454,Bank of America,111828.0,3.0
+1455,Bank of America,47060.0,3.0
+1456,Bank of America,48443.0,3.0
+1457,Bank of America,123625.0,3.0
+1458,Bank of America,40634.0,3.0
+1459,Bank of America,51433.0,3.0
+1460,Bank of America,23035.0,3.0
+1461,Bank of America,75434.0,3.0
+1462,Bank of America,69085.0,3.0
+1463,Bank of America,120055.0,3.0
+1464,Bank of America,24516.0,3.0
+1465,Bank of America,175000.0,2.0
+1466,Bank of America,82000.0,2.0
+1467,Bank of America,43500.0,2.0
+1468,Bank of America,43000.0,2.0
+1469,Bank of America,52500.0,2.0
+1470,Bank of America,49000.0,2.0
+1471,Bank of America,114500.0,2.0
+1472,Bank of America,67500.0,2.0
+1473,Bank of America,72000.0,2.0
+1474,Bank of America,157500.0,2.0
+1475,Bank of America,67000.0,2.0
+1476,Bank of America,118000.0,2.0
+1477,Bank of America,22500.0,2.0
+1478,Bank of America,29000.0,2.0
+1479,Bank of America,76000.0,2.0
+1480,Bank of America,95000.0,2.0
+1481,Bank of America,34500.0,2.0
+1482,Bank of America,159000.0,2.0
+1483,Bank of America,24000.0,2.0
+1484,Bank of America,95000.0,2.0
+1485,Bank of America,120000.0,2.0
+1486,Bank of America,68500.0,2.0
+1487,Bank of America,120500.0,2.0
+1488,Bank of America,168000.0,2.0
+1489,Bank of America,118500.0,2.0
+1490,Bank of America,127000.0,2.0
+1491,Bank of America,54500.0,2.0
+1492,Bank of America,87000.0,2.0
+1493,Bank of America,28000.0,2.0
+1494,Bank of America,130000.0,2.0
+1495,Bank of America,50000.0,2.0
+1496,Bank of America,61500.0,2.0
+1497,Bank of America,79500.0,2.0
+1498,Bank of America,32500.0,2.0
+1499,Bank of America,55000.0,2.0
+1500,Bank of America,47500.0,2.0
+1501,Bank of America,67000.0,2.0
+1502,Bank of America,307000.0,2.0
+1503,Bank of America,147000.0,2.0
+1504,Bank of America,123000.0,2.0
+1505,Bank of America,79500.0,2.0
+1506,Bank of America,134500.0,2.0
+1507,Bank of America,28500.0,2.0
+1508,Bank of America,144000.0,2.0
+1509,Bank of America,166000.0,2.0
+1510,Bank of America,42500.0,2.0
+1511,Bank of America,75500.0,2.0
+1512,Bank of America,45000.0,2.0
+1513,Bank of America,38500.0,2.0
+1514,Bank of America,52000.0,2.0
+1515,Bank of America,52500.0,2.0
+1516,Bank of America,125000.0,2.0
+1517,Bank of America,45000.0,2.0
+1518,Bank of America,72500.0,2.0
+1519,Bank of America,65000.0,2.0
+1520,Bank of America,49500.0,2.0
+1521,Bank of America,98500.0,2.0
+1522,Bank of America,215500.0,2.0
+1523,Bank of America,93000.0,2.0
+1524,Bank of America,35500.0,2.0
+1525,Bank of America,81000.0,2.0
+1526,Bank of America,49500.0,2.0
+1527,Bank of America,43500.0,2.0
+1528,Bank of America,94500.0,2.0
+1529,Bank of America,158500.0,2.0
+1530,Bank of America,126000.0,2.0
+1531,Bank of America,132500.0,2.0
+1532,Bank of America,120000.0,2.0
+1533,Bank of America,183500.0,2.0
+1534,Bank of America,90500.0,2.0
+1535,Bank of America,62500.0,2.0
+1536,Bank of America,128000.0,2.0
+1537,Bank of America,81500.0,2.0
+1538,Bank of America,79000.0,2.0
+1539,Bank of America,40500.0,2.0
+1540,Bank of America,86000.0,2.0
+1541,Bank of America,86500.0,2.0
+1542,Bank of America,159000.0,2.0
+1543,Bank of America,275500.0,2.0
+1544,Bank of America,66500.0,2.0
+1545,Bank of America,53500.0,2.0
+1546,Bank of America,178000.0,2.0
+1547,Bank of America,24500.0,2.0
+1548,Bank of America,110500.0,2.0
+1549,Bank of America,85000.0,2.0
+1550,Bank of America,58000.0,1.0
+1551,Bank of America,88500.0,1.0
+1552,Bank of America,21500.0,1.0
+1553,Bank of America,43500.0,1.0
+1554,Bank of America,29000.0,1.0
+1555,Bank of America,60000.0,1.0
+1556,Bank of America,96000.0,1.0
+1557,Bank of America,109500.0,1.0
+1558,Bank of America,51500.0,1.0
+1559,Bank of America,135000.0,1.0
+1560,Bank of America,116500.0,1.0
+1561,Bank of America,56000.0,1.0
+1562,Bank of America,143000.0,1.0
+1563,Bank of America,80000.0,1.0
+1564,Bank of America,52000.0,1.0
+1565,Bank of America,63500.0,1.0
+1566,Bank of America,159500.0,1.0
+1567,Bank of America,56000.0,1.0
+1568,Bank of America,47500.0,1.0
+1569,Bank of America,84500.0,1.0
+1570,Bank of America,47000.0,1.0
+1571,Bank of America,41500.0,1.0
+1572,Bank of America,87500.0,1.0
+1573,Bank of America,199000.0,1.0
+1574,Bank of America,31000.0,1.0
+1575,Bank of America,65500.0,1.0
+1576,Bank of America,85500.0,1.0
+1577,Bank of America,180000.0,1.0
+1578,Deutsche Bank,121566.0,238.0
+1579,Deutsche Bank,54017.0,150.0
+1580,Deutsche Bank,61996.0,144.0
+1581,Deutsche Bank,215568.0,105.0
+1582,Deutsche Bank,73870.0,70.0
+1583,Deutsche Bank,125804.0,43.0
+1584,Deutsche Bank,82457.0,41.0
+1585,Deutsche Bank,99508.0,41.0
+1586,Deutsche Bank,68921.0,39.0
+1587,Deutsche Bank,46505.0,34.0
+1588,Deutsche Bank,42459.0,33.0
+1589,Deutsche Bank,78942.0,30.0
+1590,Deutsche Bank,29309.0,27.0
+1591,Deutsche Bank,69761.0,27.0
+1592,Deutsche Bank,51330.0,25.0
+1593,Deutsche Bank,88460.0,24.0
+1594,Deutsche Bank,128366.0,24.0
+1595,Deutsche Bank,62978.0,21.0
+1596,Deutsche Bank,128189.0,20.0
+1597,Deutsche Bank,60331.0,20.0
+1598,Deutsche Bank,165013.0,19.0
+1599,Deutsche Bank,123627.0,19.0
+1600,Deutsche Bank,78866.0,17.0
+1601,Deutsche Bank,123437.0,16.0
+1602,Deutsche Bank,108782.0,16.0
+1603,Deutsche Bank,47407.0,15.0
+1604,Deutsche Bank,77382.0,15.0
+1605,Deutsche Bank,61169.0,13.0
+1606,Deutsche Bank,22905.0,13.0
+1607,Deutsche Bank,104432.0,13.0
+1608,Deutsche Bank,339835.0,13.0
+1609,Deutsche Bank,61480.0,13.0
+1610,Deutsche Bank,62550.0,10.0
+1611,Deutsche Bank,59582.0,10.0
+1612,Deutsche Bank,30328.0,9.0
+1613,Deutsche Bank,95429.0,9.0
+1614,Deutsche Bank,34829.0,9.0
+1615,Deutsche Bank,72393.0,9.0
+1616,Deutsche Bank,121794.0,9.0
+1617,Deutsche Bank,75624.0,9.0
+1618,Deutsche Bank,131046.0,9.0
+1619,Deutsche Bank,112879.0,8.0
+1620,Deutsche Bank,54441.0,8.0
+1621,Deutsche Bank,121162.0,8.0
+1622,Deutsche Bank,89976.0,8.0
+1623,Deutsche Bank,48907.0,8.0
+1624,Deutsche Bank,50169.0,8.0
+1625,Deutsche Bank,88767.0,8.0
+1626,Deutsche Bank,81330.0,8.0
+1627,Deutsche Bank,107524.0,8.0
+1628,Deutsche Bank,160117.0,7.0
+1629,Deutsche Bank,137017.0,7.0
+1630,Deutsche Bank,54764.0,7.0
+1631,Deutsche Bank,67977.0,7.0
+1632,Deutsche Bank,45320.0,7.0
+1633,Deutsche Bank,50445.0,7.0
+1634,Deutsche Bank,62301.0,7.0
+1635,Deutsche Bank,81900.0,6.0
+1636,Deutsche Bank,52129.0,6.0
+1637,Deutsche Bank,47096.0,6.0
+1638,Deutsche Bank,51869.0,6.0
+1639,Deutsche Bank,187015.0,6.0
+1640,Deutsche Bank,49977.0,6.0
+1641,Deutsche Bank,132760.0,6.0
+1642,Deutsche Bank,102400.0,6.0
+1643,Deutsche Bank,61704.0,6.0
+1644,Deutsche Bank,50529.0,6.0
+1645,Deutsche Bank,88323.0,5.0
+1646,Deutsche Bank,66841.0,5.0
+1647,Deutsche Bank,109890.0,5.0
+1648,Deutsche Bank,104579.0,5.0
+1649,Deutsche Bank,126186.0,5.0
+1650,Deutsche Bank,70863.0,5.0
+1651,Deutsche Bank,97150.0,5.0
+1652,Deutsche Bank,60438.0,5.0
+1653,Deutsche Bank,137511.0,5.0
+1654,Deutsche Bank,164197.0,5.0
+1655,Deutsche Bank,129801.0,5.0
+1656,Deutsche Bank,74223.0,5.0
+1657,Deutsche Bank,90548.0,5.0
+1658,Deutsche Bank,149586.0,5.0
+1659,Deutsche Bank,119770.0,5.0
+1660,Deutsche Bank,111011.0,5.0
+1661,Deutsche Bank,105229.0,4.0
+1662,Deutsche Bank,82022.0,4.0
+1663,Deutsche Bank,100222.0,4.0
+1664,Deutsche Bank,110080.0,4.0
+1665,Deutsche Bank,62979.0,4.0
+1666,Deutsche Bank,128171.0,4.0
+1667,Deutsche Bank,101627.0,4.0
+1668,Deutsche Bank,42616.0,4.0
+1669,Deutsche Bank,104191.0,4.0
+1670,Deutsche Bank,86270.0,4.0
+1671,Deutsche Bank,54050.0,4.0
+1672,Deutsche Bank,84389.0,4.0
+1673,Deutsche Bank,96418.0,4.0
+1674,Deutsche Bank,50556.0,4.0
+1675,Deutsche Bank,132068.0,4.0
+1676,Deutsche Bank,70627.0,4.0
+1677,Deutsche Bank,27159.0,4.0
+1678,Deutsche Bank,43968.0,4.0
+1679,Deutsche Bank,164718.0,4.0
+1680,Deutsche Bank,44881.0,4.0
+1681,Deutsche Bank,29856.0,4.0
+1682,Deutsche Bank,55091.0,4.0
+1683,Deutsche Bank,63428.0,4.0
+1684,Deutsche Bank,60656.0,4.0
+1685,Deutsche Bank,157751.0,4.0
+1686,Deutsche Bank,149739.0,4.0
+1687,Deutsche Bank,103239.0,4.0
+1688,Deutsche Bank,120394.0,4.0
+1689,Deutsche Bank,116889.0,4.0
+1690,Deutsche Bank,85721.0,4.0
+1691,Deutsche Bank,28179.0,4.0
+1692,Deutsche Bank,103706.0,4.0
+1693,Deutsche Bank,69827.0,3.0
+1694,Deutsche Bank,84877.0,3.0
+1695,Deutsche Bank,110101.0,3.0
+1696,Deutsche Bank,176864.0,3.0
+1697,Deutsche Bank,207306.0,3.0
+1698,Deutsche Bank,258488.0,3.0
+1699,Deutsche Bank,294810.0,3.0
+1700,Deutsche Bank,70132.0,3.0
+1701,Deutsche Bank,94020.0,3.0
+1702,Deutsche Bank,59433.0,3.0
+1703,Deutsche Bank,78238.0,3.0
+1704,Deutsche Bank,263404.0,3.0
+1705,Deutsche Bank,100647.0,3.0
+1706,Deutsche Bank,158461.0,3.0
+1707,Deutsche Bank,38501.0,3.0
+1708,Deutsche Bank,129863.0,3.0
+1709,Deutsche Bank,100000.0,3.0
+1710,Deutsche Bank,45874.0,3.0
+1711,Deutsche Bank,43709.0,3.0
+1712,Deutsche Bank,62920.0,3.0
+1714,Deutsche Bank,50896.0,3.0
+1715,Deutsche Bank,106877.0,3.0
+1716,Deutsche Bank,147259.0,3.0
+1717,Deutsche Bank,53764.0,3.0
+1718,Deutsche Bank,56996.0,3.0
+1719,Deutsche Bank,50000.0,3.0
+1720,Deutsche Bank,90892.0,3.0
+1721,Deutsche Bank,133511.0,3.0
+1722,Deutsche Bank,71506.0,3.0
+1723,Deutsche Bank,41733.0,3.0
+1724,Deutsche Bank,87682.0,3.0
+1725,Deutsche Bank,69215.0,3.0
+1726,Deutsche Bank,58753.0,3.0
+1727,Deutsche Bank,67839.0,3.0
+1728,Deutsche Bank,184604.0,3.0
+1729,Deutsche Bank,46015.0,3.0
+1730,Deutsche Bank,120000.0,3.0
+1731,Deutsche Bank,105362.0,3.0
+1732,Deutsche Bank,95609.0,3.0
+1733,Deutsche Bank,130000.0,3.0
+1734,Deutsche Bank,87477.0,3.0
+1735,Deutsche Bank,77026.0,3.0
+1736,Deutsche Bank,68500.0,2.0
+1737,Deutsche Bank,109000.0,2.0
+1738,Deutsche Bank,101000.0,2.0
+1739,Deutsche Bank,57000.0,2.0
+1740,Deutsche Bank,130000.0,2.0
+1741,Deutsche Bank,119500.0,2.0
+1742,Deutsche Bank,38000.0,2.0
+1743,Deutsche Bank,73500.0,2.0
+1744,Deutsche Bank,128500.0,2.0
+1745,Deutsche Bank,215500.0,2.0
+1746,Deutsche Bank,80500.0,2.0
+1747,Deutsche Bank,143000.0,2.0
+1748,Deutsche Bank,55500.0,2.0
+1749,Deutsche Bank,135500.0,2.0
+1750,Deutsche Bank,46000.0,2.0
+1751,Deutsche Bank,113500.0,2.0
+1752,Deutsche Bank,185000.0,2.0
+1753,Deutsche Bank,63000.0,2.0
+1754,Deutsche Bank,52500.0,2.0
+1755,Deutsche Bank,161500.0,2.0
+1756,Deutsche Bank,90000.0,2.0
+1757,Deutsche Bank,53500.0,2.0
+1758,Deutsche Bank,48000.0,2.0
+1759,Deutsche Bank,156000.0,2.0
+1760,Deutsche Bank,104000.0,2.0
+1761,Deutsche Bank,86000.0,2.0
+1762,Deutsche Bank,49500.0,2.0
+1763,Deutsche Bank,92000.0,2.0
+1764,Deutsche Bank,74500.0,2.0
+1765,Deutsche Bank,83000.0,2.0
+1766,Deutsche Bank,94500.0,2.0
+1767,Deutsche Bank,409500.0,2.0
+1768,Deutsche Bank,85500.0,2.0
+1769,Deutsche Bank,80000.0,2.0
+1770,Deutsche Bank,147500.0,2.0
+1771,Deutsche Bank,70500.0,2.0
+1772,Deutsche Bank,89000.0,2.0
+1773,Deutsche Bank,92500.0,2.0
+1774,Deutsche Bank,197500.0,2.0
+1775,Deutsche Bank,185500.0,2.0
+1776,Deutsche Bank,261500.0,2.0
+1777,Deutsche Bank,227500.0,2.0
