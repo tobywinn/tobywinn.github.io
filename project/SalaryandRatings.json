@@ -3,14 +3,14 @@
 
   "title": {
     "text": "Salary and Satisfaction at Bulge Bracket Banks",
-    "subtitle":"Scraped from Indeed.com using 20/21 salary data from Arkensden",
+    "subtitle":"Scraped from Glasdoor.com using 20/21 salary data from Arkensden",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
     "color": "black"
   },
 
-  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/IndoorRatingsandSalary.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/GlassdoorRatings%26Salary.csv"},
 
   "mark": "point",
 
@@ -48,7 +48,7 @@
     "x": {
       "field": "Rating", 
       "type": "quantitative",
-      "scale": {"domain": [3.75,4.05]},
+      "scale": {"domain": [3.5,4.3]},
       "title": null,
       "axis": {"grid": false}
       },
