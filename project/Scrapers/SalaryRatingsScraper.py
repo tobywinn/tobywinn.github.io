@@ -122,21 +122,10 @@ names1 = []
 
 for i in companies:
 
-    try:
-        # clear search bar, search name of company
-        driver.find_element_by_id("sc.keyword").clear()
-        driver.find_element_by_id("sc.keyword").send_keys(i)
-        driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
-    except:
-        driver.refresh()
-        time.sleep(5)
-        try:
-            # clear search bar, search name of company
-            driver.find_element_by_id("sc.keyword").clear()
-            driver.find_element_by_id("sc.keyword").send_keys(i)
-            driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
-        except:
-            continue
+    # clear search bar, search name of company
+    driver.find_element_by_id("sc.keyword").clear()
+    driver.find_element_by_id("sc.keyword").send_keys(i)
+    driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
 
      # if company is not automatically navigated to 
     if driver.find_elements_by_css_selector(".companySearchHierarchies.gdGrid"):
@@ -160,8 +149,19 @@ for i in companies:
             time.sleep(0.5)
             driver.find_element_by_id("option_ANNUAL").click()
         except:
-            driver.execute_script("window.scrollTo(0, 0)")
-            continue
+            try:
+                driver.find_element_by_id("sc.keyword")
+                driver.execute_script("window.scrollTo(0, 0)")
+                continue
+            except:
+                driver.refresh()
+                time.sleep(5)
+                try:
+                    driver.find_element_by_css_selector("div[data-test='dropdown-filter-pay-periodContent']").click()
+                    time.sleep(0.5)
+                    driver.find_element_by_id("option_ANNUAL").click()
+                except:
+                    break
 
         # allow time for page to load
         time.sleep(3)
@@ -285,8 +285,19 @@ for i in companies:
             time.sleep(0.5)
             driver.find_element_by_id("option_ANNUAL").click()
         except:
-            driver.execute_script("window.scrollTo(0, 0)")
-            continue
+            try:
+                driver.find_element_by_id("sc.keyword")
+                driver.execute_script("window.scrollTo(0, 0)")
+                continue
+            except:
+                driver.refresh()
+                time.sleep(5)
+                try:
+                    driver.find_element_by_css_selector("div[data-test='dropdown-filter-pay-periodContent']").click()
+                    time.sleep(0.5)
+                    driver.find_element_by_id("option_ANNUAL").click()
+                except:
+                    break
         
         # allow time for salaries to load
         time.sleep(3)
@@ -404,7 +415,7 @@ df = df.loc[df['Salary'] <= 1000000]
 # remove below pro rata 40 hr week UK min wage
 df = df.loc[df['Salary'] > 16500]
 
-df.to_csv('SalaryandRatingsData_allFTSE100.csv')
+df.to_csv('SalaryandRatingsData_allFTSE100_complete.csv')
 
 dfs = []
 # create df with weightings for each firm
@@ -435,5 +446,5 @@ print(ratingdf)
 
 df = df.join(ratingdf.set_index('Firm'))
 
-df.to_csv('SalaryandRatingsAverageFTSE100.csv')
+df.to_csv('SalaryandRatingsAverageFTSE100_complete.csv')
 print(df)
