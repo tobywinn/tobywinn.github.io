@@ -13,7 +13,7 @@ driver = webdriver.Chrome(PATH)
 
 url_base = "https://www.londonstockexchange.com/indices/ftse-100/constituents/table{}"
 
-pages = ["", "?page=2"]
+pages = ["", "?page=2","?page=3","?page=4", "?page=5","?page=6"]
 
 count = 0
 companies = []
@@ -41,19 +41,55 @@ for i in pages:
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, "html.parser")
 
-    # extract section on salary from soup
-    nameset = soup.findAll("td", class_="clickable instrument-name gtm-trackable td-with-link")
-    
-    for i in nameset:
-        name = i.text
+    try:
+        # extract section on salary from soup
+        nameset = soup.findAll("td", class_="clickable instrument-name gtm-trackable td-with-link")
+        
+        for i in nameset:
+            name = i.text
+            sep = ' PLC'
+            name = name.split(sep, 1)[0]
+            name = name.replace("SCOTTISH MORTGAGE INV TST","Baillie Gifford")
+            name = name.replace("HSBC HLDGS","HSBC")
+            name = name.replace("COCA-COLA HBC AG ORD CHF6.70 (CDI)","Coca Cola")
+            name = name.replace("INTL CONSOLIDATED AIRLINES GROUP SA ORD EUR0.10 (CDI)","International Airlines Group")
+            name = name.replace("B&M EUROPEAN VALUE RETAIL S.A. ORD 10P (DI)","B&M Retail")
+            name = name.replace("AUTO TRADER GROUP","Auto Trader UK")
+            name = name.replace("BT GROUP","BT")
+            name = name.replace("AVAST","Avast Software")
+            name = name.replace("BRITISH LAND CO","British Land Company")
+            companies.append(name)
+    except:
+        name = soup.find("td", class_="clickable instrument-name gtm-trackable td-with-link")
+        name = name.text
         sep = ' PLC'
         name = name.split(sep, 1)[0]
-        name = name.replace("BT GROUP","BT")
         name = name.replace("SCOTTISH MORTGAGE INV TST","Baillie Gifford")
-        name = name.replace(" HLDGS","")
+        name = name.replace("HSBC HLDGS","HSBC")
+        name = name.replace("COCA-COLA HBC AG ORD CHF6.70 (CDI)","Coca Cola")
+        name = name.replace("INTL CONSOLIDATED AIRLINES GROUP SA ORD EUR0.10 (CDI)","International Airlines Group")
+        name = name.replace("B&M EUROPEAN VALUE RETAIL S.A. ORD 10P (DI)","B&M Retail")
+        name = name.replace("AUTO TRADER GROUP","Auto Trader UK")
+        name = name.replace("BT GROUP","BT")
+        name = name.replace("AVAST","Avast Software")
+        name = name.replace("BRITISH LAND CO","British Land Company")
         companies.append(name)
-    
-companies.remove('ROYAL DUTCH SHELL')
+try:
+    companies.remove('ROYAL DUTCH SHELL')
+except:
+    pass
+try:
+    companies.remove('FERGUSON')
+except:
+    pass
+try:
+    companies.remove('POLYMETAL INTERNATIONAL')
+except:
+    pass
+try:
+    companies.remove('PERSHING SQUARE HOLDINGS LTD ORD NPV')
+except:
+    pass
 
 driver.get("https://www.glassdoor.co.uk")
 
@@ -86,10 +122,21 @@ names1 = []
 
 for i in companies:
 
-    # clear search bar, search name of company
-    driver.find_element_by_id("sc.keyword").clear()
-    driver.find_element_by_id("sc.keyword").send_keys(i)
-    driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
+    try:
+        # clear search bar, search name of company
+        driver.find_element_by_id("sc.keyword").clear()
+        driver.find_element_by_id("sc.keyword").send_keys(i)
+        driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
+    except:
+        driver.refresh()
+        time.sleep(5)
+        try:
+            # clear search bar, search name of company
+            driver.find_element_by_id("sc.keyword").clear()
+            driver.find_element_by_id("sc.keyword").send_keys(i)
+            driver.find_element_by_id("sc.keyword").send_keys(Keys.RETURN)
+        except:
+            continue
 
      # if company is not automatically navigated to 
     if driver.find_elements_by_css_selector(".companySearchHierarchies.gdGrid"):
@@ -357,7 +404,7 @@ df = df.loc[df['Salary'] <= 1000000]
 # remove below pro rata 40 hr week UK min wage
 df = df.loc[df['Salary'] > 16500]
 
-df.to_csv('SalaryandRatingsData_all.csv')
+df.to_csv('SalaryandRatingsData_allFTSE100.csv')
 
 dfs = []
 # create df with weightings for each firm
@@ -388,5 +435,5 @@ print(ratingdf)
 
 df = df.join(ratingdf.set_index('Firm'))
 
-df.to_csv('SalaryandRatingsAverage.csv')
+df.to_csv('SalaryandRatingsAverageFTSE100.csv')
 print(df)
