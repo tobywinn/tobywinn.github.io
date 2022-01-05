@@ -33,11 +33,9 @@ footer {
 }
 
 iframe {
-    margin-right: auto;
-    margin-left: auto;
-    width: 810px;
+    width: 805px;
     height: 500px;
-    border: #2a9d8f solid 5px;
+    border: #908e8e solid 5px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -51,6 +49,10 @@ p {
     text-align: left;
     margin: 0 auto;
     max-width: min(90vw, 700px);
+}
+
+.text-center {
+    text-align: center;
 }
 
 a {
@@ -124,9 +126,14 @@ a:hover {
 }
 
 #chart17 {
-    position: absolute;
-    margin-top: 190px;
-    right: 120px;
+    position: relative;
+    margin: auto 0 auto 0;
+}
+
+#chart24 {
+    visibility: hidden;
+    position: relative;
+    margin: auto 0 auto 0;
 }
 
 .chart { 
@@ -135,7 +142,7 @@ a:hover {
     margin: 10px;
     padding: 5px;
     background-color: White;
-    border: #2a9d8f solid 5px;
+    border: #908e8e solid 5px;
     border-radius: 10px;
     font-family: Inter,sans-serif;
     font-size: 10pxp;
@@ -145,7 +152,7 @@ a:hover {
     margin: 10px;
     padding: 5px;
     background-color: White;
-    border: #2a9d8f solid 5px;
+    border: #908e8e solid 5px;
     border-radius: 10px;
     font-family: Inter,sans-serif;
     font-size: 10pxp;
@@ -164,7 +171,12 @@ a:hover {
     height: auto;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1250px) {
+    #chart24 {
+        display: none;
+    }
+}
+@media (max-width: 990px) {
     body {
         overflow-x: hidden;
     }

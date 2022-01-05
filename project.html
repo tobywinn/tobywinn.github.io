@@ -27,7 +27,7 @@
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
         
     <script src="nav.js" defer></script>
@@ -70,7 +70,13 @@
 
     <p class=title1>Happiness score against income</p>
 
-    <div class="container">
+    <div class="container">   
+        <div id="chart24">
+            <script>
+                var myChart24 = "project/bivariatescale.json";
+                vegaEmbed('#chart24', myChart24);
+            </script>
+        </div>
         <iframe src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/v38zn51axm07a9q/keplergl_xbjyyqh.json"></iframe>
         <div id="chart17">
             <script>
@@ -78,23 +84,23 @@
                 vegaEmbed('#chart17', myChart17);
             </script>
         </div>
-    </div>
+    </div> 
 
     <div class="container">
 
         <!-- Continental happiness -->
-        <div class="chart" id="chart1">
+        <div class="chart" id="chart18">
             <script>
-            var myChart1 = "project/HappinessbyContinent.json";
-            vegaEmbed('#chart1', myChart1);
+            var myChart18 = "project/HappinessbyContinent.json";
+            vegaEmbed('#chart18', myChart18);
             </script>
         </div>
 
          <!-- Continental unhappiness -->
-         <div class="chart" id="chart2">
+         <div class="chart" id="chart19">
             <script>
-            var myChart2 = "project/UnhappinessbyContinent.json";
-            vegaEmbed('#chart2', myChart2);
+            var myChart19 = "project/UnhappinessbyContinent.json";
+            vegaEmbed('#chart19', myChart19);
             </script>
         </div>
 
@@ -105,10 +111,10 @@
     <div class="container">
 
         <!-- Salary and job ratings -->
-        <div class="chart" id="chart3">
+        <div class="chart" id="chart20">
             <script>
-            var myChart3 = "project/SalaryandRatings.json";
-            vegaEmbed('#chart3', myChart3);
+            var myChart20 = "project/SalaryandRatings.json";
+            vegaEmbed('#chart20', myChart20);
             </script>
         </div>
 
@@ -119,10 +125,10 @@
     <div class="container">
 
         <!-- Happiness and GDP -->
-        <div class="chart" id="chart4">
+        <div class="chart" id="chart21">
             <script>
-            var myChart4 = "project/HappinessvsGDP.json";
-            vegaEmbed('#chart4', myChart4);
+            var myChart21 = "project/HappinessvsGDP.json";
+            vegaEmbed('#chart21', myChart21);
             </script>
         </div>
 
@@ -144,10 +150,10 @@
     <div class="container">
 
          <!-- Happiness and GDP -->
-        <div class="chart" id="chart22">
+        <div class="chart" id="chart23">
             <script>
-            var myChart22 = "project/FTSE100SalaryRating.json";
-            vegaEmbed('#chart22', myChart22);
+            var myChart23 = "project/FTSE100SalaryRating.json";
+            vegaEmbed('#chart23', myChart23);
             </script>
         </div>
 

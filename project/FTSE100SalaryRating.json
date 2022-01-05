@@ -1,60 +1,89 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  
-    "title": {
-      "text": "Compensation and Satisfaction in the FTSE100",
-      "subtitle":"Scraped from Glasdoor.com",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-  
-    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/SalaryandRatingsAverageFTSE100_complete.csv"},
-  
-    "mark": {
-      "type": "point",
-      "clip": true
-    },
-  
-    "height": 280,
-  
-    "width": 235,
-  
-    "encoding": {
-      "x": {
-        "field": "Rating", 
-        "type": "quantitative",
-        "scale": {"domain": [2,4.8]},
-        "title": null,
-        "axis": {"grid": false}
-        },
-  
-      "y": {
-        "field": "Average salary", 
-        "type": "quantitative",
-        "scale": {"domain": [17000, 120000]},
-        "title": null,
-        "axis": {"grid": false}
-        },
-      
-      "tooltip": [
-          {
-            "field": "Firm", 
-            "type": "nominal", 
-            "title": "Firm"
-            },
-          {
-            "field": "Average salary",
-            "type": "quantitative",
-            "title": "Compensation"
-            },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Compensation and Satisfaction in the FTSE100",
+    "subtitle":"Scraped from Glasdoor.com",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/SalaryandRatingsAverageFTSE100_complete.csv"},
+
+  "height": 280,
+
+  "width": 235,
+
+  "encoding": {
+    "x": {
+      "field": "Rating", 
+      "type": "quantitative",
+      "scale": {"domain": [2,4.8]},
+      "title": null,
+      "axis": {"grid": false}
+      },
+
+    "y": {
+      "field": "Average salary", 
+      "type": "quantitative",
+      "scale": {"domain": [17000, 120000]},
+      "title": null,
+      "axis": {"grid": false}
+      },
+    
+    "tooltip": [
         {
-            "field": "Rating",
-            "type": "quantitative",
-            "title": "Rating"
-            }
-        ]
+          "field": "Firm", 
+          "type": "nominal", 
+          "title": "Firm"
+          },
+        {
+          "field": "Average salary",
+          "type": "quantitative",
+          "title": "Compensation"
+          },
+      {
+          "field": "Rating",
+          "type": "quantitative",
+          "title": "Rating"
+          }
+      ]
+
+  },
   
+  "layer": [
+      
+    {
+      "data": {
+        "values": [
+          {"Rating": 2, "Average salary": 52101.741794927424},
+          {"Rating": 4.8, "Average salary": 57008.373075968746}
+        ]
+      }, 
+      "mark": {"type":"line", "color":"red", "clip": true},
+      "encoding": {
+        "tooltip": null
+      }
+    },
+
+    {"data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/SalaryandRatingsAverageFTSE100_complete.csv"}, 
+    "mark": {"type": "point", "clip": true}
+    },
+
+    {
+      "data": {
+        "values": [
+          {"Rating": 2.5, "Average salary": 90000, "text": "R² = 0.0007"}
+        ]
+      }, 
+      "mark": {"type":"text", "color":"red", "fontWeight": "bold"},
+      "encoding": {
+        "tooltip": null,
+        "text": {"field": "text", "type": "nominal"}
+      }
     }
+
+  ]
 }
