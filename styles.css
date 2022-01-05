@@ -3,7 +3,7 @@
 body {
     background: linear-gradient(-45deg,  #e76f51,#e76f51,#2a9d8f,#264653, #001219,#001219,#001219);
     background-size: 200% 200%;
-    animation: gradient 30s ease infinite;
+    animation: gradient 18s ease infinite;
     overflow-x: hidden;
 }
 
@@ -162,63 +162,6 @@ a:hover {
     justify-content: center;
     width: 100%;
     height: auto;
-}
-
-/* Loading Bar & Message */
-
-#loader {
-    margin: 150px auto 50px auto;
-    width: 120px;
-    height: 120px;
-    border: 16px solid Gainsboro;
-    border-radius: 50%;
-    border-top: 16px solid #2A9D8F;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
-
-#loadermsg {
-    position: relative;
-    font-weight: bold;
-    font-family: Inter,sans-serif;
-    color: #E9C46A;
-    font-size: 20px; 
-    letter-spacing: 1px; 
-    line-height: 1; 
-    text-align: center;
-}
-
-@-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Add animation to fade in charts */
-.animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-    display: none;
 }
 
 @media (max-width: 480px) {
