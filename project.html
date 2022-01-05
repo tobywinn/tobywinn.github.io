@@ -66,9 +66,11 @@
         </nav>
     </header>
 
-    <p class=title1>A project exploring happiness and income globally</p>
+    <p class=title1>Investigating the relationship between life satisfaction and income?</p>
 
-    <p class=title1>Happiness score against income</p>
+    <p><bold>Aims: </bold>After I graduate I am set to enter the world of invesment banking, an industry known for paying well but at significant personal cost. This led me to question the extent to which accumulating wealth is correlated with happiness.</p>
+
+    <p>I plotted happiness score against log GDP per capita on a cloropleth map using data from the <a href="https://worldhappiness.report/">World Happiness Report</a>. I used a bivariate scale to capture both GDP and happiness simultaneously, using a visually interpretable color palate informed by <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">Joshua Stevens</a>. I found tertiles for both variables and the created 9 classifications for each possible combination of tertiles, the interpretation of which can be seen by clicking on the scale. In converting the topoJSON file to GeoJSON, an error caused countries spanning over both 180 degrees east and west of prime meridian (e.g. Russia, Antartica) to display inaccurately on kepler. I looped through the GeoJSON output and changed the longitude any coordinates beyond 180 degrees west to the eastern side of the map in code that can be found <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt">here</a>.</p>
 
     <div class="container">   
         <div id="chart24">
