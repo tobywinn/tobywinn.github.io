@@ -1,6 +1,22 @@
+/* Background credit to Alison Quaglia*/
+
 body {
-    background-color: #264653;
+    background: linear-gradient(-45deg,  #e76f51,#e76f51,#2a9d8f,#264653, #001219,#001219,#001219);
+    background-size: 200% 200%;
+    animation: gradient 30s ease infinite;
     overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 footer {
@@ -27,19 +43,20 @@ iframe {
 }
 
 p {
-    font-weight: 5px;
+    font-weight: 300;
     color: #E9C46A;
-    font-family: Inter,sans-serif;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
     padding: 10px;
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: min(90vw, 700px);
 }
 
 a {
     font-weight: 5px;
     color: #E9C46A;
-    font-family: Inter,sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -85,12 +102,13 @@ a:hover {
 }
 
 .title1 {
-    font-family: Inter,sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #E9C46A;
     font-size: 16px; 
     letter-spacing: 1px; 
     line-height: 1; 
     text-align: center;
+    font-weight: 500;
 }
 
 .bold {
@@ -137,6 +155,7 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    text-align: left;
 }
 
 .pngchart img{
@@ -200,7 +219,6 @@ a:hover {
 
 #myDiv {
     display: none;
-    text-align: center;
 }
 
 @media (max-width: 480px) {

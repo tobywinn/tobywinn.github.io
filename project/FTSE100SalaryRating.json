@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  
+    "title": {
+      "text": "Compensation and Satisfaction in the FTSE100",
+      "subtitle":"Scraped from Glasdoor.com",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/SalaryandRatingsAverageFTSE100_complete.csv"},
+  
+    "mark": {
+      "type": "point",
+      "clip": true
+    },
+  
+    "height": 280,
+  
+    "width": 235,
+  
+    "encoding": {
+      "x": {
+        "field": "Rating", 
+        "type": "quantitative",
+        "scale": {"domain": [2,4.8]},
+        "title": null,
+        "axis": {"grid": false}
+        },
+  
+      "y": {
+        "field": "Average salary", 
+        "type": "quantitative",
+        "scale": {"domain": [17000, 120000]},
+        "title": null,
+        "axis": {"grid": false}
+        },
+      
+      "tooltip": [
+          {
+            "field": "Firm", 
+            "type": "nominal", 
+            "title": "Firm"
+            },
+          {
+            "field": "Average salary",
+            "type": "quantitative",
+            "title": "Compensation"
+            },
+        {
+            "field": "Rating",
+            "type": "quantitative",
+            "title": "Rating"
+            }
+        ]
+  
+    }
+}
