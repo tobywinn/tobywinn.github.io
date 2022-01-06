@@ -27,7 +27,7 @@
         "field": "Log GDP per capita →",
         "type": "nominal",
         "axis": {
-          "domainColor": "#264653",
+          "domainColor": "transparent",
           "labels": false,
           "ticks": false,
           "titleColor": "white"
@@ -37,7 +37,7 @@
         "field": "Happiness Score →",
         "type": "nominal",
         "axis": {
-          "domainColor": "#264653",
+          "domainColor": "transparent",
           "labels": false,
           "ticks": false,
           "titleColor": "white"

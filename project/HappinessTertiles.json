@@ -1,0 +1,139 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    
+    "title": {
+      "text": "Happiness vs GDP",
+      "subtitle":"Life Ladder, Log GDP per capita Source: The World Happiness Report",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "white",
+      "subtitleColor": "white"
+    },
+    
+      "data": {
+      "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/HappinessDataTertiles.csv",
+      "format": {"type": "csv"}
+    },
+    
+    "height": 270,
+    "width": 280,
+      
+    "mark": {"type": "point", "point": false},
+  
+    "config": {
+        "background": "#001219",
+        "view": {
+          "stroke": "transparent"
+          }
+      },
+  
+    "selection": {
+      "Colour": {
+        "type": "single",
+        "fields": ["Colour"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "name": "Pick a classification: "
+        }
+      }
+    },
+  
+    "transform": [
+  
+      {"filter": {
+          "field": "Log GDP per capita", 
+          "range": [0.0000001,100]}
+          },
+  
+      {"filter": {
+          "field": "Life Ladder", 
+          "range": [0.0000001, 100]}
+          } ,
+  
+      {"filter": {
+          "field": "Year", 
+          "range": [
+            {"year": 2019, "month": "jan", "date": 1},
+            {"year": 2019, "month": "dec", "date": 30}]}
+          },
+  
+      {"filter": {"selection": "Colour"}}   
+      
+    ],
+    
+    "encoding": {
+  
+      "x": {
+        "field": "Log GDP per capita",
+        "type": "quantitative",
+        "axis": {
+            "domainColor": "white",
+            "tickColor": "white",
+            "labelColor": "white",
+            "grid": false,
+            "titleColor": "white"
+          },
+        "scale": {"domain": [6,12]}
+      },
+  
+      "y": {
+        "field": "Life Ladder",
+        "type": "quantitative",
+        "title": "Happiness score",
+        "axis": {
+            "domainColor": "white",
+            "tickColor": "white",
+            "labelColor": "white",
+            "grid": false,
+            "titleColor": "white"
+          },
+        "scale": {"domain": [2,8]}
+      },
+  
+      "color": {
+        "field": "Colour",
+        "type": "nominal",
+        "scale": {"range": ["#e8e8e8","#b0d5df","#64acbe","#e4acac","#ad9ea5","#627f8c","#c85356","#985356","#574249"]},
+        "title": null,
+        "legend": {
+          "labelColor": "white"
+        }
+      },
+  
+      "tooltip": [
+        {
+          "field": "Country", 
+          "type": "nominal", 
+          "title": "Country"
+          },
+        {
+          "field": "Year", 
+          "type": "temporal", 
+          "title": "Year"
+          },
+        {
+          "field": "Life Ladder",
+          "type": "quantitative",
+          "title": "Happiness Score"
+          },
+        {
+          "field": "Log GDP per capita",
+          "type": "quantitative",
+          "title": "Log GDP per capita"
+          }
+      ]
+    }
+  }
