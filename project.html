@@ -120,20 +120,6 @@
 
     </div>
 
-    <p class=title1>Salary data and satisfaction ratings</p>
-
-    <div class="container">
-
-        <!-- Salary and job ratings -->
-        <div class="chart" id="chart20">
-            <script>
-            var myChart20 = "project/SalaryandRatings.json";
-            vegaEmbed('#chart20', myChart20);
-            </script>
-        </div>
-
-    </div>
-
     <p class=title1>Happiness and Unhappiness by GDP</p>
 
     <div class="container">
@@ -148,18 +134,11 @@
 
     </div>
 
-    <div class="container">
-
-        <!-- Happiness vs GDP per capita regression-->
-        <div class="pngchart" id="chart6">
-            <img src = "project/HappinessRegression.png" />
-        </div>
-        
-    </div>
-
-
-    <p>Having investigated the relationship between income and happiness globally, I then moved to an investigation of the the relationship between job satisfaction and pay in FTSE 500. I created a scraper which </p>
+    <p>To tackle the root of my question, will I be happier in a high paying job, I then moved to an investigation of the relationship between job satisfaction and pay in FTSE 100. I decided to use Glassdoor as, for large companies, it has thousands of ratings and salaries, providing a high level of accuracy.</p>
+ 
+    <p>However, the site blocks scraping using BeutifulSoup alone. I used selenium and chrome driver to solve this issue. In the absence of an API, I found the FTSE 100 constituents by scraping the LSE website looping through multiple pages and saving the names in an array. I automated login to the site, before navigating to the companies section and then looped through the array of FTSE companies, searching each name. For each company, I navigated to the ratings section, and appended the rating to an array before navigating to the salary section, selecting only UK reports in annual pay and looped over the first 10 pages of salaries, appending each salary for a given role to an array as well as the firm name. However, different roles had been reported at different frequencies, so for each salary I also appended the number of reports. This allowed me to form a weighted average of salaries which I then joined (by firm) with the ratings array.</p>
     
+    <p>This resulted in the following chart, where I regressed salary against job satisfaction, showing that there is very little relationship, as implied by the low R². Interestingly, while pay at the private equity house 3I was considerably higher than other firms, the satisfaction rating was the second lowest overall, saying something about the toxic culture in high finance.</p>
 
     <div class="container">
 
@@ -168,6 +147,20 @@
             <script>
             var myChart23 = "project/FTSE100SalaryRating.json";
             vegaEmbed('#chart23', myChart23);
+            </script>
+        </div>
+
+    </div>
+
+    <p>Finally, I looked specifically at rating and compensation in bulge bracket investment banks. Firstly, I scraped the ratings from Glassdoor, using the same method described previously, but filtering for only accounting and finance salaries for each firm as this classification yielded most reviews from investment bankers. I used salary data from Arkesden, who are well renowned in the industry for providing accurate compensation data at the pre-Managing Dircetor level.</p>
+
+    <div class="container">
+
+        <!-- Salary and job ratings -->
+        <div class="chart" id="chart20">
+            <script>
+            var myChart20 = "project/SalaryandRatings.json";
+            vegaEmbed('#chart20', myChart20);
             </script>
         </div>
 
