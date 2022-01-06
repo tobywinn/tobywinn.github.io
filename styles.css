@@ -48,7 +48,7 @@ p {
     width: 700px;
     text-align: left;
     margin: 0 auto;
-    max-width: min(90vw, 700px);
+    max-width: min(90vw, 815px);
 }
 
 .text-center {
@@ -57,7 +57,7 @@ p {
 
 a {
     font-weight: 5px;
-    color: #E9C46A;
+    color: #e76f51;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -88,6 +88,8 @@ ul {
     text-decoration: none;
     font-weight: 1px;
     font-size: 20px;
+    color: #E9C46A;
+
 }
 
 .mobile-nav-toggle {

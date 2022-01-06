@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "GDP per capita and Happiness Categorisation",
+      "subtitle":"Source: World Happiness Report",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/HappinessDataTertiles.csv"},
+    "mark": "bar",
+    "height": 280,
+    "width": 280,
+    "encoding": {
+      "x": {
+        "field": "Colour",
+        "axis": {
+        "title":"Category",
+        "labelAngle": 0
+        }
+      },
+      "y": {
+        "aggregate": "count", 
+        "title": "Number of countries"
+        },
+      "color": {
+        "legend": null,
+        "type": "nominal",
+        "field": "Colour",
+        "scale": {
+          "range": ["#e8e8e8","#b0d5df","#64acbe","#e4acac","#ad9ea5","#627f8c","#c85356","#985356","#574249"]
+          }
+      }
+    }
+   
+  }

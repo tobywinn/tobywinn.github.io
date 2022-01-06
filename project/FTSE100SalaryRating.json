@@ -21,7 +21,6 @@
       "field": "Rating", 
       "type": "quantitative",
       "scale": {"domain": [2,4.8]},
-      "title": null,
       "axis": {"grid": false}
       },
 
@@ -29,7 +28,6 @@
       "field": "Average salary", 
       "type": "quantitative",
       "scale": {"domain": [17000, 120000]},
-      "title": null,
       "axis": {"grid": false}
       },
     

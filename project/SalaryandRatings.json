@@ -10,9 +10,12 @@
     "color": "black"
   },
 
-  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/GlassdoorRatings%26Salary.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/project/ArkesdenData.csv"},
 
-  "mark": "point",
+  "mark": { 
+    "type": "point",
+    "clip": true
+  },
 
   "selection": {
     "Seniority": {
@@ -22,6 +25,9 @@
         "input": "select",
         "options": [
           null,
+          "Analyst 1",
+          "Analyst 2",
+          "Analyst 3",
           "Associate 1/2",
           "Associate 2/3",
           "Associate 3/4",
@@ -48,7 +54,7 @@
     "x": {
       "field": "Rating", 
       "type": "quantitative",
-      "scale": {"domain": [3.5,4.3]},
+      "scale": {"domain": [3.5,4.2]},
       "title": null,
       "axis": {"grid": false}
       },
@@ -56,7 +62,7 @@
     "y": {
       "field": "Compensation", 
       "type": "quantitative",
-      "scale": {"domain": [140, 350]},
+      "scale": {"domain": [40, 180]},
       "title": null,
       "axis": {"grid": false}
       },
