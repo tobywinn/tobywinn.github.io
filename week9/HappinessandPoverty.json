@@ -65,8 +65,8 @@
     {
       "data": {
         "values": [
-          {"Happiness Score": 3, "Poverty Rating": 20.849999999999998,"Colour": "Other"},
-          {"Happiness Score": 8, "Poverty Rating": -8.050000000000004,"Colour": "Other"}
+          {"Happiness Score": 3, "Poverty Rating": 20.849999999999998,"Colour": "All"},
+          {"Happiness Score": 8, "Poverty Rating": -8.050000000000004,"Colour": "All"}
         ]
       }, 
       "mark": {"type":"line", "color":"red", "clip": true},
@@ -95,7 +95,7 @@
     {
       "data": {
         "values": [
-          {"Happiness Score": 7, "Poverty Rating": 45, "text": "R² = 0.250","Colour": "Other"}
+          {"Happiness Score": 7, "Poverty Rating": 45, "text": "R² = 0.250","Colour": "All"}
         ]
       }, 
       "mark": {"type":"text", "fontWeight": "bold"},
