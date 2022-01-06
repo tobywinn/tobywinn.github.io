@@ -34,7 +34,14 @@ df.columns = seniority
 df = df.replace('K','', regex=True)
 df = df.replace('k','', regex=True)
 
+# put the data in vega friendly format
 df = df.melt(id_vars=["Firm"], var_name="Seniority", value_name="Compensation")
+
+ratings = pd.read_csv("project/Banks data/BanksRatings.csv")
+
+df = pd.merge(ratings, df, on="Firm",  how="outer")
+
+df = df.drop('Unnamed: 0', 1)
 
 # save
 df.to_csv('project/ArkesdenData.csv')
