@@ -1,90 +1,123 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    
-    "title": {
-      "text": "Happiness vs Poverty Rating",
-      "subtitle":"Sources: The World Happiness Report, The World Bank",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-    
-      "data": {
-      "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week9/PovertyandHappiness.csv",
-      "format": {"type": "csv"}
-    },
-    
-    "height": 280,
-    "width": 300,
-    
-    "encoding": {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
-      "x": {
+  "title": {
+    "text": "Happiness vs Poverty Rating",
+    "subtitle":"Sources: The World Happiness Report, The World Bank",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+    "data": {
+    "url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week9/PovertyandHappiness.csv",
+    "format": {"type": "csv"}
+  },
+  
+  "height": 280,
+  "width": 230,
+  
+  "encoding": {
+
+    "x": {
+      "field": "Happiness Score",
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "scale": {"domain": [3,8]}
+    },
+
+    "y": {
+      "field": "Poverty Rating",
+      "type": "quantitative",
+      "axis": {"grid": false},
+      "scale": {"domain": [0,60]}
+    },
+
+    "color": {
+    "field": "Colour",
+    "type": "nominal",
+    "scale": {"range": ["DarkSlateBlue","LightCoral"]},
+    "title": null
+    },
+
+    "tooltip": [
+      {
+        "field": "Country Name", 
+        "type": "nominal", 
+        "title": "Country"
+        },
+      {
         "field": "Happiness Score",
         "type": "quantitative",
-        "axis": {"grid": false},
-        "scale": {"domain": [3,8]}
-      },
-  
-      "y": {
+        "title": "Happiness Score"
+        },
+      {
         "field": "Poverty Rating",
         "type": "quantitative",
-        "axis": {"grid": false},
-        "scale": {"domain": [0,60]}
-      },
-  
-      "tooltip": [
-        {
-          "field": "Country Name", 
-          "type": "nominal", 
-          "title": "Country"
-          },
-        {
-          "field": "Happiness Score",
-          "type": "quantitative",
-          "title": "Happiness Score"
-          },
-        {
-          "field": "Poverty Rating",
-          "type": "quantitative",
-          "title": "Poverty Rating"
-          }
-      ]
-    },
-  
-    "layer": [
-        
-      {
-        "data": {
-          "values": [
-            {"Happiness Score": 3, "Poverty Rating": 20.849999999999998},
-            {"Happiness Score": 8, "Poverty Rating": -8.050000000000004}
-          ]
-        }, 
-        "mark": {"type":"line", "color":"red", "clip": true},
-        "encoding": {
-          "tooltip": null
+        "title": "Poverty Rating"
         }
-      },
-  
-      {"data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week9/PovertyandHappiness.csv"}, 
-      "mark": {"type": "point"}
-      },
-  
-      {
-        "data": {
-          "values": [
-            {"Happiness Score": 7, "Poverty Rating": 45, "text": "R² = 0.250"}
-          ]
-        }, 
-        "mark": {"type":"text", "color":"red", "fontWeight": "bold"},
-        "encoding": {
-          "tooltip": null,
-          "text": {"field": "text", "type": "nominal"}
-        }
-      }
-  
     ]
-  
-  }
+  },
+
+  "layer": [
+      
+    {
+      "data": {
+        "values": [
+          {"Happiness Score": 3, "Poverty Rating": 20.849999999999998,"Colour": "Other"},
+          {"Happiness Score": 8, "Poverty Rating": -8.050000000000004,"Colour": "Other"}
+        ]
+      }, 
+      "mark": {"type":"line", "color":"red", "clip": true},
+      "encoding": {
+        "tooltip": null
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {"Happiness Score": 3, "Poverty Rating": 31.1490379892296, "Colour": "Impoverished"},
+          {"Happiness Score": 8, "Poverty Rating": -44.679907788846876, "Colour": "Impoverished"}
+        ]
+      }, 
+      "mark": {"type":"line", "clip": true},
+      "encoding": {
+        "tooltip": null
+      }
+    },
+
+    {"data": {"url": "https://raw.githubusercontent.com/tobywinn/tobywinn.github.io/main/week9/PovertyandHappiness.csv"}, 
+    "mark": {"type": "point"}
+    },
+
+    {
+      "data": {
+        "values": [
+          {"Happiness Score": 7, "Poverty Rating": 45, "text": "R² = 0.250","Colour": "Other"}
+        ]
+      }, 
+      "mark": {"type":"text", "fontWeight": "bold"},
+      "encoding": {
+        "tooltip": null,
+        "text": {"field": "text", "type": "nominal"}
+      }
+    },
+     {
+      "data": {
+        "values": [
+          {"Happiness Score": 7, "Poverty Rating": 40, "text": "R² = 0.272", "Colour": "Impoverished"}
+        ]
+      }, 
+      "mark": {"type":"text", "fontWeight": "bold"},
+      "encoding": {
+        "tooltip": null,
+        "text": {"field": "text", "type": "nominal"}
+      }
+    }
+
+
+  ]
+
+}
