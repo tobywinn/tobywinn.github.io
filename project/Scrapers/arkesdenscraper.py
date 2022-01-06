@@ -34,5 +34,7 @@ df.columns = seniority
 df = df.replace('K','', regex=True)
 df = df.replace('k','', regex=True)
 
+df = df.melt(id_vars=["Firm"], var_name="Seniority", value_name="Compensation")
+
 # save
 df.to_csv('project/ArkesdenData.csv')

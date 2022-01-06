@@ -1,10 +1,82 @@
-,Firm,Analyst 1,Analyst 2,Analyst 3,Associate 1/2,Associate 2/3,Associate 3/4,VP 1,VP 2,VP 3
-1,JP Morgan,50,55,60,90,105,120,145,155,160
-2,Goldman Sachs,50,60,,91,106,122,150,150,150
-3,Morgan Stanley,50,55,,98,123,123,170,170,170
-4,BAML,62.5,65.5,,105,120,135,165,165,165
-5,CITI,50,55,60,90,105,120,135,150,150
-6,Deutsche Ban,50,55,,90,105,120,140,155,155
-7,Barclays,50,55,60,90,105,120,140,145,155
-8,Credit Suisse,50,55,60,90,105,120,150,150,150
-9,UBS,50,58,60,95,110,122,150,150,150
+,Firm,Seniority,Compensation
+0,JP Morgan,Analyst 1,50
+1,Goldman Sachs,Analyst 1,50
+2,Morgan Stanley,Analyst 1,50
+3,BAML,Analyst 1,62.5
+4,CITI,Analyst 1,50
+5,Deutsche Ban,Analyst 1,50
+6,Barclays,Analyst 1,50
+7,Credit Suisse,Analyst 1,50
+8,UBS,Analyst 1,50
+9,JP Morgan,Analyst 2,55
+10,Goldman Sachs,Analyst 2,60
+11,Morgan Stanley,Analyst 2,55
+12,BAML,Analyst 2,65.5
+13,CITI,Analyst 2,55
+14,Deutsche Ban,Analyst 2,55
+15,Barclays,Analyst 2,55
+16,Credit Suisse,Analyst 2,55
+17,UBS,Analyst 2,58
+18,JP Morgan,Analyst 3,60
+19,Goldman Sachs,Analyst 3,
+20,Morgan Stanley,Analyst 3,
+21,BAML,Analyst 3,
+22,CITI,Analyst 3,60
+23,Deutsche Ban,Analyst 3,
+24,Barclays,Analyst 3,60
+25,Credit Suisse,Analyst 3,60
+26,UBS,Analyst 3,60
+27,JP Morgan,Associate 1/2,90
+28,Goldman Sachs,Associate 1/2,91
+29,Morgan Stanley,Associate 1/2,98
+30,BAML,Associate 1/2,105
+31,CITI,Associate 1/2,90
+32,Deutsche Ban,Associate 1/2,90
+33,Barclays,Associate 1/2,90
+34,Credit Suisse,Associate 1/2,90
+35,UBS,Associate 1/2,95
+36,JP Morgan,Associate 2/3,105
+37,Goldman Sachs,Associate 2/3,106
+38,Morgan Stanley,Associate 2/3,123
+39,BAML,Associate 2/3,120
+40,CITI,Associate 2/3,105
+41,Deutsche Ban,Associate 2/3,105
+42,Barclays,Associate 2/3,105
+43,Credit Suisse,Associate 2/3,105
+44,UBS,Associate 2/3,110
+45,JP Morgan,Associate 3/4,120
+46,Goldman Sachs,Associate 3/4,122
+47,Morgan Stanley,Associate 3/4,123
+48,BAML,Associate 3/4,135
+49,CITI,Associate 3/4,120
+50,Deutsche Ban,Associate 3/4,120
+51,Barclays,Associate 3/4,120
+52,Credit Suisse,Associate 3/4,120
+53,UBS,Associate 3/4,122
+54,JP Morgan,VP 1,145
+55,Goldman Sachs,VP 1,150
+56,Morgan Stanley,VP 1,170
+57,BAML,VP 1,165
+58,CITI,VP 1,135
+59,Deutsche Ban,VP 1,140
+60,Barclays,VP 1,140
+61,Credit Suisse,VP 1,150
+62,UBS,VP 1,150
+63,JP Morgan,VP 2,155
+64,Goldman Sachs,VP 2,150
+65,Morgan Stanley,VP 2,170
+66,BAML,VP 2,165
+67,CITI,VP 2,150
+68,Deutsche Ban,VP 2,155
+69,Barclays,VP 2,145
+70,Credit Suisse,VP 2,150
+71,UBS,VP 2,150
+72,JP Morgan,VP 3,160
+73,Goldman Sachs,VP 3,150
+74,Morgan Stanley,VP 3,170
+75,BAML,VP 3,165
+76,CITI,VP 3,150
+77,Deutsche Ban,VP 3,155
+78,Barclays,VP 3,155
+79,Credit Suisse,VP 3,150
+80,UBS,VP 3,150
