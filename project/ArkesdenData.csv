@@ -53,32 +53,30 @@
 51,Credit Suisse,3.6,VP 1,150
 52,Credit Suisse,3.6,VP 2,150
 53,Credit Suisse,3.6,VP 3,150
-54,Citi,3.8,,
-55,Bank of America,4.0,,
-56,Deutsche Bank,3.8,Analyst 1,50
-57,Deutsche Bank,3.8,Analyst 2,55
-58,Deutsche Bank,3.8,Analyst 3,
-59,Deutsche Bank,3.8,Associate 1/2,90
-60,Deutsche Bank,3.8,Associate 2/3,105
-61,Deutsche Bank,3.8,Associate 3/4,120
-62,Deutsche Bank,3.8,VP 1,140
-63,Deutsche Bank,3.8,VP 2,155
-64,Deutsche Bank,3.8,VP 3,155
-65,BAML,,Analyst 1,62.5
-66,BAML,,Analyst 2,65.5
-67,BAML,,Analyst 3,
-68,BAML,,Associate 1/2,105
-69,BAML,,Associate 2/3,120
-70,BAML,,Associate 3/4,135
-71,BAML,,VP 1,165
-72,BAML,,VP 2,165
-73,BAML,,VP 3,165
-74,CITI,,Analyst 1,50
-75,CITI,,Analyst 2,55
-76,CITI,,Analyst 3,60
-77,CITI,,Associate 1/2,90
-78,CITI,,Associate 2/3,105
-79,CITI,,Associate 3/4,120
-80,CITI,,VP 1,135
-81,CITI,,VP 2,150
-82,CITI,,VP 3,150
+54,Citi,3.8,Analyst 1,50
+55,Citi,3.8,Analyst 2,55
+56,Citi,3.8,Analyst 3,60
+57,Citi,3.8,Associate 1/2,90
+58,Citi,3.8,Associate 2/3,105
+59,Citi,3.8,Associate 3/4,120
+60,Citi,3.8,VP 1,135
+61,Citi,3.8,VP 2,150
+62,Citi,3.8,VP 3,150
+63,Bank of America,4.0,Analyst 1,62.5
+64,Bank of America,4.0,Analyst 2,65.5
+65,Bank of America,4.0,Analyst 3,
+66,Bank of America,4.0,Associate 1/2,105
+67,Bank of America,4.0,Associate 2/3,120
+68,Bank of America,4.0,Associate 3/4,135
+69,Bank of America,4.0,VP 1,165
+70,Bank of America,4.0,VP 2,165
+71,Bank of America,4.0,VP 3,165
+72,Deutsche Bank,3.8,Analyst 1,50
+73,Deutsche Bank,3.8,Analyst 2,55
+74,Deutsche Bank,3.8,Analyst 3,
+75,Deutsche Bank,3.8,Associate 1/2,90
+76,Deutsche Bank,3.8,Associate 2/3,105
+77,Deutsche Bank,3.8,Associate 3/4,120
+78,Deutsche Bank,3.8,VP 1,140
+79,Deutsche Bank,3.8,VP 2,155
+80,Deutsche Bank,3.8,VP 3,155

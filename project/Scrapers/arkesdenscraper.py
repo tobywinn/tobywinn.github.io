@@ -34,7 +34,10 @@ df.columns = seniority
 df = df.replace('K','', regex=True)
 df = df.replace('k','', regex=True)
 
+# Match names and fix deutsche bug from replacing k
 df = df.replace('Deutsche Ban','Deutsche Bank', regex=True)
+df = df.replace('CITI','Citi', regex=True)
+df = df.replace('BAML','Bank of America', regex=True)
 
 # put the data in vega friendly format
 df = df.melt(id_vars=["Firm"], var_name="Seniority", value_name="Compensation")
