@@ -1,26 +1,69 @@
-,Unnamed: 0,Unnamed: 0.1,Country,Poverty Rating,Log_GDP_per_capita,Life_Ladder,Colour
-0,0,0,Albania,1.3,9.476,4.64,Impoverished
-1,1,6,Bolivia,6.5,9.039,5.651,Impoverished
-2,2,7,Brazil,4.4,9.583,6.3329999999999975,Impoverished
-3,3,8,Bulgaria,1.4,9.969,5.097,Impoverished
-4,4,11,Colombia,4.0,9.569,6.157,Impoverished
-5,5,12,Costa Rica,1.1,9.858,7.225,Impoverished
-6,6,18,Ecuador,3.2,9.36,5.84,Impoverished
-7,7,19,Egypt,3.8,9.307,3.929,Impoverished
-8,8,20,El Salvador,1.9,9.042,6.339,Impoverished
-9,9,24,Gabon,3.4,9.616,4.782,Impoverished
-10,10,25,Georgia,5.0,9.517,4.4510000000000005,Impoverished
-11,11,27,Honduras,15.4,8.624,6.02,Impoverished
-12,12,30,Indonesia,4.5,9.3,5.098,Impoverished
-13,13,33,Italy,1.4,10.64,6.199,Impoverished
-14,14,36,Kyrgyzstan,1.1,8.526,5.63,Impoverished
-15,15,38,Lesotho,27.2,7.931,3.795,Impoverished
-16,16,44,Myanmar,1.4,8.464,4.154,Impoverished
-17,17,46,North Macedonia,4.6,9.65,5.234,Impoverished
-18,18,48,Panama,2.5,10.324000000000002,6.568,Impoverished
-19,19,50,Peru,3.4,9.434,5.711,Impoverished
-20,20,53,Romania,3.1,10.211,6.09,Impoverished
-21,21,55,Serbia,5.4,9.713,5.122000000000001,Impoverished
-22,22,60,Tanzania,49.4,7.836,3.347,Impoverished
-23,23,65,United States,1.2,11.001,6.992000000000001,Impoverished
-24,24,67,Zimbabwe,33.9,8.016,3.638,Impoverished
+,Country,Poverty Rating,Log_GDP_per_capita,Life_Ladder,Colour
+0,Albania,1.3,9.476,4.64,Impoverished
+6,Bolivia,6.5,9.039,5.651,Impoverished
+7,Brazil,4.4,9.583,6.332999999999998,Impoverished
+8,Bulgaria,1.4,9.969,5.097,Impoverished
+11,Colombia,4.0,9.569,6.157,Impoverished
+12,Costa Rica,1.1,9.858,7.225,Impoverished
+18,Ecuador,3.2,9.36,5.84,Impoverished
+19,Egypt,3.8,9.307,3.929,Impoverished
+20,El Salvador,1.9,9.042,6.339,Impoverished
+24,Gabon,3.4,9.616,4.782,Impoverished
+25,Georgia,5.0,9.517,4.4510000000000005,Impoverished
+27,Honduras,15.4,8.624,6.02,Impoverished
+30,Indonesia,4.5,9.3,5.098,Impoverished
+33,Italy,1.4,10.64,6.199,Impoverished
+36,Kyrgyzstan,1.1,8.526,5.63,Impoverished
+38,Lesotho,27.2,7.931,3.795,Impoverished
+44,Myanmar,1.4,8.464,4.154,Impoverished
+46,North Macedonia,4.6,9.65,5.234,Impoverished
+48,Panama,2.5,10.324000000000002,6.568,Impoverished
+50,Peru,3.4,9.434,5.711,Impoverished
+53,Romania,3.1,10.211,6.09,Impoverished
+55,Serbia,5.4,9.713,5.122000000000001,Impoverished
+60,Tanzania,49.4,7.836,3.347,Impoverished
+65,United States,1.2,11.001,6.992000000000001,Impoverished
+67,Zimbabwe,33.9,8.016,3.638,Impoverished
+1,Argentina,0.9,10.067,6.039,All
+2,Armenia,0.9,9.402,4.288,All
+3,Austria,0.3,10.908,7.294,All
+4,Belarus,0.0,9.814,5.553,All
+5,Belgium,0.1,10.834,6.928,All
+9,Canada,0.2,10.792,7.415,All
+10,Chile,0.3,10.072,6.32,All
+13,Croatia,0.5,10.189,5.343,All
+14,Cyprus,0.0,10.539,6.062,All
+15,Czech Republic,0.0,10.558,6.79,All
+16,Denmark,0.1,10.916,7.5939999999999985,All
+17,Dominican Republic,0.7,9.725,5.605,All
+21,Estonia,0.3,10.429,5.938,All
+22,Finland,0.1,10.768,7.7879999999999985,All
+23,France,0.0,10.711,6.635,All
+26,Greece,0.9,10.278,5.148,All
+28,Hungary,0.6,10.293,6.065,All
+29,Iceland,0.0,10.925,7.476,All
+31,Iran,0.4,9.584,4.717,All
+32,Ireland,0.2,11.265999999999998,7.06,All
+34,Kazakhstan,0.0,10.121,5.8820000000000014,All
+35,Kosovo,0.4,9.262,6.149,All
+37,Latvia,0.8,10.257,5.978,All
+39,Lithuania,1.0,10.429,6.273,All
+40,Luxembourg,0.3,11.634,7.061,All
+41,Malta,0.2,10.635,6.676,All
+42,Mauritius,0.2,9.972,6.174,All
+43,Moldova,0.1,9.363,5.3260000000000005,All
+45,Netherlands,0.2,10.921,7.459,All
+47,Norway,0.3,11.05,7.579,All
+49,Paraguay,0.9,9.441,5.712999999999999,All
+51,Poland,0.3,10.314,6.2010000000000005,All
+52,Portugal,0.4,10.407,5.711,All
+54,Russia,0.0,10.166,5.579,All
+56,Slovenia,0.0,10.509,6.167000000000002,All
+57,Spain,0.7,10.586,6.23,All
+58,Sweden,0.2,10.873,7.287000000000001,All
+59,Switzerland,0.0,11.115,7.474,All
+61,Thailand,0.0,9.765,5.939,All
+62,Turkey,0.1,10.238,5.607,All
+63,Ukraine,0.0,9.382,4.311,All
+64,United Kingdom,0.3,10.736,7.103,All
+66,Uruguay,0.1,9.968,6.336,All

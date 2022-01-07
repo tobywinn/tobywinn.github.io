@@ -21,7 +21,7 @@
   "encoding": {
 
     "x": {
-      "field": "Happiness Score",
+      "field": "Life_Ladder",
       "type": "quantitative",
       "axis": {"grid": false},
       "scale": {"domain": [3,8]}
@@ -48,7 +48,7 @@
         "title": "Country"
         },
       {
-        "field": "Happiness Score",
+        "field": "Life_Ladder",
         "type": "quantitative",
         "title": "Happiness Score"
         },
