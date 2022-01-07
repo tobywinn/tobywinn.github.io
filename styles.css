@@ -93,9 +93,7 @@ ul {
 }
 
 .mobile-nav-toggle {
-    display: flex;
-    background: red;
-    height: 20px;
+    display: none;
 }
 
 a:hover {
@@ -243,7 +241,7 @@ a:hover {
         position: absolute;
         width: 2rem;
         aspect-ratio: 1;
-        top: 2rem;
+        top: 1.5rem;
         right: 2rem;
         z-index: 9999;
         border: 0;
