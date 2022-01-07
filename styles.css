@@ -240,8 +240,8 @@ a:hover {
         display: block;
         position: absolute;
         width: 2rem;
-        aspect-ratio: 1;
-        top: 1.5rem;
+        height: 2rem;
+        top: 2rem;
         right: 2rem;
         z-index: 9999;
         border: 0;
