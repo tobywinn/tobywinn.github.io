@@ -221,12 +221,12 @@ a:hover {
         padding: 10em 2em;
         z-index: 1000;
 
-        transform: translateX(100%);
+        transform: translateX(115%);
         transition: transform 350ms ease-in;
     }
 
     .primary-navigation[data-visible="true"] {
-        transform: translateX(0%);
+        transform: translateX(15%);
     }
 
     @supports (backdrop-filter: blur(1rem)) {
@@ -241,8 +241,8 @@ a:hover {
         position: absolute;
         width: 2rem;
         aspect-ratio: 1;
-        top: 1.5rem;
-        right: 2.5rem;
+        top: 2rem;
+        right: 2rem;
         z-index: 9999;
         border: 0;
         background: url(hamburger.svg);
