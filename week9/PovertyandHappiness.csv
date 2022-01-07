@@ -1,79 +1,26 @@
-,Unnamed: 0,Country Name,Date,Poverty Rating,Log_GDP_per_capita,Happiness Score,Colour
-0,0,Albania,2015,1.1,9.402999999999999,4.607,Impoverished
-1,1,Armenia,2015,1.3,9.334,4.348,Impoverished
-2,4,Benin,2015,49.6,7.987999999999999,3.625,Impoverished
-3,5,Bulgaria,2015,3.4,9.883,4.865,Impoverished
-4,7,Bolivia,2015,6.3,8.985,5.834,Impoverished
-5,8,Brazil,2015,3.2,9.62,6.5470000000000015,Impoverished
-6,9,Botswana,2015,14.5,9.724,3.762,Impoverished
-7,14,Ivory Coast,2015,29.8,8.392999999999999,4.445,Impoverished
-8,15,Colombia,2015,4.6,9.564,6.388,Impoverished
-9,16,Costa Rica,2015,1.5,9.799,6.854,Impoverished
-10,21,Dominican Republic,2015,1.8,9.637,5.062,Impoverished
-11,22,Ecuador,2015,3.5,9.384,5.9639999999999995,Impoverished
-12,23,Egypt,2015,1.6,9.266,4.763,Impoverished
-13,26,Ethiopia,2015,30.8,7.484,4.573,Impoverished
-14,30,Georgia,2015,3.7,9.442,4.122,Impoverished
-15,31,Greece,2015,1.4,10.259,5.6229999999999976,Impoverished
-16,32,Honduras,2015,14.9,8.572000000000001,4.845,Impoverished
-17,35,Indonesia,2015,5.8,9.225,5.043,Impoverished
-18,39,Italy,2015,1.9,10.607999999999999,5.848,Impoverished
-19,41,Kenya,2015,37.1,8.249,4.3580000000000005,Impoverished
-20,42,Kyrgyzstan,2015,1.8,8.477,4.905,Impoverished
-21,47,North Macedonia,2015,5.5,9.613,4.976,Impoverished
-22,49,Myanmar,2015,4.8,8.359,4.224,Impoverished
-23,50,Montenegro,2015,1.4,9.81,5.125,Impoverished
-24,54,Pakistan,2015,4.0,8.361,4.823,Impoverished
-25,55,Panama,2015,2.0,10.255,6.606,Impoverished
-26,56,Peru,2015,3.6,9.402000000000001,5.577000000000001,Impoverished
-27,57,Philippines,2015,6.1,8.896,5.5470000000000015,Impoverished
-28,60,Paraguay,2015,1.7,9.377,5.56,Impoverished
-29,61,Romania,2015,4.6,10.083,5.777,Impoverished
-30,63,El Salvador,2015,2.0,9.005,6.018,Impoverished
-31,64,Serbia,2015,6.6,9.649,5.318,Impoverished
-32,68,Togo,2015,51.1,7.277,3.7680000000000002,Impoverished
-33,70,Tajikistan,2015,4.1,7.945,5.124,Impoverished
-34,75,United States,2015,1.2,10.977,6.864,Impoverished
-35,77,Zambia,2015,58.7,8.144,4.843,Impoverished
-36,2,Austria,2015,0.7,10.880999999999998,7.0760000000000005,All
-37,3,Belgium,2015,0.1,10.81,6.904,All
-38,6,Belarus,2015,0.0,9.815,5.718999999999999,All
-39,10,Canada,2015,0.2,10.774000000000001,7.4129999999999985,All
-40,11,Switzerland,2015,0.0,11.1,7.572,All
-41,12,Chile,2015,0.3,10.07,6.5329999999999995,All
-42,13,China,2015,0.7,9.449,5.303999999999999,All
-43,17,Cyprus,2015,0.0,10.445,5.439,All
-44,18,Czech Republic,2015,0.0,10.495999999999999,6.608,All
-45,19,Germany,2015,0.0,10.844000000000001,7.037000000000001,All
-46,20,Denmark,2015,0.2,10.878,7.5139999999999985,All
-47,24,Spain,2015,0.9,10.530999999999999,6.381,All
-48,25,Estonia,2015,0.6,10.347999999999999,5.629,All
-49,27,Finland,2015,0.1,10.716,7.447999999999999,All
-50,28,France,2015,0.1,10.682,6.358,All
-51,29,United Kingdom,2015,0.1,10.712,6.515,All
-52,33,Croatia,2015,0.6,10.104,5.205,All
-53,34,Hungary,2015,0.6,10.222999999999999,5.343999999999999,All
-54,36,Ireland,2015,0.3,11.174000000000001,6.83,All
-55,37,Iran,2015,0.4,9.449,4.75,All
-56,38,Iceland,2015,0.0,10.854000000000001,7.4979999999999976,All
-57,40,Kazakhstan,2015,0.0,10.097999999999999,5.95,All
-58,43,Lithuania,2015,0.7,10.335,5.711,All
-59,44,Luxembourg,2015,0.3,11.617,6.702000000000001,All
-60,45,Latvia,2015,0.6,10.185,5.881,All
-61,46,Moldova,2015,0.0,9.246,6.017,All
-62,48,Malta,2015,0.1,10.565999999999999,6.6129999999999995,All
-63,51,Malaysia,2015,0.0,10.118,6.322,All
-64,52,Netherlands,2015,0.1,10.882,7.324,All
-65,53,Norway,2015,0.1,11.033,7.603,All
-66,58,Poland,2015,0.4,10.235,6.0070000000000014,All
-67,59,Portugal,2015,0.5,10.347000000000001,5.081,All
-68,62,Russia,2015,0.0,10.149,5.996,All
-69,65,Slovakia,2015,0.7,10.290999999999999,6.162000000000001,All
-70,66,Slovenia,2015,0.0,10.433,5.7410000000000005,All
-71,67,Sweden,2015,0.4,10.853,7.289,All
-72,69,Thailand,2015,0.0,9.699,6.202000000000001,All
-73,71,Tunisia,2015,0.2,9.261000000000001,5.1320000000000014,All
-74,72,Turkey,2015,0.2,10.166,5.513999999999999,All
-75,73,Ukraine,2015,0.0,9.327,3.965,All
-76,74,Uruguay,2015,0.1,9.932,6.627999999999999,All
-77,76,Kosovo,2015,0.7,9.182,5.077,All
+,Unnamed: 0,Unnamed: 0.1,Country,Poverty Rating,Log_GDP_per_capita,Life_Ladder,Colour
+0,0,0,Albania,1.3,9.476,4.64,Impoverished
+1,1,6,Bolivia,6.5,9.039,5.651,Impoverished
+2,2,7,Brazil,4.4,9.583,6.3329999999999975,Impoverished
+3,3,8,Bulgaria,1.4,9.969,5.097,Impoverished
+4,4,11,Colombia,4.0,9.569,6.157,Impoverished
+5,5,12,Costa Rica,1.1,9.858,7.225,Impoverished
+6,6,18,Ecuador,3.2,9.36,5.84,Impoverished
+7,7,19,Egypt,3.8,9.307,3.929,Impoverished
+8,8,20,El Salvador,1.9,9.042,6.339,Impoverished
+9,9,24,Gabon,3.4,9.616,4.782,Impoverished
+10,10,25,Georgia,5.0,9.517,4.4510000000000005,Impoverished
+11,11,27,Honduras,15.4,8.624,6.02,Impoverished
+12,12,30,Indonesia,4.5,9.3,5.098,Impoverished
+13,13,33,Italy,1.4,10.64,6.199,Impoverished
+14,14,36,Kyrgyzstan,1.1,8.526,5.63,Impoverished
+15,15,38,Lesotho,27.2,7.931,3.795,Impoverished
+16,16,44,Myanmar,1.4,8.464,4.154,Impoverished
+17,17,46,North Macedonia,4.6,9.65,5.234,Impoverished
+18,18,48,Panama,2.5,10.324000000000002,6.568,Impoverished
+19,19,50,Peru,3.4,9.434,5.711,Impoverished
+20,20,53,Romania,3.1,10.211,6.09,Impoverished
+21,21,55,Serbia,5.4,9.713,5.122000000000001,Impoverished
+22,22,60,Tanzania,49.4,7.836,3.347,Impoverished
+23,23,65,United States,1.2,11.001,6.992000000000001,Impoverished
+24,24,67,Zimbabwe,33.9,8.016,3.638,Impoverished
