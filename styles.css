@@ -93,7 +93,9 @@ ul {
 }
 
 .mobile-nav-toggle {
-    display: none;
+    display: flex;
+    background: red;
+    height: 20px;
 }
 
 a:hover {
