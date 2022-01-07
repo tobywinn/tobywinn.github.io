@@ -93,7 +93,16 @@ ul {
 }
 
 .mobile-nav-toggle {
-    display: none;
+    display: block;
+    position: absolute;
+    width: 2rem;
+    aspect-ratio: 1;
+    top: 1.5rem;
+    right: 2.5rem;
+    z-index: 9999;
+    border: 0;
+    background: url(hamburger.svg);
+    background-repeat: no-repeat;
 }
 
 a:hover {
