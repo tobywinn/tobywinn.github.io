@@ -3,7 +3,7 @@
 
   "title": {
     "text": "Compensation and Satisfaction in the FTSE100",
-    "subtitle":"Scraped from Glasdoor.com",
+    "subtitle":"Scraped from Glasdoor.com and the London Stock Exchange",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
