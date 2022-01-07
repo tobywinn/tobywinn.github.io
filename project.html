@@ -68,11 +68,11 @@
 
     <p class=title1>Investigating the relationship between life satisfaction and income</p>
 
-    <p><span class="bold">Aims: </span>After I graduate I am set to enter the world of investment banking, an industry known for paying well but at significant personal cost. This led me to question the extent to which income is correlated with happiness, starting at a macro level, before focusing on a specific case study</p>
+    <p><span class="bold">Aims: </span>After I graduate I am set to enter the world of investment banking, an industry known for paying well but at significant personal cost. This led me to question the extent to which income is correlated with happiness, starting at a macro level, before focusing on a specific case study.</p>
 
     <p>I plotted happiness score against log GDP per capita on a choropleth map using data from the <a href="https://worldhappiness.report/">World Happiness Report</a>, where happiness score is defined as the average answer to the World Gallup Poll which asks participants to rank their happiness from 1 (the worst possible) to 10 (the best possible).</p>
 
-    <p>I used a bivariate scale to capture both GDP and happiness simultaneously, using a visually interpretable colour palate informed by <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">Joshua Stevens'</a> guide. I found terciles for both variables and the created 9 classifications for each possible combination of terciles, the interpretation of which can be seen by clicking on the scale.</p> 
+    <p>I used a bivariate scale to capture both GDP and happiness simultaneously, using a colour palate informed by <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">Joshua Stevens'</a> guide. I found terciles for both variables and the created 9 classifications for each possible combination of terciles, the interpretation of which can be seen by clicking on the scale.</p> 
    
     <p>In converting the TopoJSON file to GeoJSON, an error caused countries spanning over both 180 degrees east and 180 degrees west of prime meridian (e.g. Russia, Antartica) to display inaccurately as shown <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/a8mjf2n9edsy201/keplergl_oqzs02s.json">here</a>. I looped through the GeoJSON output and changed the longitude of any coordinates beyond 180 degrees west to the eastern side of the map in code that can be found <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt">here</a>.</p>
 
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <p>Overall, there is a strong positive correlation, as shown in the following regression, reflecting the above categorisation.</p>
+    <p class="text-center">The following regression solidifies the validity of this relationship, as indicated by the high R².</p>
 
     <div class="container">
         <!-- Illustration of tertiles on scatter -->
@@ -160,11 +160,11 @@
 
     </div>
 
-    <p>At the junior level banks tend to pay almost identical salaries, while at more senior levels there is more variation. At VP level and above, the banks which pay more appear to also have higher satisfaction rates, implying that salary plays a role in job satisfaction at the senior level.</p>
+    <p>At the junior level, banks tend to pay almost identical salaries, while at senior levels there is more variation. At VP level, higher paying banks have higher satisfaction rates, implying that salary plays a greater role in job satisfaction at the senior level.</p>
 
-    <p class=>Conclusions</p>
+    <p class="title1">Conclusions</p>
 
-    <p>To conclude, income and happiness are strongly correlated in general. However, there is a more nuanced relatoinship between income an job satisfaction. In most companies there is no clear relationship, hilighting the complex narture of job satisfaction, which incoroporates many other factors including company culture. Although, there appears to be some level of correlation in banking, most likely because the industry attracts people who are money motivated.</p>
+    <p>To conclude, income and happiness are strongly correlated at the macro level. However, there is a more nuanced relationship between income and job satisfaction. In general, there is no clear relationship, highlighting the complex nature of job satisfaction, which incorporates many other factors including company culture. Although, there appears to be some level of correlation in banking, perhaps because the industry attracts individuals motivated by money.</p>
 
     <footer></footer>
 
