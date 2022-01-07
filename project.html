@@ -68,13 +68,13 @@
 
     <p class=title1>Investigating the relationship between life satisfaction and income</p>
 
-    <p><span class="bold">Aims: </span>After I graduate I am set to enter the world of investment banking, an industry known for paying well but at significant personal cost. This led me to question the extent to which income is correlated with happiness, starting at a macro level, before focusing on a specific case study.</p>
+    <p><span class="bold">Aims: </span>Aims: After I graduate I am set to enter the world of investment banking, an industry known for paying well but at significant personal cost. This led me to question the extent to which income is correlated with happiness, starting at a macro level, before focusing on a specific case study.</p>
 
-    <p>I plotted happiness score against log GDP per capita on a choropleth map using data from the <a href="https://worldhappiness.report/">World Happiness Report</a>, where happiness score is defined as the average answer to the World Gallup Poll which asks participants to rank their happiness from 1 (the worst possible) to 10 (the best possible).</p>
+    <p>I plotted happiness score against log GDP per capita on a choropleth map using data from the <a href="https://worldhappiness.report/">World Happiness Report</a>, where happiness score is defined as the average answer to the World Gallup Poll which asks participants to rank their happiness from 1 to 10.</p>
 
     <p>I used a bivariate scale to capture both GDP and happiness simultaneously, using a colour palate informed by <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">Joshua Stevens'</a> guide. I found terciles for both variables and the created 9 classifications for each possible combination of terciles, the interpretation of which can be seen by clicking on the scale.</p> 
    
-    <p>In converting the TopoJSON file to GeoJSON, an error caused countries spanning over both 180 degrees east and 180 degrees west of prime meridian (e.g. Russia, Antartica) to display inaccurately as shown <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/a8mjf2n9edsy201/keplergl_oqzs02s.json">here</a>. I looped through the GeoJSON output and changed the longitude of any coordinates beyond 180 degrees west to the eastern side of the map in code that can be found <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt">here</a>.</p>
+    <p>In converting the TopoJSON file to GeoJSON, an error caused countries certain countries including Russia and Antarctica to display inaccurately as shown <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/a8mjf2n9edsy201/keplergl_oqzs02s.json">here</a>. I looped through the GeoJSON output and changed the longitude of any coordinates beyond 180 degrees west to the eastern side of the map in code that can be found <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt">here</a>.</p>
 
     <div class="container">   
         <div id="chart24">
@@ -92,7 +92,7 @@
         </div>
     </div> 
 
-    <p>This chart shows that most developed countries have both high happiness scores and GDP per capita, while developing countries including many in Africa display the opposite characteristics. Overall, the tercile of wealth appears to be a good predictor for the tercile of happiness, with most countries falling in categories 1,5 and 9 as shown in the chart below. However, there are a few interesting anomalies. For example, Turkey has a top tercile GDP and bottom tercile happiness score while Uzbekistan has a bottom tercile happiness score and top tercile GDP.</p>
+    <p>This chart shows that most developed countries have both high happiness scores and GDP per capita, while developing countries including many in Africa display the opposite characteristics. Overall, tercile of wealth appears to be a good predictor for the tercile of happiness, with most countries falling in categories 1,5 and 9 (same tercile for both variables) as shown in the chart below. However, there are a few interesting anomalies. For example, Turkey is unhappy despite high GDP and while Uzbekistan is happy despite low GDP.</p>
 
     <div class="container">
         <!-- Illustration of tertiles on scatter -->
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <p class="text-center">The following regression solidifies the validity of this relationship, as indicated by the high R².</p>
+    <p class="text-center">The following regression solidifies the validity of this relationship, as indicated by the high R2.</p>
 
     <div class="container">
         <!-- Illustration of tertiles on scatter -->
@@ -116,7 +116,7 @@
         </div>
     </div>
 
-    <p>I then investigated poverty rate as a potential driver behind this relationship. Poverty was defined as living on less than $1.90 per day. As expected, poverty is negatively correlated with happiness score. There is a stronger negative correlation when ignoring more developed countries with poverty rates below 1%. I used the World_Bank_Data python library to easily download data from the World Bank API, allowing the data to be easily update whenever new poverty data is released.</p>
+    <p>I investigated poverty rate as a potential driver behind this relationship. Poverty was defined as living on less than $1.90 per day. As expected, poverty is negatively correlated with happiness, a relationship exaggerated when ignoring countries with poverty rates below 1% as poverty has little impact on most people in these countries. I used the World_Bank_Data python library to download data from the World Bank API, allowing for new data to be downloaded annually upon release.</p>
 
     <div class="container">
         <!-- Illustration of tertiles on scatter -->
@@ -128,11 +128,11 @@
         </div>
     </div>
 
-    <p>To tackle the root of my question, I then moved to an investigation of the relationship between job satisfaction and pay in FTSE 100 companies. I decided to use Glassdoor as, for large companies, it has thousands of ratings and salaries, providing a high level of accuracy.</p>
+    <p>To tackle the root of my question, I analysed the relationship between job satisfaction and pay in FTSE 100 companies. I used Glassdoor which has thousands of ratings and salaries for large companies, providing accurate data.</p>
  
-    <p>However, the site blocks scraping using BeautifulSoup alone. I used selenium and chrome driver to solve this issue. In the absence of an API, I found the FTSE 100 constituents by scraping the LSE website, scraping multiple pages and saving the names in an array. I automated login to the site, before navigating through the site, looping through the array of FTSE companies, searching each name. For each company, I navigated to the rating and salary sections, scraping data on each which I saved as a pandas DataFrame. However, different roles had been reported at different frequencies, so for each salary I also recorded the number of reports, allowing me to form a weighted average of salaries. Full code can be found <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/SalaryRatingsScraper.py">here</a> and a video of the scraper running can be found <a href="https://youtu.be/Gp9QmH6-Cfo">here</a>. Running the resulting code will automatically update the data set and the corresponding chart, although given the scale of the scraper, it takes over 30 minutes to run.</p>
+    <p>However, the site blocks scrapers using BeautifulSoup alone. I used selenium and chrome driver to solve this issue. In the absence of an API, I found FTSE 100 constituents by scraping names from the LSE website and saving them into an array. I automated login to the site, navigated through the site and looped through the array of companies, searching for each. For each company, I navigated to the rating and salary sections, scraping data on each which I saved to a DataFrame. Different roles were reported at different frequencies, so for each salary I recorded the number of reports to calculate a weighted average of salaries. Full code can be found <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/SalaryRatingsScraper.py">here</a> and a video of the scraper running can be found <a href="https://youtu.be/Gp9QmH6-Cfo">here</a>. Running the resulting code will automatically update the data set and corresponding chart but takes over 30 minutes to run.</p>
     
-    <p>This resulted in the following chart, where I regressed salary against job satisfaction, showing that there is very little relationship, as implied by the low R². Interestingly, while pay at the private equity house 3I was considerably higher than other firms, the satisfaction rating was the second lowest overall, saying something about the toxic culture in high finance.</p>
+    <p>I regressed salary against job satisfaction, showing there is very little relationship, as implied by the low R². While pay at the private equity house 3I was the significantly higher than others, satisfaction rating was very low, saying something about the toxic culture in high finance.</p>
 
     <div class="container">
 
@@ -146,7 +146,7 @@
 
     </div>
 
-    <p>Finally, I looked specifically at rating and compensation in bulge bracket investment banks. Firstly, I scraped the ratings from Glassdoor, using the same method described previously, but filtering for only accounting and finance salaries for each firm. I used salary data from Arkesden, who are well renowned in the industry for providing accurate compensation data at the pre-Managing Director level. I scraped the data from a PDF released annually by Arkesden using Tabula in code that can be found <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">here</a>. This data is released in the same format annually so could be scraped each year upon release using the same code.</p>
+    <p>Finally, I looked at rating and compensation in bulge bracket banks. Having scraped ratings from Glassdoor using the method described previously, found salary data from Arkesden, who are well renowned in the industry for providing accurate compensation data. I scraped the data from a PDF released annually by Arkesden using Tabula in code that can be found <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">here</a>. This data is released in the same format annually so could be scraped each year upon release.</p>
 
     <div class="container">
 

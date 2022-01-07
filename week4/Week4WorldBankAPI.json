@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "title": {
+    "text": "Poverty rate in China since 1990",
+    "subtitle":"Source: World Bank API",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+    "data": {
+    "url": "https://api.factmaven.com/xml-to-json/?xml=https://api.worldbank.org/v2/country/CHN/indicator/SI.POV.DDAY?format=XML",
+    "format": {"property": "data.data"}
+  },
+  
+  "height": 300,
+  "width": 310,
+    
+  "mark": {"type": "line", "point": false},
+
+  "transform": [
+    {"filter": "datum.value > 0"},
+    {"calculate":"datum.value/100", "as": "value"}
+  ],
+  
+  "encoding": {
+
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {
+        "grid": false,
+        "format": "%"
+        }
+    }
+  }
+}
