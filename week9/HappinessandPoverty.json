@@ -23,7 +23,7 @@
     "x": {
       "field": "Life_Ladder",
       "type": "quantitative",
-      "axis": {"grid": false},
+      "axis": {"grid": false,"title": "Happiness Score"},
       "scale": {"domain": [3,8]}
     },
 
@@ -65,11 +65,11 @@
     {
       "data": {
         "values": [
-          {"Happiness Score": 3, "Poverty Rating": 20.849999999999998,"Colour": "All"},
-          {"Happiness Score": 8, "Poverty Rating": -8.050000000000004,"Colour": "All"}
+          {"Life_Ladder": 3, "Poverty Rating": 23.589824705547308,"Colour": "Impoverished"},
+          {"Life_Ladder": 8, "Poverty Rating": -30.50666493080412,"Colour": "Impoverished"}
         ]
       }, 
-      "mark": {"type":"line", "color":"red", "clip": true},
+      "mark": {"type":"line", "clip": true},
       "encoding": {
         "tooltip": null
       }
@@ -78,8 +78,8 @@
     {
       "data": {
         "values": [
-          {"Happiness Score": 3, "Poverty Rating": 31.1490379892296, "Colour": "Impoverished"},
-          {"Happiness Score": 8, "Poverty Rating": -44.679907788846876, "Colour": "Impoverished"}
+          {"Life_Ladder": 3, "Poverty Rating": 14.806098367276334, "Colour": "All"},
+          {"Life_Ladder": 8, "Poverty Rating": -17.2759599498658, "Colour": "All"}
         ]
       }, 
       "mark": {"type":"line", "clip": true},
@@ -95,7 +95,7 @@
     {
       "data": {
         "values": [
-          {"Happiness Score": 7, "Poverty Rating": 45, "text": "R² = 0.250","Colour": "All"}
+          {"Life_Ladder": 7, "Poverty Rating": 45, "text": "R² = 0.250","Colour": "All"}
         ]
       }, 
       "mark": {"type":"text", "fontWeight": "bold"},
@@ -107,7 +107,7 @@
      {
       "data": {
         "values": [
-          {"Happiness Score": 7, "Poverty Rating": 40, "text": "R² = 0.272", "Colour": "Impoverished"}
+          {"Life_Ladder": 7, "Poverty Rating": 40, "text": "R² = 0.272", "Colour": "Impoverished"}
         ]
       }, 
       "mark": {"type":"text", "fontWeight": "bold"},
