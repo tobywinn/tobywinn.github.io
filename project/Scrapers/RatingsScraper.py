@@ -5,6 +5,18 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 
+"""
+READ THIS IF YOU WANTY TO TRY THE SCRAPER
+
+Step 1: Download Chromedriver
+
+Step 2: Set path to wherever you store the chromedriver file
+
+Step 3: Create Glassdoor Acoount
+
+Step 4: Fill in your own username and password in the fill in password and email section
+"""
+
 PATH = '/Applications/chromedriver'
 
 driver = webdriver.Chrome(PATH)
@@ -14,14 +26,14 @@ names=[]
 
 driver.get("https://www.glassdoor.co.uk")
 
-# Fill in email
+# Click Sign in
 driver.find_element_by_css_selector(".d-none.d-lg-block.p-0.LockedHomeHeaderStyles__signInButton").click()
 time.sleep(2)
 
 
-# Fill in password
-driver.find_element_by_id("userEmail").send_keys("tobywinn@rocketmail.com")
-driver.find_element_by_id("userPassword").send_keys("Teddybear1!")
+# Fill in password & email
+driver.find_element_by_id("userEmail").send_keys("youremail@email.com")
+driver.find_element_by_id("userPassword").send_keys("YourPassword")
 
 # click accept cookies to reveal sign up button
 driver.find_element_by_id("onetrust-accept-btn-handler").click()
