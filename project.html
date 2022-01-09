@@ -132,7 +132,7 @@
  
     <p>However, the site blocks scrapers using BeautifulSoup alone. I used selenium and chrome driver to solve this issue. In the absence of an API, I found FTSE 100 constituents by scraping names from the LSE website and saving them into an array. I automated login to the site, navigated through the site and looped through the array of companies, searching for each. For each company, I navigated to the rating and salary sections, scraping data on each which I saved to a DataFrame. Different roles were reported at different frequencies, so for each salary I recorded the number of reports to calculate a weighted average of salaries. Full code is available <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/SalaryRatingsScraper.py">here</a> and a video of the scraper running is available <a href="https://youtu.be/Gp9QmH6-Cfo">here</a>. Running the resulting code will automatically update the data set and corresponding chart but takes over 30 minutes to run.</p>
     
-    <p>To update the chart daily, I would run <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/DailyReplication.png">these</a> terminal commands – I decided against this ass the scraper uses significant computing power.</p>
+    <p>To update the chart daily, I would run <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/DailyReplication.png">these</a> terminal commands – I decided against this as the scraper uses significant computing power.</p>
     
         <p>I regressed salary against job satisfaction, showing there is very little relationship, as implied by the low R². While pay at the private equity house 3I was the significantly higher than others, satisfaction rating was very low, saying something about the toxic culture in high finance.</p>
 
@@ -148,7 +148,7 @@
 
     </div>
 
-    <p>Finally, I looked at rating and compensation in bulge bracket banks. Having scraped ratings from Glassdoor using the method described previously, found salary data from <a href="https://www.arkesden.com/asset/8424/download?1619082748">Arkesden</a>, who are well renowned in the industry for providing accurate compensation data. I scraped the data using Tabula from a PDF released annually in <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">this code</a>. This data is released in the same format annually so could be scraped each year upon release.</p>
+    <p>Finally, I looked at rating and compensation in bulge bracket banks. Having scraped ratings from Glassdoor using the method described previously, found salary data from <a href="https://www.arkesden.com/asset/8424/download?1619082748">Arkesden</a>, who are well renowned in the industry for providing accurate compensation data. I scraped the data using Tabulaass from a PDF released annually in <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">this code</a>. This data is released in the same format annually so could be scraped each year upon release.</p>
 
     <div class="container">
 
