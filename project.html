@@ -74,7 +74,7 @@
 
     <p>I used a bivariate scale to capture both GDP and happiness simultaneously, using a colour palate informed by <a href="https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/">Joshua Stevens'</a> guide. I found terciles for both variables and the created 9 classifications for each possible combination of terciles, the interpretation of which can be seen by clicking on the scale.</p> 
    
-    <p>In converting the TopoJSON file to GeoJSON, an error caused countries including Russia and Antarctica to display inaccurately as shown <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/a8mjf2n9edsy201/keplergl_oqzs02s.json">here</a>. I looped through the GeoJSON output and changed the longitude of any coordinates beyond 180 degrees west to the eastern side of the map in <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt">this code</a>.</p>
+    <p>In converting the TopoJSON file to GeoJSON, an error caused countries including Russia and Antarctica to display inaccurately as shown <a href="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/a8mjf2n9edsy201/keplergl_oqzs02s.json">here</a>. I looped through the GeoJSON output and changed the longitude of any coordinates beyond 180 degrees west to the eastern side of the map in <a href="https://colab.research.google.com/drive/1uOGME7xck5ckJLfgvpJdXXVACHrBRmtt?usp=sharing">this code</a>.</p>
 
     <div class="container">   
         <div id="chart24">
@@ -116,7 +116,7 @@
         </div>
     </div>
 
-    <p>I investigated poverty rate as a potential driver behind this relationship. Poverty was defined as living on less than $1.90 per day. As expected, poverty is negatively correlated with happiness, a relationship exaggerated when ignoring countries with poverty rates below 1% as poverty has little impact on most people in these countries. I used the World_Bank_Data python library to download data from the World Bank API, allowing for new data to be downloaded annually upon release.</p>
+    <p>I investigated poverty rate as a potential driver behind this relationship. Poverty was defined as living on less than $1.90 per day. As expected, poverty is negatively correlated with happiness, a relationship exaggerated when ignoring countries with poverty rates below 1% as poverty has little impact on most people in these countries. I used the World_Bank_Data python library to <a href="https://colab.research.google.com/drive/1zJKk34W1CQVOl2W_orqSVmgEtpKZKSUU?usp=sharing">download data</a> from the World Bank API, allowing for new data to be downloaded annually upon release.</p>
 
     <div class="container">
         <!-- Illustration of tertiles on scatter -->
@@ -148,7 +148,7 @@
 
     </div>
 
-    <p>Finally, I looked at rating and compensation in bulge bracket banks. Having scraped ratings from Glassdoor using the method described previously, found salary data from <a href="https://www.arkesden.com/asset/8424/download?1619082748">Arkesden</a>, who are well renowned in the industry for providing accurate compensation data. I scraped the data using Tabulaass from a PDF released annually in <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">this code</a>. This data is released in the same format annually so could be scraped each year upon release.</p>
+    <p>Finally, I looked at rating and compensation in bulge bracket banks. Having scraped ratings from Glassdoor using the method described previously, found salary data from <a href="https://www.arkesden.com/asset/8424/download?1619082748">Arkesden</a>, who are well renowned in the industry for providing accurate compensation data. I scraped the data using Tabula from a PDF released annually in <a href="https://github.com/tobywinn/tobywinn.github.io/blob/main/project/Scrapers/arkesdenscraper.py">this code</a>. This data is released in the same format annually so could be scraped each year upon release.</p>
 
     <div class="container">
 
